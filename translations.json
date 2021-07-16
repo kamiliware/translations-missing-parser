@@ -1,0 +1,4206 @@
+{
+  "en": {
+    "TextPopup": {
+      "TEXT_PLACEHOLDER": "enter text",
+      "TEXT_POPUP_HEADER": "Text"
+    },
+    "BarcodeDialog": {
+      "BARCODE_DIALOG_TITLE": "Barcode",
+      "BARCODE_DIALOG_LABEL_TYPE": "Barcode type",
+      "BARCODE_DIALOG_LABEL_DATA": "Barcode Data",
+      "BARCODE_DIALOG_OPT_EAN_13": "EAN-13",
+      "BARCODE_DIALOG_OPT_EAN_8": "EAN-8",
+      "BARCODE_DIALOG_OPT_UPC_A": "UPC-A",
+      "BARCODE_DIALOG_OPT_UPC_E": "UPC-E",
+      "BARCODE_DIALOG_OPT_CODE_128": "Code 128",
+      "BARCODE_DIALOG_OPT_DATA_MATRIX": "Data matrix",
+      "BARCODE_DIALOG_OPT_IMB": "Intelligent Mail barcode",
+      "BARCODE_DIALOG_TEXT": "Please enter {{count}} digits",
+      "BARCODE_DIALOG_TEXT_UPC_E": "Please enter {{count}} digits. First one must be 0 or 1",
+      "BARCODE_DIALOG_TEXT_CODE_128": "The maximum length is {{count}} characters, only ASCII characters are supported",
+      "BARCODE_DIALOG_TEXT_DATA_MATRIX": "The maximum length is {{count}} characters, only ASCII characters are supported",
+      "BARCODE_DIALOG_TEXT_IMB": "Please enter 20, 25, 29 or 31 digits. The second digit must be in the range [0, 4]. You can also enter a string of sixty five F, D, A, or T characters."
+    },
+    "ItemMenu": {
+      "SELECT_IMAGE": "Select image",
+      "EDIT_IMAGE": "Edit image",
+      "EDIT_QR_CODE": "Edit QR code",
+      "EDIT_LINEAR_BARCODE": "Edit barcode",
+      "EDIT_DATA_MATRIX_BARCODE": "Edit barcode",
+      "CHANGE_RICH_TEXT": "Change rich text",
+      "REPLACE_GROUP_CONTENT": "Replace content",
+      "DELETE_OBJECT": "Delete object",
+      "CLONE_OBJECT": "Clone object",
+      "GROUP": "Group",
+      "UNGROUP": "Ungroup",
+      "ALIGN": "Alignment to safe area",
+      "ALIGN_LEFT": "Left",
+      "HORIZONTAL_CENTER": "Horizontal center",
+      "ALIGN_RIGHT": "Right",
+      "ALIGN_TOP": "Top",
+      "VERTICAL_CENTER": "Vertical center",
+      "ALIGN_BOTTOM": "Bottom",
+      "GROUP_ALIGN": "Group Alignment",
+      "SEND_TO_FRONT": "Send to front",
+      "LEVEL_UP": "Level up",
+      "LEVEL_DOWN": "Level down",
+      "SEND_TO_BOTTOM": "Send to bottom",
+      "MAKE_VARIABLE": "Make variable",
+      "REMOVE_VARIABLE": "Remove variable",
+      "RENAME_ITEM": "Rename"
+    },
+    "Toolbox": {
+      "CHANGE_BACKGROUND": "Background",
+      "TITLE_CHANGE_BACKGROUND": "Change background",
+      "LINE": "Line",
+      "TEXT": "Text",
+      "IMAGE": "Image",
+      "LAYOUT": "Layout",
+      "SHAPE": "Shape",
+      "RECTANGLE": "Rectangle",
+      "ELLIPSE": "Ellipse",
+      "QR_CODE": "QR code",
+      "LINEAR_BARCODE": "Barcode",
+      "DATA_MATRIX_BARCODE": "Data matrix barcode",
+      "RICHTEXT": "Rich text",
+      "BOUNDEDTEXT": "Text Block",
+      "ARCHEDTEXT": "Arched text",
+      "FILL_PLACEHOLDERS": "Fill placeholders",
+      "ADVANCED_BUTTON": "Switch to advanced editing",
+      "TITLE_ADD_MENU": "Add an object to the canvas",
+      "TITLE_ADD_TEXT": "Add a text to the canvas",
+      "TITLE_ADD_ARCHEDTEXT": "Add arched text to the canvas",
+      "TITLE_ADD_IMAGE": "Add an image to the canvas",
+      "TITLE_ADD_LAYOUT": "Change layout",
+      "TITLE_ADD_LINE": "Add a line to the canvas",
+      "TITLE_ADD_RECTANGLE": "Add a rectangle to the canvas",
+      "TITLE_ADD_ELLIPSE": "Add an ellipse to the canvas",
+      "TITLE_ADD_QR_CODE": "Add a QR code to the canvas",
+      "TITLE_ADD_LINEAR_BARCODE": "Add a barcode to the canvas",
+      "TITLE_ADD_DATAMATRIX_BARCODE": "Add a data matrix barcode to the canvas",
+      "TITLE_ADD_RICHTEXT": "Add rich formatted text to the canvas",
+      "TITLE_ADD_SHAPE": "Add a shape to the canvas",
+      "TITLE_ADD_BOUNDEDTEXT": "Add a text block to the canvas",
+      "TITLE_FILL_PLACEHOLDERS": "Fill placeholders",
+      "TITLE_ADVANCED": "Switch to advanced edit mode",
+      "TITLE_ADD_CUSTOM_TEXT": "Add custom text"
+    },
+    "TopToolbar": {
+      "LOAD_INFO_BUTTON": "Load my info",
+      "TITLE_LOAD_INFO": "Load my info",
+      "BORDER_WIDTH": "Border",
+      "TITLE_BORDER_WIDTH": "Select border width",
+      "TITLE_BORDER_COLOR": "Select border color",
+      "TITLE_FILL_COLOR": "Select fill color",
+      "LINE_WIDTH": "width",
+      "TITLE_LINE_WIDTH": "Select line width",
+      "TITLE_LINE_COLOR": "Select line color",
+      "TITLE_FONT_FAMILY_LIST": "Select font family",
+      "TITLE_FONT_STYLE_LIST": "Select font style",
+      "TITLE_FONT_SIZE": "Select font size",
+      "TITLE_OPACITY": "Select opacity",
+      "OPACITY": "Opacity",
+      "TITLE_BOLD": "Bold",
+      "TITLE_ITALIC": "Italic",
+      "TITLE_FAUX_BOLD": "Faux bold",
+      "TITLE_FAUX_ITALIC": "Faux italic",
+      "TITLE_UNDERLINE": "Underlined",
+      "TITLE_FONT_COLOR": "Select text color",
+      "TEXT_EDIT": "Edit",
+      "TITLE_TEXT_EDIT": "Edit text",
+      "TITLE_TEXT_ALIGN_LEFT": "Align to left",
+      "TITLE_TEXT_ALIGN_CENTER": "Align to center",
+      "TITLE_TEXT_ALIGN_RIGHT": "Align to right",
+      "TITLE_TEXT_ALIGN_JUSTIFY": "Justify all",
+      "TITLE_TEXT_ALIGN_LASTLEFT": "Justify last left",
+      "TITLE_TEXT_ALIGN_LASTRIGHT": "Justify last right",
+      "TITLE_TEXT_ALIGN_LASTCENTER": "Justify last centered",
+      "TITLE_TEXT_INDENT_LEFT": "Indent left margin",
+      "TITLE_TEXT_INDENT_RIGHT": "Indent right margin",
+      "TITLE_FIRST_LINE_INDENT": "Indent first line",
+      "TITLE_SPACE_BEFORE_PARAGRAPH": "Add space before paragraph",
+      "TITLE_SPACE_AFTER_PARAGRAPH": "Add space after paragraph",
+      "TITLE_TEXT_SHADOW": "Shadow",
+      "TITLE_TEXT_STROKE": "Stroke",
+      "LABEL_SHADOW_ANGLE": "Angle",
+      "LABEL_SHADOW_DISTANCE": "Distance",
+      "LABEL_SHADOW_SIZE": "Size",
+      "LABEL_SHADOW_COLOR": "Color",
+      "LABEL_SHADOW_ENABLED": "Enabled",
+      "LABEL_STROKE_WIDTH": "Width",
+      "LABEL_STROKE_COLOR": "Color",
+      "LABEL_STROKE_ENABLED": "Enabled",
+      "UNITS_PT": "pt",
+      "UNITS_PX": "px",
+      "TITLE_UNDO": "Undo",
+      "TITLE_REDO": "Redo",
+      "TITLE_REVERT": "Revert",
+      "LABEL_DELETE": "Delete",
+      "TITLE_DELETE": "Delete items",
+      "LABEL_COLUMNS": "Columns:",
+      "TITLE_COLUMNS": "Column count",
+      "TITLE_PAGING_RIGHT": "More controls",
+      "TITLE_PAGING_LEFT": "Back",
+      "TEXT_PAGING_RIGHT": "More...",
+      "TITLE_LEADING": "Select leading",
+      "TITLE_TRACKING": "Select tracking",
+      "TITLE_TEXT_VERTICAL_ALIGN_TOP": "Align to top",
+      "TITLE_TEXT_VERTICAL_ALIGN_CENTER": "Align to center",
+      "TITLE_TEXT_VERTICAL_ALIGN_BOTTOM": "Align to bottom",
+      "ALIGN": "Alignment to safe area",
+      "ALIGN_DROPDOWN": "Alignment",
+      "TITLE_ALIGN_LEFT": "Left",
+      "TITLE_HORIZONTAL_CENTER": "Horizontal center",
+      "TITLE_ALIGN_RIGHT": "Right",
+      "TITLE_ALIGN_TOP": "Top",
+      "TITLE_VERTICAL_CENTER": "Vertical center",
+      "TITLE_ALIGN_BOTTOM": "Bottom",
+      "TITLE_LEVEL_UP": "Level up",
+      "TITLE_LEVEL_DOWN": "Level down",
+      "TITLE_SEND_TO_FRONT": "Send to front",
+      "TITLE_SEND_TO_BOTTOM": "Send to bottom",
+      "TITLE_LEVEL_CHANGE": "Level change",
+      "LEVEL_UP": "Level up",
+      "LEVEL_DOWN": "Level down",
+      "SEND_TO_FRONT": "Send to front",
+      "SEND_TO_BOTTOM": "Send to bottom",
+      "Z_ORDER": "Position",
+      "TITLE_Z_ORDER": "Change element position",
+      "TITLE_CLONE_OBJECT": "Clone object",
+      "CLONE_OBJECT": "Clone",
+      "TITLE_GROUP": "Group",
+      "GROUP": "Group",
+      "TITLE_UNGROUP": "Ungroup",
+      "UNGROUP": "Ungroup",
+      "ARCHEDTEXT_BEND": "Bend",
+      "TITLE_ARCHEDTEXT_BEND": "Select arched text bend",
+      "PLACEHOLDER_SCALE": "Scale",
+      "TITLE_PLACEHOLDER_SCALE": "Select placeholder content scale",
+      "TITLE_EDIT_IMAGE": "Edit image",
+      "EDIT_IMAGE": "Edit",
+      "TITLE_SELECT_IMAGE": "Select image",
+      "SELECT_IMAGE": "Select",
+      "TITLE_REPLACE_GROUP_CONTENT": "Replace content",
+      "REPLACE_GROUP_CONTENT": "Replace",
+      "TITLE_RESET_PLACEHOLDER_CONTENT": "Reset placeholder content",
+      "RESET_PLACEHOLDER_CONTENT": "Reset",
+      "ROTATE_PLACEHOLDER_CONTENT_LEFT": "Rotate content left",
+      "ROTATE_PLACEHOLDER_CONTENT_RIGHT": "Rotate content right",
+      "QR_CODE_TYPE_DROPDOWN_VALUE": "QR Code",
+      "EAN_8_TYPE_DROPDOWN_VALUE": "European Article Number 8",
+      "EAN_13_TYPE_DROPDOWN_VALUE": "European Article Number 13",
+      "UPC_A_TYPE_DROPDOWN_VALUE": "Universal Product Code A",
+      "UPC_E_TYPE_DROPDOWN_VALUE": "Universal Product Code E",
+      "CODE_128_TYPE_DROPDOWN_VALUE": "Code 128",
+      "DATA_MATRIX_DROPDOWN_VALUE": "Data matrix",
+      "IMB_DROPDOWN_VALUE": "Intelligent Mail barcode",
+      "CHANGE_BARCODE_VALUE_TITLE": "Change barcode type",
+      "TITLE_BARCODE_COLOR": "Select barcode color",
+      "EDIT_BARCODE": "Edit barcode",
+      "TITLE_EDIT_BARCODE": "Edit barcode",
+      "LABEL_SMART_GROUP": "Smart group",
+      "TITLE_SMART_GROUP": "Select smart group settings",
+      "AUTO_LAYOUT_LABEL": "Smart group",
+      "AUTO_LAYOUT_ORIENTATION_LABEL": "Direction",
+      "AUTO_LAYOUT_ORIENTATION_VERTICAL": "Vertical",
+      "AUTO_LAYOUT_ORIENTATION_HORIZONTAL": "Horizontal",
+      "AUTO_LAYOUT_ALIGNMENT_LABEL": "Alignment",
+      "AUTO_LAYOUT_ALIGNMENT_NONE": "None",
+      "AUTO_LAYOUT_ALIGNMENT_START": "Left/Top",
+      "AUTO_LAYOUT_ALIGNMENT_CENTER": "Center",
+      "AUTO_LAYOUT_ALIGNMENT_END": "Right/Bottom",
+      "AUTO_LAYOUT_ALIGNMENT_MARGIN_LABEL": "Spacing"
+    },
+    "ObjectInspector": {
+      "TEXT_PLACEHOLDER": "enter text",
+      "BACKGROUND": "Background",
+      "QR_CODE": "QR code",
+      "BARCODE": "Barcode",
+      "COLOR_PICKER": "Color",
+      "IMAGE_PICKER": "Image",
+      "TITLE_ITEM_MENU": "",
+      "TITLE_BACKGROUND_MENU": "Change background",
+      "TITLE_BACKGROUND_MENU_COLOR": "Select background color",
+      "TITLE_BACKGROUND_MENU_IMAGE": "Select background image",
+      "TITLE_ITEM_MENU_SELECT_IMAGE": "",
+      "TITLE_ITEM_MENU_EDIT_QR_CODE": "",
+      "TITLE_ITEM_MENU_EDIT_BARCODE": "",
+      "MAKE_VARIABLE": "Make variable",
+      "REMOVE_VARIABLE": "Remove variable",
+      "EMPTY_OBJECT_INSPECTOR_SIMPLE_MODE": "This template has no customizable objects. If you want to add an object switch to advanced editing mode.",
+      "EMPTY_OBJECT_INSPECTOR_ADVANCED_MODE": "This template has no customizable objects. If you want to add an object use the tools panel.",
+      "EMPTY_OBJECT_INSPECTOR_SIMPLEONLY_MODE": "This template has no customizable objects.",
+      "MAIN_CONTAINER_NAME": "Base",
+      "SPOT_COLOR_CONTAINER": "Spot color"
+    },
+    "BottomToolbar": {
+      "SWITCH_SIDE": "Switch side",
+      "FRONT_SIDE": "Front side",
+      "BACK_SIDE": "Back side",
+      "ROTATE": "Rotate",
+      "SAFETY_LINES": "Safety lines",
+      "GRID": "Grid",
+      "PREVIEW_MODE": "Preview mode",
+      "SNAP_LINES": "Snap",
+      "SNAP_LINES_ITEMS": "Snap to items",
+      "SNAP_LINES_SAFETY_LINES": "Snap to safety lines",
+      "SNAP_LINES_PRINT_AREA": "Snap to page",
+      "TITLE_SAFETY_LINES": "Enable/disable safety lines",
+      "TITLE_GRID": "Enable/disable grid",
+      "TITLE_PREVIEW_MODE": "Enable/disable preview mode",
+      "TITLE_SNAP_LINES": "Enable/disable snap lines",
+      "TITLE_SNAP_LINES_ITEMS": "Enable/disable snap to items",
+      "TITLE_SNAP_LINES_SAFETY_LINES": "Enable/disable snap to safety lines",
+      "TITLE_SNAP_LINES_PRINT_AREA": "Enable/disable snap to page",
+      "TITLE_SWITCH_SIDE": "Switch side",
+      "TITLE_FRONT_SIDE": "Front side",
+      "TITLE_BACK_SIDE": "Back side",
+      "TITLE_ZOOM_IN": "Zoom in",
+      "TITLE_ZOOM_OUT": "Zoom out",
+      "TITLE_CURRENT_ZOOM": "Current zoom",
+      "TITLE_ROTATE": "Rotate",
+      "TITLE_FIRST_SLIDE": "Go to the first page",
+      "TITLE_PREVIOUS_THREE_SLIDES": "Scroll to the previous 3 pages",
+      "TITLE_NEXT_THREE_SLIDES": "Scroll to the next 3 pages",
+      "TITLE_NEXT_SLIDE": "Toggle to the next page",
+      "TITLE_PREVIOUS_SLIDE": "Toggle to the previous page",
+      "TITLE_LAST_SLIDE": "Go to the last page",
+      "TITLE_MARKING_MENU": "Open marking menu",
+      "MARKING_MENU": "Marking",
+      "TITLE_ORIGINAL_SIZE": "Back to original size",
+      "TITLE_FULL_WINDOW": "Switch to full window mode",
+      "TITLE_FULL_SCREEN": "Switch to full screen mode"
+    },
+    "BaseEditor": {
+      "ITEM_DELETE_CONFIRM_MSG": "The object is about to be deleted. Continue?",
+      "ITEM_REVERT_CONFIRM_MSG": "The product is about to be reverted. Continue?",
+      "DOWNLOAD": "Download",
+      "SUBMIT": "Submit for printing",
+      "RENDERING": "Rendering in progress...",
+      "ERROR": "Error on server",
+      "PLACEHOLDER_SELECT_BUTTON_TITLE": "Select image",
+      "BARCODE_EDIT_BUTTON_TITLE": "Edit barcode",
+      "GROUP_CONTENT_REPLACE": "Replace content",
+      "PLACEHOLDER_HANDLE_BUTTON_TITLE": "Handle",
+      "PLACEHOLDER_DONE_BUTTON_TITLE": "Done",
+      "ITEM_DELETE_BUTTON_TITLE": "Delete Item",
+      "ITEM_EDIT_BUTTON_TITLE": "Edit Item"
+    },
+    "ModalDialog": {
+      "CLOSE": "Close",
+      "INSERT": "Insert",
+      "UPDATE_ALL": "Insert to all",
+      "UPDATE": "Update",
+      "PROCESSING": "Processing...",
+      "SUBMIT": "OK",
+      "CANCEL": "Cancel",
+      "ADD": "Add",
+      "RENAME": "Rename",
+      "ADD_OBJECT_TITLE": "Add a new object",
+      "RENAME_OBJECT_TITLE": "Rename object",
+      "ATTENTION_TITLE": "Attention",
+      "EMPTY_OBJECT_ERROR_TEXT": "Field value cannot be empty"
+    },
+    "QrCodeDialog": {
+      "QR_DIALOG_TITLE": "QR code",
+      "QR_DIALOG_OPT_TYPE_PHONE": "Phone",
+      "QR_DIALOG_OPT_TYPE_URL": "URL",
+      "QR_DIALOG_OPT_TYPE_VCARD": "Card",
+      "QR_DIALOG_FIRST_NAME": "First name",
+      "QR_DIALOG_LAST_NAME": "Last name",
+      "QR_DIALOG_COMPANY": "Company",
+      "QR_DIALOG_POSITION": "Position",
+      "QR_DIALOG_EMAIL": "Email",
+      "QR_DIALOG_URL": "Url",
+      "QR_DIALOG_PHONE": "Phone",
+      "QR_DIALOG_MOBILE_PHONE": "Mobile phone",
+      "QR_DIALOG_URL_EXTENDED": "Enter URL",
+      "QR_DIALOG_PHONE_EXTENDED": "Enter Phone Number"
+    },
+    "RichTextDialog": {
+      "TITLE": "Rich text",
+      "TITLE_RICH_TEXT_DIALOG_ZOOM": "Change edit window zoom",
+      "COLOR_DIALOG_TITLE": "Text Color",
+      "EDITOR": {
+        "wordcount": {
+          "WordCount": "Words:",
+          "CharCount": "Characters:",
+          "CharCountWithHTML": "Characters (with HTML):",
+          "Paragraphs": "Paragraphs:",
+          "pasteWarning": "Content can not be pasted because it is above the allowed limit",
+          "Selected": "Selected: ",
+          "title": "Statistics"
+        },
+        "undo": {
+          "redo": "Redo",
+          "undo": "Undo"
+        },
+        "toolbar": {
+          "toolbarGroups": {
+            "clipboard": "Clipboard/Undo",
+            "editing": "Editing",
+            "basicstyles": "Basic Styles",
+            "paragraph": "Paragraph",
+            "insert": "Insert",
+            "styles": "Styles",
+            "colors": "Colors"
+          },
+          "toolbars": "Editor toolbars"
+        },
+        "specialchar": {
+          "options": "Special Character Options",
+          "title": "Select Special Character",
+          "toolbar": "Insert Special Character"
+        },
+        "selectall": {
+          "toolbar": "Select All"
+        },
+        "removeformat": {
+          "toolbar": "Remove Format"
+        },
+        "pastetext": {
+          "button": "Paste as plain text",
+          "title": "Paste as Plain Text"
+        },
+        "pastefromword": {
+          "confirmCleanup": "The text you want to paste seems to be copied from Word. Do you want to clean it before pasting?",
+          "error": "It was not possible to clean up the pasted data due to an internal error",
+          "title": "Paste from Word",
+          "toolbar": "Paste from Word"
+        },
+        "notification": {
+          "closed": "Notification closed."
+        },
+        "liststyle": {
+          "bulletedTitle": "Bulleted List Properties",
+          "circle": "Circle",
+          "decimal": "Decimal (1,2,3,etc.)",
+          "disc": "Disc",
+          "lowerAlpha": "Lower Alpha (a,b,c,d,e,etc.)",
+          "lowerGreek": "Lower Greek (alpha,beta,gamma,etc.)",
+          "lowerRoman": "Lower Roman (i,ii,iii,iv,v,etc.)",
+          "none": "None",
+          "notset": "<not set>",
+          "numberedTitle": "Numbered List Properties",
+          "square": "Square",
+          "start": "Start",
+          "type": "Type",
+          "upperAlpha": "Upper Alpha (A,B,C,D,E,etc.)",
+          "upperRoman": "Upper Roman (I,II,III,IV,V,etc.)",
+          "validateStartNumber": "List start number must be a whole number."
+        },
+        "list": {
+          "bulletedlist": "Insert/Remove Bulleted List",
+          "numberedlist": "Insert/Remove Numbered List"
+        },
+        "justify": {
+          "block": "Justify",
+          "center": "Center",
+          "left": "Align Left",
+          "right": "Align Right"
+        },
+        "indent": {
+          "indent": "Increase Indent",
+          "outdent": "Decrease Indent"
+        },
+        "font": {
+          "fontSize": {
+            "label": "Size",
+            "voiceLabel": "Font Size",
+            "panelTitle": "Font Size"
+          },
+          "label": "Font",
+          "panelTitle": "Font Name",
+          "voiceLabel": "Font"
+        },
+        "find": {
+          "find": "Find",
+          "findOptions": "Find Options",
+          "findWhat": "Find what:",
+          "matchCase": "Match case",
+          "matchCyclic": "Match cyclic",
+          "matchWord": "Match whole word",
+          "notFoundMsg": "The specified text was not found.",
+          "replace": "Replace",
+          "replaceAll": "Replace All",
+          "replaceSuccessMsg": "%1 occurrence(s) replaced.",
+          "replaceWith": "Replace with:",
+          "title": "Find and Replace"
+        },
+        "clipboard": {
+          "copy": "Copy",
+          "copyError": "Your browser security settings don't permit the editor to automatically execute copying operations. Please use the keyboard for that (Ctrl/Cmd+C).",
+          "cut": "Cut",
+          "cutError": "Your browser security settings don't permit the editor to automatically execute cutting operations. Please use the keyboard for that (Ctrl/Cmd+X).",
+          "paste": "Paste",
+          "pasteArea": "Paste Area",
+          "pasteMsg": "Please paste inside the following box using the keyboard (<strong>Ctrl/Cmd+V</strong>) and hit OK",
+          "securityMsg": "Because of your browser security settings, the editor is not able to access your clipboard data directly. You are required to paste it again in this window.",
+          "title": "Paste"
+        },
+        "cctracking": {
+          "label": "Tracking",
+          "voiceLabel": "Tracking",
+          "panelTitle": "Tracking"
+        },
+        "cctextindent": {
+          "label": "First line indent",
+          "voiceLabel": "First line indent",
+          "panelTitle": "First line indent"
+        },
+        "ccpadding": {
+          "top": {
+            "label": "Before paragraph",
+            "voiceLabel": "Space before paragraph",
+            "panelTitle": "Space before paragraph"
+          },
+          "bottom": {
+            "label": "After paragraph",
+            "voiceLabel": "Space after paragraph",
+            "panelTitle": "Space after paragraph"
+          },
+          "left": {
+            "label": "Left indent",
+            "voiceLabel": "Left indent",
+            "panelTitle": "Left indent"
+          },
+          "right": {
+            "label": "Right indent",
+            "voiceLabel": "Right indent",
+            "panelTitle": "Right indent"
+          }
+        },
+        "ccleading": {
+          "label": "Leading",
+          "voiceLabel": "Leading",
+          "panelTitle": "Leading"
+        },
+        "ccfont": {
+          "fontSize": {
+            "label": "Size",
+            "voiceLabel": "Font Size",
+            "panelTitle": "Font Size"
+          },
+          "fontStyle": {
+            "label": "Style",
+            "voiceLabel": "Font Style",
+            "panelTitle": "Font Style"
+          },
+          "label": "Font",
+          "panelTitle": "Font Name",
+          "voiceLabel": "Font"
+        },
+        "cc_textcolor_button": {
+          "textColorTitle": "Text Color"
+        },
+        "button": {
+          "selectedLabel": "%1 (Selected)"
+        },
+        "basicstyles": {
+          "bold": "Bold",
+          "italic": "Italic",
+          "strike": "Strikethrough",
+          "subscript": "Subscript",
+          "superscript": "Superscript",
+          "underline": "Underline"
+        },
+        "editor": "Rich Text Editor",
+        "common": {
+          "ok": "OK",
+          "cancel": "Cancel",
+          "close": "Close",
+          "resize": "Resize",
+          "generalTab": "General",
+          "align": "Alignment",
+          "alignLeft": "Left",
+          "alignRight": "Right",
+          "alignCenter": "Center",
+          "alignJustify": "Justify"
+        },
+        "contextmenu": {
+          "options": "Context Menu Options"
+        }
+      }
+    },
+    "FinishButton": {
+      "DOWNLOAD": "Download",
+      "SUBMIT": "Submit for printing",
+      "RENDERING": "Rendering in progress...",
+      "ERROR": "Error on server"
+    },
+    "ImageEditorDialog": {
+      "TITLE": "Image Editor",
+      "FILTER_BRIGHTNESS": "Brightness",
+      "FILTER_CONTRAST": "Contrast",
+      "FILTER_HUE": "Hue",
+      "FILTER_SATURATION": "Saturation",
+      "FILTER_EFFECT": "Effect",
+      "FILTER_GRAYSCALE": "Grayscale",
+      "FILTER_SEPIA": "Sepia",
+      "FILTER_NONE": "None",
+      "BUTTON_OK": "OK",
+      "BUTTON_APPLY": "Apply",
+      "BUTTON_CANCEL": "Cancel",
+      "BUTTON_ADJUST": "Adjust",
+      "BUTTON_CROP": "Crop",
+      "BUTTON_REVERT": "Revert",
+      "BUTTON_REVERT_TOOLTIP": "Revert to original",
+      "BUTTON_SAVE": "Save",
+      "BUTTON_BACKGROUND_ERASE": "Background",
+      "BUTTON_UNDO": "Undo",
+      "BUTTON_REDO": "Redo",
+      "BUTTON_GOT_IT": "Got it",
+      "FILTER_ERASE_TOLERANCE": "Tolerance",
+      "FILTER_ERASE_CONTIGUOUS": "Contiguous",
+      "BACKGROUND_ERASE_TIP": "Click the image areas you want to make transparent. Adjust tolerance if the effect is not strong enough.",
+      "CHOOSE_BACKGROUND": "Choose background",
+      "PREVIEW_BACKGROUND_CHECKERBOARD": "Checkerboard pattern",
+      "PREVIEW_BACKGROUND_WHITE": "White",
+      "PREVIEW_BACKGROUND_BLACK": "Black",
+      "PREVIEW_BACKGROUND_MAGENTA": "Magenta",
+      "PREVIEW_BACKGROUND_LIME": "Lime",
+      "PREVIEW_BACKGROUND_CONTRAST": "Contrast",
+      "CHOOSE_BACKGROUND_TIP": "Select color to preview your image on",
+      "TOLERANCE_TIP": "Adjust how strongly colors may differ from the selected color",
+      "CONTIGUOUS_TIP": "Check to make the enclosed area where you click transparent. Clear to remove a clicked color on the whole image"
+    },
+    "ColorPicker": {
+      "COLOR_CHOOSE": "OK",
+      "COLOR_DEFAULT_CATEGORY_NAME": "Default",
+      "COLOR_RECENT_CATEGORY_NAME": "Recent",
+      "COLOR_THEME_CATEGORY_NAME": "Theme",
+      "ADD_RECENT_COLOR_TITLE": "Add to palette",
+      "NO_COLOR_TITLE": "No Color",
+      "OK": "OK",
+      "CANCEL": "Cancel"
+    },
+    "ViolationService": {
+      "MORE_THAN_ONE_WARNING": "Element has more than one warning.",
+      "BAD_IMAGE_RESOLUTION": "Too low image resolution ([DPI_VALUE_PLACEHOLDER] dpi) which may result in poor print quality.",
+      "WARNING_IMAGE_RESOLUTION": "Image resolution ([DPI_VALUE_PLACEHOLDER] dpi) is close to poor, however, print quality may still be acceptable but far from ideal.",
+      "SAFETY_LINE_VIOLATION_WARNING": "The object is too close to the edge.",
+      "BLEED_VIOLATION_WARNING": "The object edge is inside the bleed area. It may be trimmed incorrectly. Move it inside the safe zone or outside of the bleed line.",
+      "REGION_VIOLATION_WARNING": "The object goes out of the region.",
+      "TEXT_CROP_WARNING": "The text is too long for this box. Some text strings are clipped. Try to make it shorter or use smaller font.",
+      "SHAPE_CONTENT_WARNING": "This image contains more than one color or non-vector elements and may look differently than you expect. Consider uploading another image with the only one shape."
+    },
+    "OiToggle": {
+      "TEXT": "Layers",
+      "TITLE": "Toggle object inspector"
+    },
+    "DepositPhotos": {
+      "BEST_MATCH": "Best Match",
+      "BEST_SALES": "Best Sales",
+      "NEWEST": "Newest",
+      "UNDISCOVERED": "Undiscovered",
+      "PAID_IMAGE_MESSAGE": "This image is paid, the price will be added to your order automatically.",
+      "DONT_SHOW_MESSAGE": "Don’t show this again",
+      "COLOR_TRANSLATION": "Color",
+      "SIZE_TRANSLATION": "Size",
+      "ID_TRANSLATION": "ID",
+      "COPYRIGHT_TRANSLATION": "Copyright",
+      "SORT_BY_CAPTION": "Sort by"
+    },
+    "RemoteSource": {
+      "BEST_MATCH": "Best Match",
+      "BEST_SALES": "Best Sales",
+      "NEWEST": "Newest",
+      "UNDISCOVERED": "Undiscovered",
+      "PAID_IMAGE_MESSAGE": "This image is paid, the price will be added to your order automatically.",
+      "DONT_SHOW_MESSAGE": "Don’t show this again",
+      "COLOR_TRANSLATION": "Color",
+      "SIZE_TRANSLATION": "Size",
+      "ID_TRANSLATION": "ID",
+      "COPYRIGHT_TRANSLATION": "Copyright",
+      "SORT_BY_CAPTION": "Sort by"
+    },
+    "AssetManager": {
+      "SELECT_IMAGE_HEADER": "Select an image",
+      "SELECT_CATEGORY_HEADER": "Select a category",
+      "CLOSE_BUTTON_CAPTION": "Close",
+      "EMPTY_CATEGORY_HEADER": "It’s empty here",
+      "EMPTY_CATEGORY_MESSAGE": "Seems like there’s no files under this category right now.",
+      "NO_RESULTS_HEADER": "No results found",
+      "NO_RESULTS_MESSAGE": "Try searching for something else or in a different area",
+      "NO_RESULTS_YET_HEADER": "No results yet",
+      "NO_RESULTS_YET_MESSAGE": "Searching results will be shown here.",
+      "EDIT_BUTTTON_CAPTION": "Edit",
+      "DELETE_BUTTTON_CAPTION": "Delete",
+      "INSERT_BUTTTON_CAPTION": "Insert",
+      "INSERT_ALL_BUTTON_CAPTION": "Insert all",
+      "INSERT_TO_ALL_BUTTON_CAPTION": "Insert to all",
+      "SELECT_ALL_BUTTON_CAPTION": "Select all",
+      "CATEGORIES_HEADER": "Categories",
+      "ALL_CATEGORY_NAME": "All",
+      "TODAY_CATEGORY_NAME": "Today",
+      "TOO_MANY_FILES": "You have selected {selectedFilesLength} valid files. Only first {maxFiles} files will be scheduled for upload.",
+      "INVALID_EXTENSION_SINGLE": "has an invalid extension. Valid extension(s):",
+      "INVALID_EXTENSION_MULTIPLE": "files have an invalid extensions. Valid extension(s):",
+      "MAX_FILE_SIZE_EXCEEDED_SINGLE": "exceeds the allowed file size limit of {maxUploadFileSize} Mbytes.",
+      "MAX_FILE_SIZE_EXCEEDED_MULTIPLE": "files exceed the allowed file size limit of {maxUploadFileSize} Mbytes.",
+      "ERROR_MESSAGE": "Oops, an error occured",
+      "SEARCH_PLACEHOLDER": "Search..",
+      "SORT_SIZE": "Size",
+      "SORT_DATE": "Date",
+      "SORT_NAME": "Name",
+      "SORT_EXTENSION": "Extension",
+      "FACEBOOK_LOGIN_MESSAGE": "To use your Facebook photos, please login using Facebook.",
+      "INSTAGRAM_LOGIN_MESSAGE": "To use your Instagram photos, please login using Instagram.",
+      "LOGIN_BUTTON_MESSAGE": "Connect your account",
+      "LOGOUT": "Logout",
+      "SOMETHING_WRONG": "Something went wrong",
+      "UPLOAD_HEADER": "Drop your files here",
+      "UPLOAD_MESSAGE": "or",
+      "UPLOAD_BUTTON_CAPTION": "Upload",
+      "RemoteSource": {
+        "EMPTY_CATEGORY_HEADER": "This folder has no shared files for you.",
+        "EMPTY_CATEGORY_MESSAGE": "Oops! Seems like there’re no shared files under this category."
+      },
+      "PrivateSource": {
+        "PDF_DELETE_MESSAGE": "Deleting this page will delete the following pages"
+      },
+      "INSERT_ACTION": "Insert",
+      "INSERT_TO_ALL_ACTION": "Insert to all",
+      "EDIT_ACTION": "Edit",
+      "INFO_ACTION": "Info",
+      "DELETE_ACTION": "Delete"
+    }
+  },
+  "es": {
+    "TextPopup": {
+      "TEXT_PLACEHOLDER": "entre texto",
+      "TEXT_POPUP_HEADER": "Texto"
+    },
+    "BarcodeDialog": {
+      "BARCODE_DIALOG_TITLE": "Código de barras",
+      "BARCODE_DIALOG_LABEL_TYPE": "Barcode type",
+      "BARCODE_DIALOG_LABEL_DATA": "Barcode Data",
+      "BARCODE_DIALOG_OPT_EAN13": "EAN-13",
+      "BARCODE_DIALOG_OPT_EAN8": "EAN-8",
+      "BARCODE_DIALOG_OPT_UPC_A": "UPC-A",
+      "BARCODE_DIALOG_OPT_UPC_E": "UPC-E",
+      "BARCODE_DIALOG_OPT_CODE_128": "Code 128",
+      "BARCODE_DIALOG_OPT_IMB": "Intelligent Mail barcode",
+      "BARCODE_DIALOG_TEXT": "Por favor introduzca {{count}} digitos",
+      "BARCODE_DIALOG_TEXT_UPC_E": "Por favor introduzca {{count}} digitos. Primero uno debe ser 0 o 1",
+      "BARCODE_DIALOG_TEXT_DATA_MATRIX": ""
+    },
+    "ItemMenu": {
+      "SELECT_IMAGE": "Seleccionar una imágen",
+      "EDIT_IMAGE": "Editor de imágenes",
+      "EDIT_QR_CODE": "Seleccionar el código QR",
+      "EDIT_LINEAR_BARCODE": "Seleccionar el código de barras",
+      "CHANGE_RICH_TEXT": "Cambiar el texto enriquecido",
+      "DELETE_OBJECT": "Suprimir el objeto",
+      "CLONE_OBJECT": "Clonar el objeto",
+      "ALIGN": "Alinear con la zona de seguridad",
+      "ALIGN_LEFT": "Izquierda",
+      "HORIZONTAL_CENTER": "Centro horizontal",
+      "ALIGN_RIGHT": "Derecha",
+      "ALIGN_TOP": "Haut",
+      "VERTICAL_CENTER": "Centro vertical",
+      "ALIGN_BOTTOM": "Bajo",
+      "GROUP_ALIGN": "Alinear el grupo",
+      "SEND_TO_FRONT": "Enviar a adelante",
+      "LEVEL_UP": "Subir",
+      "LEVEL_DOWN": "Bajar",
+      "SEND_TO_BOTTOM": "Enviar atrás",
+      "MAKE_VARIABLE": "Crear una variable",
+      "REMOVE_VARIABLE": "Suprimir una variable"
+    },
+    "Toolbox": {
+      "CHANGE_BACKGROUND": "Fondo",
+      "TITLE_CHANGE_BACKGROUND": "Cambiar fondo",
+      "LINE": "Linea",
+      "TEXT": "Texto",
+      "IMAGE": "Imagen",
+      "LAYOUT": "Diseño",
+      "SHAPE": "Forma",
+      "RECTANGLE": "Rectangulo",
+      "ELLIPSE": "Elipse",
+      "QR_CODE": "QR codigo",
+      "LINEAR_BARCODE": "Código de barras",
+      "RICHTEXT": "Texto enriquecido",
+      "ADVANCED_BUTTON": "Elegir opciones de edición avanzadas",
+      "TITLE_ADD_MENU": "Añadir un objecto al canvas",
+      "TITLE_ADD_TEXT": "Añadi un texto al canvas",
+      "TITLE_ADD_IMAGE": "Añadir una image al canvas",
+      "TITLE_ADD_LAYOUT": "Cambiar diseño",
+      "TITLE_ADD_LINE": "Aña una línea al canvas",
+      "TITLE_ADD_RECTANGLE": "Añadir un rectángulo al canvas",
+      "TITLE_ADD_ELLIPSE": "Añadir una elipse al canvas",
+      "TITLE_ADD_QR_CODE": "Añadir un QR código al canvas",
+      "TITLE_ADD_LINEAR_BARCODE": "Añadir un código de barras al canvas",
+      "TITLE_ADD_RICHTEXT": "Añadir texto enriquecido al canvas",
+      "TITLE_ADD_SHAPE": "Añadir una forma al canvas",
+      "TITLE_ADVANCED": "Cambiar a opciones de edición avanzadas",
+      "TITLE_ADD_CUSTOM_TEXT": "Add custom text"
+    },
+    "TopToolbar": {
+      "LOAD_INFO_BUTTON": "Cargar mi información",
+      "TITLE_LOAD_INFO": "Cargar mi información",
+      "BORDER_WIDTH": "Borde",
+      "TITLE_BORDER_WIDTH": "Selecciona ancho de borde",
+      "TITLE_BORDER_COLOR": "Selecciona color de borde",
+      "TITLE_FILL_COLOR": "Selecciona relleno color",
+      "LINE_WIDTH": "ancho",
+      "TITLE_LINE_WIDTH": "Selecciona ancho linea",
+      "TITLE_LINE_COLOR": "Select color de linea",
+      "TITLE_FONT_FAMILY_LIST": "Selecciona familia de letra",
+      "TITLE_FONT_STYLE_LIST": "Selecciona estilo de letra",
+      "TITLE_FONT_SIZE": "Selecciona tamaño de letra",
+      "TITLE_OPACITY": "Select opacidad",
+      "OPACITY": "Opacidad",
+      "TITLE_BOLD": "Negrita",
+      "TITLE_ITALIC": "Italica",
+      "TITLE_FAUX_BOLD": "Falsa negrita",
+      "TITLE_FAUX_ITALIC": "Falsa italica",
+      "TITLE_UNDERLINE": "Subrayado",
+      "TITLE_FONT_COLOR": "Selecciona texto color",
+      "TEXT_EDIT": "Editar",
+      "TITLE_TEXT_EDIT": "Edita texto",
+      "TITLE_TEXT_ALIGN_LEFT": "Alinear a izquierda",
+      "TITLE_TEXT_ALIGN_CENTER": "Alinear a centro",
+      "TITLE_TEXT_ALIGN_RIGHT": "Alinear a derecha",
+      "TITLE_TEXT_ALIGN_JUSTIFY": "Justificar todo",
+      "TITLE_TEXT_ALIGN_LASTLEFT": "Justificar última a la izquierda",
+      "TITLE_TEXT_ALIGN_LASTRIGHT": "Justificar última al centro",
+      "TITLE_TEXT_ALIGN_LASTCENTER": "Justificar última a la derecha",
+      "TITLE_TEXT_INDENT_LEFT": "Sangría en margen izquierdo",
+      "TITLE_TEXT_INDENT_RIGHT": "Sangría en margen derecho",
+      "TITLE_FIRST_LINE_INDENT": "Sangría en primera línea",
+      "TITLE_SPACE_BEFORE_PARAGRAPH": "Añadir espacio antes del párrafo",
+      "TITLE_SPACE_AFTER_PARAGRAPH": "Añadir espacio después del párrafo",
+      "TITLE_TEXT_SHADOW": "Sombra",
+      "TITLE_TEXT_STROKE": "Trazo",
+      "LABEL_SHADOW_ANGLE": "Angulo",
+      "LABEL_SHADOW_DISTANCE": "Distancia",
+      "LABEL_SHADOW_SIZE": "Tamaño",
+      "LABEL_SHADOW_COLOR": "Color",
+      "LABEL_SHADOW_ENABLED": "Habilitado",
+      "LABEL_STROKE_WIDTH": "Ancho",
+      "LABEL_STROKE_COLOR": "Color",
+      "LABEL_STROKE_ENABLED": "Habilitado",
+      "UNITS_PT": "pt",
+      "UNITS_PX": "px",
+      "TITLE_UNDO": "Deshacer",
+      "TITLE_REDO": "Rehacer",
+      "TITLE_REVERT": "Volver atrás",
+      "LABEL_DELETE": "Borrar",
+      "TITLE_DELETE": "Borrar elementos",
+      "LABEL_COLUMNS": "Columnas:",
+      "TITLE_COLUMNS": "Recuento de columnas",
+      "TITLE_PAGING_RIGHT": "Más controles",
+      "TITLE_PAGING_LEFT": "Atrás",
+      "TEXT_PAGING_RIGHT": "Más...",
+      "TITLE_LEADING": "Select de fondo",
+      "TITLE_TRACKING": "Selecciona seguimiento",
+      "TITLE_TEXT_VERTICAL_ALIGN_TOP": "Alinear arriba",
+      "TITLE_TEXT_VERTICAL_ALIGN_CENTER": "Aline al centro",
+      "TITLE_TEXT_VERTICAL_ALIGN_BOTTOM": "Alinear abajo",
+      "ALIGN": "Alinear a un area segura",
+      "ALIGN_DROPDOWN": "Alineamiento",
+      "TITLE_ALIGN_LEFT": "Izquierda",
+      "TITLE_HORIZONTAL_CENTER": "Horizontal centro",
+      "TITLE_ALIGN_RIGHT": "Derecha",
+      "TITLE_ALIGN_TOP": "Arriba",
+      "TITLE_VERTICAL_CENTER": "Vertical centro",
+      "TITLE_ALIGN_BOTTOM": "Abajo",
+      "TITLE_LEVEL_UP": "Nivel arriba",
+      "TITLE_LEVEL_DOWN": "Nivel abajo",
+      "TITLE_SEND_TO_FRONT": "Enviar al frente",
+      "TITLE_SEND_TO_BOTTOM": "Enviar abajo",
+      "LEVEL_UP": "Nivel arriba",
+      "LEVEL_DOWN": "Nivel abajo",
+      "SEND_TO_FRONT": "Enviar al frente",
+      "SEND_TO_BOTTOM": "Enviar abajo",
+      "Z_ORDER": "Posición",
+      "TITLE_Z_ORDER": "Cambio elemento de posición",
+      "TITLE_CLONE_OBJECT": "Clonar objecto",
+      "CLONE_OBJECT": "Clonar",
+      "PLACEHOLDER_SCALE": "Escalar",
+      "TITLE_PLACEHOLDER_SCALE": "Selecciona escalar de contenido del placeholder",
+      "TITLE_EDIT_IMAGE": "Edita imagen",
+      "EDIT_IMAGE": "Edita",
+      "TITLE_SELECT_IMAGE": "Selecciona imagen",
+      "SELECT_IMAGE": "Selecciona",
+      "TITLE_RESET_PLACEHOLDER_CONTENT": "Resetear contenido del placeholder",
+      "RESET_PLACEHOLDER_CONTENT": "Resetear",
+      "ROTATE_PLACEHOLDER_CONTENT_LEFT": "Girar contenido a la izquierda",
+      "ROTATE_PLACEHOLDER_CONTENT_RIGHT": "Girar contenido a la derecha"
+    },
+    "ObjectInspector": {
+      "TEXT_PLACEHOLDER": "introduzca texto",
+      "BACKGROUND": "Fondo",
+      "QR_CODE": "QR código",
+      "BARCODE": "Código de barras",
+      "COLOR_PICKER": "Color",
+      "IMAGE_PICKER": "Imagen",
+      "TITLE_ITEM_MENU": "",
+      "TITLE_BACKGROUND_MENU": "Cambiar fondo",
+      "TITLE_BACKGROUND_MENU_COLOR": "Selecciona color de fondo",
+      "TITLE_BACKGROUND_MENU_IMAGE": "Selecciona imagen de fondo",
+      "TITLE_ITEM_MENU_SELECT_IMAGE": "",
+      "TITLE_ITEM_MENU_EDIT_QR_CODE": "",
+      "TITLE_ITEM_MENU_EDIT_BARCODE": "",
+      "MAKE_VARIABLE": "Hacer variable",
+      "REMOVE_VARIABLE": "Quitar variable",
+      "EMPTY_OBJECT_INSPECTOR_SIMPLE_MODE": "Esta plantilla no tiene objetos modificables. Si quiere añadir un objeto cambie a modo avanzado de edición",
+      "EMPTY_OBJECT_INSPECTOR_ADVANCED_MODE": "Esta plan no tiene objetos modificables. Si quiere añadir un objeto use los botones de arriba.",
+      "EMPTY_OBJECT_INSPECTOR_SIMPLEONLY_MODE": "Esta plantilla no tiene objetos modificables."
+    },
+    "BottomToolbar": {
+      "SWITCH_SIDE": "Cambiar lado",
+      "FRONT_SIDE": "Lado frontal",
+      "BACK_SIDE": "Lado de atrás",
+      "ROTATE": "Rotar",
+      "SAFETY_LINES": "Líneas seguras",
+      "GRID": "Grid",
+      "SNAP_LINES": "Líneas de captura",
+      "TITLE_SAFETY_LINES": "Habilitar/deshabilitar líneas seguras",
+      "TITLE_GRID": "Habilitar/deshabilitar grid",
+      "TITLE_SNAP_LINES": "Habilitar/deshabilitar líneas de captura",
+      "TITLE_SWITCH_SIDE": "Cambiar lado",
+      "TITLE_FRONT_SIDE": "Lado frontal",
+      "TITLE_BACK_SIDE": "Lado de atrás",
+      "TITLE_ZOOM_IN": "Aumentar zoom",
+      "TITLE_ZOOM_OUT": "Decrecer zoom",
+      "TITLE_CURRENT_ZOOM": "Zoom actual",
+      "TITLE_ROTATE": "Rotar",
+      "TITLE_FIRST_SLIDE": "Ir a la página principal",
+      "TITLE_PREVIOUS_THREE_SLIDES": "Desplazar hacia las 3 anteriores páginas",
+      "TITLE_NEXT_THREE_SLIDES": "Desplazar hacian las 3 siguientes páginas",
+      "TITLE_NEXT_SLIDE": "Conmutar con la siguiente página",
+      "TITLE_PREVIOUS_SLIDE": "Conmutar con la página anterior",
+      "TITLE_LAST_SLIDE": "Ir a la última página",
+      "TITLE_MARKING_MENU": "Abrir menu de coloración",
+      "MARKING_MENU": "Coloración",
+      "TITLE_ORIGINAL_SIZE": "Volver al tamaño original",
+      "TITLE_FULL_WINDOW": "Cambiar a modo ventana principal",
+      "TITLE_FULL_SCREEN": "Cambiar a modo pantalla principal"
+    },
+    "BaseEditor": {
+      "ITEM_DELETE_CONFIRM_MSG": "El objeto está apunto de ser borrado. Continuar?",
+      "ITEM_REVERT_CONFIRM_MSG": "El producto está apunto de ser revertido. Continuar?",
+      "DOWNLOAD": "Descargar",
+      "SUBMIT": "Confirmar para imprimir",
+      "RENDERING": "Representación en progreso...",
+      "ERROR": "Error en el servidor",
+      "PLACEHOLDER_SELECT_BUTTON_TITLE": "Seleccione imagen",
+      "PLACEHOLDER_HANDLE_BUTTON_TITLE": "Manejo",
+      "PLACEHOLDER_DONE_BUTTON_TITLE": "Hecho",
+      "ITEM_DELETE_BUTTON_TITLE": "Borrar Item",
+      "ITEM_EDIT_BUTTON_TITLE": "Editar Item"
+    },
+    "ModalDialog": {
+      "CLOSE": "Cerrar",
+      "INSERT": "Insertar",
+      "UPDATE_ALL": "Insertar a todos",
+      "UPDATE": "Modificar",
+      "SUBMIT": "OK",
+      "CANCEL": "Cancelar"
+    },
+    "QrCodeDialog": {
+      "QR_DIALOG_TITLE": "QR código",
+      "QR_DIALOG_OPT_TYPE_PHONE": "teléfono",
+      "QR_DIALOG_OPT_TYPE_URL": "url",
+      "QR_DIALOG_OPT_TYPE_VCARD": "tarjeta",
+      "QR_DIALOG_FIRST_NAME": "Nombre",
+      "QR_DIALOG_LAST_NAME": "Apellidos",
+      "QR_DIALOG_COMPANY": "Empresa",
+      "QR_DIALOG_POSITION": "Posición",
+      "QR_DIALOG_EMAIL": "Email",
+      "QR_DIALOG_URL": "Url",
+      "QR_DIALOG_PHONE": "Teléfono",
+      "QR_DIALOG_MOBILE_PHONE": "Teléfono móvil"
+    },
+    "RichTextDialog": {
+      "TITLE": "Texto enriquecido",
+      "TITLE_RICH_TEXT_DIALOG_ZOOM": "Cambiar zoom de ventana de edición",
+      "COLOR_DIALOG_TITLE": "Color de texto",
+      "EDITOR": {
+        "wordcount": {
+          "WordCount": "Palabras:",
+          "CharCount": "Caracteres:",
+          "CharCountWithHTML": "Caracteres (con HTML):",
+          "Paragraphs": "Párrafos:",
+          "pasteWarning": "Contenido no se puede pegar porque está por encima del límite permitido",
+          "Selected": "Seleccionado: ",
+          "title": "Estadísticas"
+        },
+        "undo": {
+          "redo": "Rehacer",
+          "undo": "Deshacer"
+        },
+        "toolbar": {
+          "toolbarGroups": {
+            "clipboard": "Portapapeles/Deshacer",
+            "editing": "Editando",
+            "basicstyles": "Estilos básicos",
+            "paragraph": "Párrafo",
+            "insert": "Insertar",
+            "styles": "Estilos",
+            "colors": "Colores"
+          },
+          "toolbars": "Editor barra de herramientas"
+        },
+        "specialchar": {
+          "options": "Opciones de caracteres especiales",
+          "title": "Selección de Carácter Especial",
+          "toolbar": "Insertar Carácter Especial"
+        },
+        "selectall": {
+          "toolbar": "Selecciona Todos"
+        },
+        "removeformat": {
+          "toolbar": "Quitar Formato"
+        },
+        "pastetext": {
+          "button": "Pegar en texto plano",
+          "title": "Pegar como texto plano"
+        },
+        "pastefromword": {
+          "confirmCleanup": "El texto que vas a copiar parece ser copiado de word.  ¿Quiere limpiarlo antes de pegarlo?",
+          "error": "No es posible limpiar los datos pegados debido a un error interno",
+          "title": "Pegado desde Word",
+          "toolbar": "Pegado desde Word"
+        },
+        "notification": {
+          "closed": "Notificación cerrada."
+        },
+        "liststyle": {
+          "bulletedTitle": "Propiedades de la lista de viñetas",
+          "circle": "Círculo",
+          "decimal": "Decimal (1,2,3,etc.)",
+          "disc": "Disco",
+          "lowerAlpha": "Lower Alpha (a,b,c,d,e,etc.)",
+          "lowerGreek": "Lower Greek (alpha,beta,gamma,etc.)",
+          "lowerRoman": "Lower Roman (i,ii,iii,iv,v,etc.)",
+          "none": "Ninguna",
+          "notset": "<ningún conjunto>",
+          "numberedTitle": "Propiedades de lista de números",
+          "square": "Cuadrado",
+          "start": "Estrella",
+          "type": "Tipo",
+          "upperAlpha": "Upper Alpha (A,B,C,D,E,etc.)",
+          "upperRoman": "Upper Roman (I,II,III,IV,V,etc.)",
+          "validateStartNumber": "Lista de número de estrellas debe de ser un número entero."
+        },
+        "list": {
+          "bulletedlist": "Insertar/Quitar lista de viñetas",
+          "numberedlist": "Insertar/Quitar lista de números"
+        },
+        "justify": {
+          "block": "Justificar",
+          "center": "Centrar",
+          "left": "Alinear Izquierda",
+          "right": "Alinear Derecha"
+        },
+        "indent": {
+          "indent": "Incrementar Indentación",
+          "outdent": "Decrecer Indentación"
+        },
+        "font": {
+          "fontSize": {
+            "label": "Tamaño",
+            "voiceLabel": "Tamaño de letra",
+            "panelTitle": "Tamaño de letra"
+          },
+          "label": "Letra",
+          "panelTitle": "Nombre de letra",
+          "voiceLabel": "Letra"
+        },
+        "find": {
+          "find": "Buscar",
+          "findOptions": "Opciones de búsqueda",
+          "findWhat": "Qué buscar:",
+          "matchCase": "Búsqueda exacta",
+          "matchCyclic": "Buscar en todo el documento",
+          "matchWord": "Solo palabras completas",
+          "notFoundMsg": "El texto específico no fué encontrado.",
+          "replace": "Reemplazar",
+          "replaceAll": "Replazar todo",
+          "replaceSuccessMsg": "%1 occurrencia(s) reemplazada.",
+          "replaceWith": "Reemplazar con:",
+          "title": "Buscar y Reemplazar"
+        },
+        "clipboard": {
+          "copy": "Copiar",
+          "copyError": "La configuración de seguridad del navegador no permite al editor ejecutar automaticamente la operación de copiado. Por favor use el teclado para esto (Ctrl/Cmd+C).",
+          "cut": "Cortar",
+          "cutError": "La configuración de seguridad del navegador no permite al editor ejecutar automaticamente la operación de cortado. Por favor use el teclado para esto (Ctrl/Cmd+X).",
+          "paste": "Pegar",
+          "pasteArea": "Area de pegado",
+          "pasteMsg": "Por favor pegue dentro de la siguiente caja usando el teclado (<strong>Ctrl/Cmd+V</strong>) and presiona OK",
+          "securityMsg": "Debido a la configuración de su navegador, el editor no es capaz de acceder a los datos del portapapeles. Debes de pegarlos otra vez en esta ventana.",
+          "title": "Pegar"
+        },
+        "cctracking": {
+          "label": "Rastreo",
+          "voiceLabel": "Rastreo",
+          "panelTitle": "Rastreo"
+        },
+        "cctextindent": {
+          "label": "Sangría de primera línea",
+          "voiceLabel": "Sangría de primera línea",
+          "panelTitle": "Sangría de primera línea"
+        },
+        "ccpadding": {
+          "top": {
+            "label": "Antes del párrafo",
+            "voiceLabel": "Espacio antes del párrafo",
+            "panelTitle": "Espacio antes del párrafo"
+          },
+          "bottom": {
+            "label": "Después del párrafo",
+            "voiceLabel": "Espacio después del párrafo",
+            "panelTitle": "Espacio después del párrafo"
+          },
+          "left": {
+            "label": "Sangría izquierda",
+            "voiceLabel": "Sangría izquierda",
+            "panelTitle": "Sangría izquierda"
+          },
+          "right": {
+            "label": "Sangría derecha",
+            "voiceLabel": "Sangría derecha",
+            "panelTitle": "Sangría derecha"
+          }
+        },
+        "ccleading": {
+          "label": "Interlineado",
+          "voiceLabel": "Interlineado",
+          "panelTitle": "Interlineado"
+        },
+        "ccfont": {
+          "fontSize": {
+            "label": "Tamaño",
+            "voiceLabel": "Tamaño de letra",
+            "panelTitle": "Tamaño de letra"
+          },
+          "fontStyle": {
+            "label": "Estilo",
+            "voiceLabel": "Estilo de letra",
+            "panelTitle": "Estilo de letra"
+          },
+          "label": "Letra",
+          "panelTitle": "Nombre de letra",
+          "voiceLabel": "Letra"
+        },
+        "cc_textcolor_button": {
+          "textColorTitle": "Color de texto"
+        },
+        "button": {
+          "selectedLabel": "%1 (Seleccionado)"
+        },
+        "basicstyles": {
+          "bold": "Negrita",
+          "italic": "Italica",
+          "strike": "Tachado",
+          "subscript": "Subíndice",
+          "superscript": "Sobreíndice",
+          "underline": "Subrayar"
+        },
+        "editor": "Edito de Texto Enriquecido",
+        "common": {
+          "ok": "OK",
+          "cancel": "Cancelar",
+          "close": "Cerrar",
+          "resize": "Cambio de tamaño",
+          "generalTab": "General",
+          "align": "Alinear",
+          "alignLeft": "Izquierda",
+          "alignRight": "Derecha",
+          "alignCenter": "Centro",
+          "alignJustify": "Justificado"
+        },
+        "contextmenu": {
+          "options": "Opciones de menu contexto"
+        }
+      }
+    },
+    "FinishButton": {
+      "DOWNLOAD": "Descargar",
+      "SUBMIT": "Confirmar para imprimir",
+      "RENDERING": "Montaje en progreso...",
+      "ERROR": "Error en servidor"
+    },
+    "ImageEditorDialog": {
+      "TITLE": "Editor de imágen",
+      "FILTER_BRIGHTNESS": "Brillo",
+      "FILTER_CONTRAST": "Contraste",
+      "FILTER_HUE": "Tono",
+      "FILTER_SATURATION": "Saturación",
+      "FILTER_EFFECT": "Efecto",
+      "FILTER_GRAYSCALE": "Escala de grises",
+      "FILTER_SEPIA": "Sepia",
+      "FILTER_NONE": "Ninguno",
+      "BUTTON_OK": "OK",
+      "BUTTON_APPLY": "Aplicar",
+      "BUTTON_CANCEL": "Cancelar",
+      "BUTTON_ADJUST": "Ajustar",
+      "BUTTON_CROP": "Recortar",
+      "BUTTON_REVERT": "Revertir",
+      "BUTTON_REVERT_TOOLTIP": "Revertir al original",
+      "BUTTON_SAVE": "Guardar",
+      "BUTTON_BACKGROUND_ERASE": "Fondo",
+      "BUTTON_UNDO": "Deshacer",
+      "BUTTON_REDO": "Rehacer",
+      "BUTTON_GOT_IT": "Conseguido",
+      "FILTER_ERASE_TOLERANCE": "Tolerancia",
+      "FILTER_ERASE_CONTIGUOUS": "Contiguou",
+      "BACKGROUND_ERASE_TIP": "Haz click en las areas de la imagen que quieres hacer transparente. Ajusta tolerancia si el efecto no es suficientemente fuerte.",
+      "CHOOSE_BACKGROUND": "Elegir fondo",
+      "PREVIEW_BACKGROUND_CHECKERBOARD": "Checkerboard patron",
+      "PREVIEW_BACKGROUND_WHITE": "Blanco",
+      "PREVIEW_BACKGROUND_BLACK": "Negro",
+      "PREVIEW_BACKGROUND_MAGENTA": "Magenta",
+      "PREVIEW_BACKGROUND_LIME": "Lima",
+      "PREVIEW_BACKGROUND_CONTRAST": "Contraste",
+      "CHOOSE_BACKGROUND_TIP": "Selecciona color para la vista previa de su imagen",
+      "TOLERANCE_TIP": "Ajusta como los colores fuertes pueden diferenciarse del color seleccionado",
+      "CONTIGUOUS_TIP": "Chequea para hacer el area seleccionada transparente. Borrar para quitar el color sele en el area completa de la imagen"
+    },
+    "ColorPicker": {
+      "COLOR_CHOOSE": "OK",
+      "COLOR_DEFAULT_CATEGORY_NAME": "Default",
+      "COLOR_RECENT_CATEGORY_NAME": "Reciente",
+      "ADD_RECENT_COLOR_TITLE": "Añadir a la paleta"
+    },
+    "ViolationService": {
+      "MORE_THAN_ONE_WARNING": "El elemento tiene más de una advertencia.",
+      "BAD_IMAGE_RESOLUTION": "Resolución demasiado baja ([DPI_VALUE_PLACEHOLDER] dpi) lo que resultará en una calidad pobre de impresión.",
+      "WARNING_IMAGE_RESOLUTION": "Imagen de resolución ([DPI_VALUE_PLACEHOLDER] dpi)es muy pobre, sin embargo, la calidad de impresión todavía es buena aunque lejos de ser la ideal.",
+      "SAFETY_LINE_VIOLATION_WARNING": "El objeto está demasiado cerca del borde.",
+      "REGION_VIOLATION_WARNING": "El objeto va fuera de la región.",
+      "TEXT_CROP_WARNING": "El texto es demasiado largo para esta caja. Algunas cadenas de texto están entrecortadas. Intentar hacerla más corta o usar una letra más pequeña."
+    },
+    "OiToggle": {
+      "TEXT": "Capas",
+      "TITLE": "Elevar inspecionador objecto"
+    },
+    "DepositPhotos": {
+      "BEST_MATCH": "Más relevante",
+      "BEST_SALES": "Más vendidas",
+      "NEWEST": "Más reciente",
+      "UNDISCOVERED": "Desconocidos",
+      "PAID_IMAGE_MESSAGE": "This image is paid, the price will be added to your order automatically.",
+      "DONT_SHOW_MESSAGE": "Don’t show this again",
+      "COLOR_TRANSLATION": "Color",
+      "SIZE_TRANSLATION": "Tamaño",
+      "ID_TRANSLATION": "ID",
+      "COPYRIGHT_TRANSLATION": "Copia registrada",
+      "SORT_BY_CAPTION": "Filtrar por"
+    },
+    "RemoteSource": {
+      "BEST_MATCH": "Más relevante",
+      "BEST_SALES": "Más vendidas",
+      "NEWEST": "Más reciente",
+      "UNDISCOVERED": "Desconocidos",
+      "PAID_IMAGE_MESSAGE": "This image is paid, the price will be added to your order automatically.",
+      "DONT_SHOW_MESSAGE": "Don’t show this again",
+      "COLOR_TRANSLATION": "Color",
+      "SIZE_TRANSLATION": "Tamaño",
+      "ID_TRANSLATION": "ID",
+      "COPYRIGHT_TRANSLATION": "Copia registrada",
+      "SORT_BY_CAPTION": "Filtrar por"
+    },
+    "AssetManager": {
+      "SELECT_IMAGE_HEADER": "Selecciona una imágen",
+      "SELECT_CATEGORY_HEADER": "Selecciona una categoría",
+      "CLOSE_BUTTON_CAPTION": "Cerrar",
+      "EMPTY_CATEGORY_HEADER": "Esta categoría está vacía.",
+      "EMPTY_CATEGORY_MESSAGE": "Ooops! Parece que no hay archivos bajo esta categoría.",
+      "NO_RESULTS_HEADER": "No se han encontrado resultados.",
+      "NO_RESULTS_MESSAGE": "Por favor revisa la gramática o intenta de nuevo con palabras diferentes.",
+      "NO_RESULTS_YET_HEADER": "No results yet.",
+      "NO_RESULTS_YET_MESSAGE": "Searching results will be shown here.",
+      "EDIT_BUTTTON_CAPTION": "Editar",
+      "DELETE_BUTTTON_CAPTION": "Borrar",
+      "INSERT_BUTTTON_CAPTION": "Insertar",
+      "INSERT_TO_ALL_BUTTON_CAPTION": "Insertar a todos",
+      "CATEGORIES_HEADER": "Categories",
+      "ALL_CATEGORY_NAME": "Todos",
+      "TODAY_CATEGORY_NAME": "Hoy",
+      "INVALID_EXTENSION": "has an invalid extension. Valid extension(s):",
+      "TOO_MANY_FILES": "Has seleccionado  {{selectedFilesLength}} archivos. Sólo los primeros {{maxFiles}} archivos serán preparados para ser subidos.",
+      "RemoteSource": {},
+      "PrivateSource": {
+        "PDF_DELETE_MESSAGE": "Borrando esta página borrará las páginas siguientes"
+      },
+      "INSERT_ACTION": "Insertar",
+      "INSERT_TO_ALL_ACTION": "Insertar a todos",
+      "EDIT_ACTION": "Editar",
+      "DELETE_ACTION": "Borrar"
+    }
+  },
+  "fr": {
+    "TextPopup": {
+      "TEXT_PLACEHOLDER": "entrer le texte",
+      "TEXT_POPUP_HEADER": "Texte"
+    },
+    "BarcodeDialog": {
+      "BARCODE_DIALOG_TITLE": "Code à barres",
+      "BARCODE_DIALOG_LABEL_TYPE": "Type de code à barres",
+      "BARCODE_DIALOG_LABEL_DATA": "Données du code à barres",
+      "BARCODE_DIALOG_OPT_EAN13": "EAN-13",
+      "BARCODE_DIALOG_OPT_EAN8": "EAN-8",
+      "BARCODE_DIALOG_OPT_UPC_A": "UPC-A",
+      "BARCODE_DIALOG_OPT_UPC_E": "UPC-E",
+      "BARCODE_DIALOG_OPT_CODE_128": "Code 128",
+      "BARCODE_DIALOG_OPT_IMB": "Intelligent Mail barcode",
+      "BARCODE_DIALOG_TEXT": "Entrer {{counts}} chiffres.",
+      "BARCODE_DIALOG_TEXT_UPC_E": "Entrer {{counts}} chiffres. Le premier doit être 0 ou 1",
+      "BARCODE_DIALOG_TEXT_DATA_MATRIX": ""
+    },
+    "ItemMenu": {
+      "SELECT_IMAGE": "Sélectionner l’image",
+      "EDIT_IMAGE": "Éditeur d’images",
+      "EDIT_QR_CODE": "Sélectionner le code QR",
+      "EDIT_LINEAR_BARCODE": "Sélectionner le code à barres",
+      "CHANGE_RICH_TEXT": "Changer le texte enrichi",
+      "DELETE_OBJECT": "Supprimer l’objet",
+      "CLONE_OBJECT": "Cloner l’objet",
+      "ALIGN": "Aligner avec la zone sécuritaire",
+      "ALIGN_LEFT": "Gauche",
+      "HORIZONTAL_CENTER": "Centre horizontal",
+      "ALIGN_RIGHT": "Droite",
+      "ALIGN_TOP": "Haut",
+      "VERTICAL_CENTER": "Centre vertical",
+      "ALIGN_BOTTOM": "Bas",
+      "GROUP_ALIGN": "Aligner le groupe",
+      "SEND_TO_FRONT": "Envoyer à l'avant",
+      "LEVEL_UP": "Monter",
+      "LEVEL_DOWN": "Descendre",
+      "SEND_TO_BOTTOM": "Envoyer à l’arrière",
+      "MAKE_VARIABLE": "Créer une variable",
+      "REMOVE_VARIABLE": "Supprimer une variable"
+    },
+    "Toolbox": {
+      "CHANGE_BACKGROUND": "Fond",
+      "TITLE_CHANGE_BACKGROUND": "Changer le fond",
+      "LINE": "Ligne",
+      "TEXT": "Texte",
+      "IMAGE": "Image",
+      "LAYOUT": "Disposition",
+      "SHAPE": "Forme",
+      "RECTANGLE": "Rectangle",
+      "ELLIPSE": "Ellipse",
+      "QR_CODE": "code QR",
+      "LINEAR_BARCODE": "Code à barres",
+      "RICHTEXT": "Texte enrichi",
+      "ADVANCED_BUTTON": "Passer au mode de modification avancé",
+      "TITLE_ADD_MENU": "Ajouter un élément au canevas",
+      "TITLE_ADD_TEXT": "Ajouter un texte au canevas",
+      "TITLE_ADD_IMAGE": "Ajouter une nouvelle image au canevas",
+      "TITLE_ADD_LAYOUT": "Changer la disposition",
+      "TITLE_ADD_LINE": "Ajouter une ligne au canevas",
+      "TITLE_ADD_RECTANGLE": "Ajouter un rectangle au canevas",
+      "TITLE_ADD_ELLIPSE": "Ajouter une ellipse au canevas",
+      "TITLE_ADD_QR_CODE": "Ajouter un code QR au canevas",
+      "TITLE_ADD_LINEAR_BARCODE": "Ajouter un code à barres au canevas",
+      "TITLE_ADD_RICHTEXT": "Ajouter un texte enrichi au canevas",
+      "TITLE_ADD_SHAPE": "Ajouter une forme au canevas",
+      "TITLE_ADVANCED": "Passer au mode de modification avancé",
+      "TITLE_ADD_CUSTOM_TEXT": "Add custom text"
+    },
+    "TopToolbar": {
+      "LOAD_INFO_BUTTON": "Charger mes renseignements",
+      "TITLE_LOAD_INFO": "Charger mes renseignements",
+      "BORDER_WIDTH": "Bordure",
+      "TITLE_BORDER_WIDTH": "Sélectionner la largeur de la marge.",
+      "TITLE_BORDER_COLOR": "Sélectionner la couleur de la marge.",
+      "TITLE_FILL_COLOR": "Sélectionner la couleur de remplissage.",
+      "LINE_WIDTH": "Largeur",
+      "TITLE_LINE_WIDTH": "Sélectionner la largeur de la ligne",
+      "TITLE_LINE_COLOR": "Sélectionner la couleur de la ligne",
+      "TITLE_FONT_FAMILY_LIST": "Sélectionner la famille de police.",
+      "TITLE_FONT_STYLE_LIST": "Sélectionner le style de la police.",
+      "TITLE_FONT_SIZE": "Sélectionner la taille de la police.",
+      "TITLE_OPACITY": "Sélectionner l’opacité.",
+      "OPACITY": "Opacité",
+      "TITLE_BOLD": "Gras",
+      "TITLE_ITALIC": "Italique",
+      "TITLE_FAUX_BOLD": "Faux gras",
+      "TITLE_FAUX_ITALIC": "Faux italique",
+      "TITLE_UNDERLINE": "Souligné",
+      "TITLE_FONT_COLOR": "Sélectionner la couleur du texte.",
+      "TEXT_EDIT": "Modifier",
+      "TITLE_TEXT_EDIT": "Modifier le texte",
+      "TITLE_TEXT_ALIGN_LEFT": "Aligner à gauche",
+      "TITLE_TEXT_ALIGN_CENTER": "Aligner au centre",
+      "TITLE_TEXT_ALIGN_RIGHT": "Aligner à droite",
+      "TITLE_TEXT_ALIGN_JUSTIFY": "Tout justifier",
+      "TITLE_TEXT_ALIGN_LASTLEFT": "Justifié avec la dernière ligne alignée à gauche",
+      "TITLE_TEXT_ALIGN_LASTRIGHT": "Justifié avec la dernière ligne centrée",
+      "TITLE_TEXT_ALIGN_LASTCENTER": "Justifié avec la dernière ligne alignée à droite",
+      "TITLE_TEXT_INDENT_LEFT": "Retrait de la marge de gauche",
+      "TITLE_TEXT_INDENT_RIGHT": "Retrait de la marge de droite",
+      "TITLE_FIRST_LINE_INDENT": "Retrait de première ligne",
+      "TITLE_SPACE_BEFORE_PARAGRAPH": "Ajouter un espace avant le paragraphe",
+      "TITLE_SPACE_AFTER_PARAGRAPH": "Ajouter un espace après le paragraphe",
+      "TITLE_TEXT_SHADOW": "Ombre",
+      "TITLE_TEXT_STROKE": "Trait",
+      "LABEL_SHADOW_ANGLE": "Angle",
+      "LABEL_SHADOW_DISTANCE": "Distance",
+      "LABEL_SHADOW_SIZE": "Taille",
+      "LABEL_SHADOW_COLOR": "Couleur",
+      "LABEL_SHADOW_ENABLED": "Activé",
+      "LABEL_STROKE_WIDTH": "Largeur",
+      "LABEL_STROKE_COLOR": "Couleur",
+      "LABEL_STROKE_ENABLED": "Activé",
+      "UNITS_PT": "pt",
+      "UNITS_PX": "px",
+      "TITLE_UNDO": "Annuler",
+      "TITLE_REDO": "Rétablir",
+      "TITLE_REVERT": "Recommencer",
+      "LABEL_DELETE": "Supprimer",
+      "TITLE_DELETE": "Supprimer les éléments",
+      "LABEL_COLUMNS": "Colonnes :",
+      "TITLE_COLUMNS": "Nombre de colonnes",
+      "TITLE_PAGING_RIGHT": "Plus de commandes",
+      "TITLE_PAGING_LEFT": "Retour",
+      "TEXT_PAGING_RIGHT": "Plus...",
+      "TITLE_LEADING": "Sélectionner l’interligne",
+      "TITLE_TRACKING": "Sélectionner l'approche de groupe",
+      "TITLE_TEXT_VERTICAL_ALIGN_TOP": "Aligner en haut",
+      "TITLE_TEXT_VERTICAL_ALIGN_CENTER": "Aligner au centre",
+      "TITLE_TEXT_VERTICAL_ALIGN_BOTTOM": "Aligner en bas",
+      "ALIGN": "Alignement à la zone éditable",
+      "ALIGN_DROPDOWN": "Alignement",
+      "TITLE_ALIGN_LEFT": "Gauche",
+      "TITLE_HORIZONTAL_CENTER": "Centre horizontal",
+      "TITLE_ALIGN_RIGHT": "Droite",
+      "TITLE_ALIGN_TOP": "Haut",
+      "TITLE_VERTICAL_CENTER": "Centre vertical",
+      "TITLE_ALIGN_BOTTOM": "Bas",
+      "TITLE_LEVEL_UP": "Avancer",
+      "TITLE_LEVEL_DOWN": "Descendre",
+      "TITLE_SEND_TO_FRONT": "Envoyer à l'avant",
+      "TITLE_SEND_TO_BOTTOM": "Envoyer à l’arrière",
+      "LEVEL_UP": "Avancer",
+      "LEVEL_DOWN": "Reculer",
+      "SEND_TO_FRONT": "Envoyer à l'avant",
+      "SEND_TO_BOTTOM": "Envoyer à l’arrière",
+      "Z_ORDER": "Position",
+      "TITLE_Z_ORDER": "Changer la position de l'élément",
+      "TITLE_CLONE_OBJECT": "Cloner l’objet",
+      "CLONE_OBJECT": "Cloner l’objet",
+      "PLACEHOLDER_SCALE": "Redimensionner",
+      "TITLE_PLACEHOLDER_SCALE": "Sélection l'élément à redimensionner",
+      "TITLE_EDIT_IMAGE": "Éditer l’image",
+      "EDIT_IMAGE": "Éditer l’image",
+      "TITLE_SELECT_IMAGE": "Sélectionner l’image",
+      "SELECT_IMAGE": "Sélectionner l’image",
+      "TITLE_RESET_PLACEHOLDER_CONTENT": "Réinitialiser le contenu",
+      "RESET_PLACEHOLDER_CONTENT": "Réinitialiser",
+      "ROTATE_PLACEHOLDER_CONTENT_LEFT": "Faire pivoter le contenu à gauche",
+      "ROTATE_PLACEHOLDER_CONTENT_RIGHT": "Faire pivoter le contenu à droite"
+    },
+    "ObjectInspector": {
+      "TEXT_PLACEHOLDER": "entrer le texte",
+      "BACKGROUND": "Arrière-plan",
+      "QR_CODE": "code QR",
+      "BARCODE": "Code à barres",
+      "COLOR_PICKER": "Couleur",
+      "IMAGE_PICKER": "Image",
+      "TITLE_ITEM_MENU": "",
+      "TITLE_BACKGROUND_MENU": "Modifier l'arrière-plan",
+      "TITLE_BACKGROUND_MENU_COLOR": "Sélectionner la couleur de l'arrière-plan",
+      "TITLE_BACKGROUND_MENU_IMAGE": "Sélectionner l’image de l'arrière-plan",
+      "TITLE_ITEM_MENU_SELECT_IMAGE": "",
+      "TITLE_ITEM_MENU_EDIT_QR_CODE": "",
+      "TITLE_ITEM_MENU_EDIT_LINEAR_BARCODE": "",
+      "LOW_IMAGE_RESOLUTION": "La résolution de l'image est trop faible pour le format d'impression!",
+      "SAFETY_LINE_VIOLATION_WARNING": "Attention! Les objets hors des lignes frontalières sont a riske de ne pas imprimez",
+      "REGION_VIOLATION_WARNING": "Veuillez redimensionner l'objet afin qu'il ne dépasse pas les limites.",
+      "MAKE_VARIABLE": "Créer une variable",
+      "REMOVE_VARIABLE": "Supprimer une variable",
+      "EMPTY_OBJECT_INSPECTOR_SIMPLE_MODE": "Ce gabarit ne comporte aucun élément personnalisable. Pour ajouter un élément, passer au mode de modification avancé.",
+      "EMPTY_OBJECT_INSPECTOR_ADVANCED_MODE": "Ce gabarit ne comporte aucun élément personnalisable. Pour ajouter un élément, utiliser les boutons ci-dessus.",
+      "EMPTY_OBJECT_INSPECTOR_SIMPLEONLY_MODE": "Ce gabarit ne comporte aucun élément personnalisable."
+    },
+    "BottomToolbar": {
+      "SWITCH_SIDE": "Changer de face",
+      "FRONT_SIDE": "Recto",
+      "BACK_SIDE": "Verso",
+      "ROTATE": "Pivoter",
+      "SAFETY_LINES": "Lignes de sécurité",
+      "GRID": "Grille",
+      "SNAP_LINES": "Cordeau traceur",
+      "TITLE_SAFETY_LINES": "Activer/désactiver les lignes de sécurité",
+      "TITLE_GRID": "Activer/désactiver la grille",
+      "TITLE_SNAP_LINES": "Activer/désactiver les cordeaux traceurs",
+      "TITLE_SWITCH_SIDE": "Changer de face",
+      "TITLE_FRONT_SIDE": "Recto",
+      "TITLE_BACK_SIDE": "Verso",
+      "TITLE_ZOOM_IN": "Zoom avant",
+      "TITLE_ZOOM_OUT": "Zoom arrière",
+      "TITLE_CURRENT_ZOOM": "Zoom actuel",
+      "TITLE_ROTATE": "Pivoter",
+      "TITLE_FIRST_SLIDE": "Aller à la première page",
+      "TITLE_PREVIOUS_THREE_SLIDES": "Faire défiler jusqu’aux 3 pages précédentes",
+      "TITLE_NEXT_THREE_SLIDES": "Faire défiler jusqu’aux 3 pages suivantes",
+      "TITLE_NEXT_SLIDE": "Aller à la page suivante",
+      "TITLE_PREVIOUS_SLIDE": "Revenir à la page précédente",
+      "TITLE_LAST_SLIDE": "Aller à la dernière page",
+      "TITLE_MARKING_MENU": "Ouvrir le menu de marquage",
+      "MARKING_MENU": "Marquage",
+      "TITLE_ORIGINAL_SIZE": "Revenir à la taille initiale",
+      "TITLE_FULL_WINDOW": "Passer au mode pleine fenêtre",
+      "TITLE_FULL_SCREEN": "Passer au mode plein écran"
+    },
+    "BaseEditor": {
+      "ITEM_DELETE_CONFIRM_MSG": "L'objet est sur le point d'être effacer. Continuer?",
+      "ITEM_REVERT_CONFIRM_MSG": "ATTENTION! Cette action ne peut pas pas être annulée!\n\nCette action supprimera toutes les modifications apportées à l'image originale. Continuer?",
+      "DOWNLOAD": "Download",
+      "SUBMIT": "Soumettre pour Imprimer",
+      "RENDERING": "Interprétation d'image en cours…",
+      "ERROR": "Erreur de serveur",
+      "PLACEHOLDER_SELECT_BUTTON_TITLE": "Sélectionner une image",
+      "PLACEHOLDER_HANDLE_BUTTON_TITLE": "poignée or curseur",
+      "PLACEHOLDER_DONE_BUTTON_TITLE": "Accompli",
+      "ITEM_DELETE_BUTTON_TITLE": "Supprimer l'item",
+      "ITEM_EDIT_BUTTON_TITLE": "Modifier l'item"
+    },
+    "ModalDialog": {
+      "CLOSE": "Fermer",
+      "INSERT": "Insérer",
+      "UPDATE_ALL": "Insérer pour tous",
+      "UPDATE": "Mettre à jour",
+      "SUBMIT": "OK",
+      "CANCEL": "Annuler"
+    },
+    "QrCodeDialog": {
+      "QR_DIALOG_TITLE": "code QR",
+      "QR_DIALOG_OPT_TYPE_PHONE": "téléphone",
+      "QR_DIALOG_OPT_TYPE_URL": "url",
+      "QR_DIALOG_OPT_TYPE_VCARD": "carte",
+      "QR_DIALOG_FIRST_NAME": "Prénom",
+      "QR_DIALOG_LAST_NAME": "Nom de famille",
+      "QR_DIALOG_COMPANY": "Entreprise",
+      "QR_DIALOG_POSITION": "Poste",
+      "QR_DIALOG_EMAIL": "Courriel",
+      "QR_DIALOG_URL": "Url",
+      "QR_DIALOG_PHONE": "Téléphone",
+      "QR_DIALOG_MOBILE_PHONE": "Téléphone mobile"
+    },
+    "RichTextDialog": {
+      "TITLE": "Texte enrichi",
+      "TITLE_RICH_TEXT_DIALOG_ZOOM": "Modifier le zoom de la fenêtre de modification",
+      "COLOR_DIALOG_TITLE": "Couleur du texte",
+      "EDITOR": {
+        "wordcount": {
+          "WordCount": "Mots :",
+          "CharCount": "Caractères :",
+          "CharCountWithHTML": "Caractères (avec HTML) :",
+          "Paragraphs": "Paragraphes :",
+          "pasteWarning": "Le contenu ne peut pas être collé parce qu’il dépasse la limite permise",
+          "Selected": "Sélectionné : ",
+          "title": "Statistiques"
+        },
+        "undo": {
+          "redo": "Rétablir",
+          "undo": "Annuler"
+        },
+        "toolbar": {
+          "toolbarGroups": {
+            "clipboard": "Presse-papier/Annuler",
+            "editing": "Modification",
+            "basicstyles": "Styles de base",
+            "paragraph": "Paragraphe",
+            "insert": "Insérer",
+            "styles": "Styles",
+            "colors": "Couleurs"
+          },
+          "toolbars": "Barres d’outils de l’éditeur"
+        },
+        "specialchar": {
+          "options": "Options des caractères spéciaux",
+          "title": "Sélectionner un caractère spécial",
+          "toolbar": "Insérer un caractère spécial"
+        },
+        "selectall": {
+          "toolbar": "Sélectionner tout"
+        },
+        "removeformat": {
+          "toolbar": "Supprimer le format"
+        },
+        "pastetext": {
+          "button": "Coller en tant que texte",
+          "title": "Coller en tant que texte"
+        },
+        "pastefromword": {
+          "confirmCleanup": "Le texte que vous souhaitez coller semble provenir de Word. Voulez-vous le nettoyer avant de le coller?",
+          "error": "Le texte collé n’a pas pu être nettoyé en raison d’une erreur interne",
+          "title": "Coller de Word",
+          "toolbar": "Coller de Word"
+        },
+        "notification": {
+          "closed": "Notifications fermées."
+        },
+        "liststyle": {
+          "bulletedTitle": "Propriétés des listes à puces",
+          "circle": "Cercle",
+          "decimal": "Décimal (1,2,3,etc.)",
+          "disc": "Disque",
+          "lowerAlpha": "Lettre minuscule (a,b,c,d,e,etc.)",
+          "lowerGreek": "Nombre grec minuscule (alpha,beta,gamma,etc.)",
+          "lowerRoman": "Chiffre romain minuscule (i,ii,iii,iv,v,etc.)",
+          "none": "Aucune",
+          "notset": "<non établie>",
+          "numberedTitle": "Propriétés des listes numérotées",
+          "square": "Square",
+          "start": "Commencer",
+          "type": "Type",
+          "upperAlpha": "Lettre majuscule (A,B,C,D,E,etc.)",
+          "upperRoman": "Chiffre romain majuscule (I,II,III,IV,V,etc.)",
+          "validateStartNumber": "Le premier numéro de la liste doit être un chiffre entier."
+        },
+        "list": {
+          "bulletedlist": "Insérer/Supprimer la liste à puces",
+          "numberedlist": "Insérer/Supprimer la liste numérotée"
+        },
+        "justify": {
+          "block": "Justifier",
+          "center": "Centrer",
+          "left": "Aligner à gauche",
+          "right": "Aligner à droite"
+        },
+        "indent": {
+          "indent": "Augmenter le retrait",
+          "outdent": "Diminuer le retrait"
+        },
+        "font": {
+          "fontSize": {
+            "label": "Taille",
+            "voiceLabel": "Taille de la police",
+            "panelTitle": "Taille de la police"
+          },
+          "label": "Police",
+          "panelTitle": "Nom de la police",
+          "voiceLabel": "Police"
+        },
+        "find": {
+          "find": "Rechercher",
+          "findOptions": "Options de recherche",
+          "findWhat": "Quoi rechercher :",
+          "matchCase": "Respecter la casse",
+          "matchCyclic": "Respecter une partie du mot",
+          "matchWord": "Rechercher le mot entier",
+          "notFoundMsg": "Le texte indiqué n’a pas été trouvé.",
+          "replace": "Remplacer",
+          "replaceAll": "Remplacer tout",
+          "replaceSuccessMsg": "%1 occurrence(s) remplacée(s)",
+          "replaceWith": "Remplacer par :",
+          "title": "Rechercher et remplacer"
+        },
+        "clipboard": {
+          "copy": "Copier",
+          "copyError": "Les paramètres de sécurité de votre navigateur n’autorisent pas l’éditeur à copier automatiquement. Veuillez donc utiliser les raccourcis-clavier (Ctrl/Cmd+C).",
+          "cut": "Couper",
+          "cutError": "Les paramètres de sécurité de votre navigateur n’autorisent pas l’éditeur à couper automatiquement. Veuillez donc utiliser les raccourcis-clavier (Ctrl/Cmd+X).",
+          "paste": "Coller",
+          "pasteArea": "Zone de collage",
+          "pasteMsg": "Veuillez coller votre contenu dans la boîte suivante au moyen du clavier (<strong>Ctrl/Cmd+V</strong>), puis cliquez sur OK.",
+          "securityMsg": "En raison des paramètres de sécurité de votre navigateur, l’éditeur ne peut pas accéder directement à votre presse-papier. Vous devez de nouveau coller votre contenu dans cette fenêtre.",
+          "title": "Coller"
+        },
+        "cctracking": {
+          "label": "Approche de groupe",
+          "voiceLabel": "Approche de groupe",
+          "panelTitle": "Approche de groupe"
+        },
+        "cctextindent": {
+          "label": "Retrait de la première ligne",
+          "voiceLabel": "Retrait de la première ligne",
+          "panelTitle": "Retrait de la première ligne"
+        },
+        "ccpadding": {
+          "top": {
+            "label": "Avant le paragraphe",
+            "voiceLabel": "Espace avant le paragraphe",
+            "panelTitle": "Espace avant le paragraphe"
+          },
+          "bottom": {
+            "label": "Après le paragraphe",
+            "voiceLabel": "Espace après le paragraphe",
+            "panelTitle": "Espace après le paragraphe"
+          },
+          "left": {
+            "label": "Retrait à gauche",
+            "voiceLabel": "Retrait à gauche",
+            "panelTitle": "Retrait à gauche"
+          },
+          "right": {
+            "label": "Retrait à droite",
+            "voiceLabel": "Retrait à droite",
+            "panelTitle": "Retrait à droite"
+          }
+        },
+        "ccleading": {
+          "label": "Interligne",
+          "voiceLabel": "Interligne",
+          "panelTitle": "Interligne"
+        },
+        "ccfont": {
+          "fontSize": {
+            "label": "Taille",
+            "voiceLabel": "Taille de la police",
+            "panelTitle": "Taille de la police"
+          },
+          "fontStyle": {
+            "label": "Style",
+            "voiceLabel": "Style de police",
+            "panelTitle": "Style de police"
+          },
+          "label": "Police",
+          "panelTitle": "Nom de la police",
+          "voiceLabel": "Police"
+        },
+        "cc_textcolor_button": {
+          "textColorTitle": "Couleur du texte"
+        },
+        "button": {
+          "selectedLabel": "%1 (sélectionnée)"
+        },
+        "basicstyles": {
+          "bold": "Gras",
+          "italic": "Italique",
+          "strike": "Barré",
+          "subscript": "Indice",
+          "superscript": "Exposant",
+          "underline": "Souligné"
+        },
+        "editor": "Éditeur de texte enrichi",
+        "common": {
+          "ok": "OK",
+          "cancel": "Annuler",
+          "close": "Fermer",
+          "resize": "Ajuster la taille",
+          "generalTab": "Entreprise générale",
+          "align": "Alignement",
+          "alignLeft": "Gauche",
+          "alignRight": "Droite",
+          "alignCenter": "Centrer",
+          "alignJustify": "Justifier"
+        },
+        "contextmenu": {
+          "options": "Options du menu contextuel"
+        }
+      }
+    },
+    "FinishButton": {
+      "DOWNLOAD": "Télécharger",
+      "SUBMIT": "Soumettre pour impression",
+      "RENDERING": "Création du rendu en cours",
+      "ERROR": "Erreur sur le serveur"
+    },
+    "ImageEditorDialog": {
+      "TITLE": "Éditeur d’images",
+      "FILTER_BRIGHTNESS": "Luminosité",
+      "FILTER_CONTRAST": "Contraste",
+      "FILTER_HUE": "Tonalité",
+      "FILTER_SATURATION": "Saturation",
+      "FILTER_EFFECT": "Effet",
+      "FILTER_GRAYSCALE": "Échelle des gris",
+      "FILTER_SEPIA": "Sépia",
+      "FILTER_NONE": "Aucun",
+      "BUTTON_OK": "OK",
+      "BUTTON_APPLY": "Appliquer",
+      "BUTTON_CANCEL": "Annuler",
+      "BUTTON_ADJUST": "Ajuster",
+      "BUTTON_CROP": "Rogner",
+      "BUTTON_REVERT": "Revenir à l’original",
+      "BUTTON_REVERT_TOOLTIP": "Revenir à l’original",
+      "BUTTON_SAVE": "Enregistrer",
+      "BUTTON_BACKGROUND_ERASE": "Supprimer l’arrière-plan",
+      "BUTTON_UNDO": "Annuler",
+      "BUTTON_REDO": "Rétablir",
+      "BUTTON_GOT_IT": "J’ai compris",
+      "FILTER_ERASE_TOLERANCE": "Tolérance",
+      "FILTER_ERASE_CONTIGUOUS": "Adjacent",
+      "BACKGROUND_ERASE_TIP": "Cliquez sur les zones d’image que vous souhaitez mettre en transparence. Ajustez la tolérance si vous n’obtenez pas l’effet recherché. Utilisez la fonction « Arrière-plan » pour prévisualiser votre logo sur différentes couleurs et pour faciliter le choix du niveau de tolérance adéquat.",
+      "CHOOSE_BACKGROUND": "Placez votre curseur sur une couleur pour PRÉVISUALISER votre logo sur cette couleur. Cliquez sur une couleur pour verrouiller cette couleur pendant vos modifications.<br>CELA N’EST OFFERT QU’À DES FINS DE PRÉVISUALISATION!",
+      "PREVIEW_BACKGROUND_CHECKERBOARD": "Motif en damier",
+      "PREVIEW_BACKGROUND_WHITE": "Blanc",
+      "PREVIEW_BACKGROUND_BLACK": "Noir",
+      "PREVIEW_BACKGROUND_MAGENTA": "Magenta",
+      "PREVIEW_BACKGROUND_LIME": "Lime",
+      "PREVIEW_BACKGROUND_CONTRAST": "Contraste",
+      "CHOOSE_BACKGROUND_TIP": "Sélectionnez une couleur pour prévisualiser votre image sur cette dernière.",
+      "TOLERANCE_TIP": "Ajustez le niveau de différenciation entre les couleurs supprimées et la couleur choisie. 0 % supprimera seulement la couleur exacte que vous avez choisie, 100 % supprimera une vaste gamme de couleurs à partir de la couleur choisie.",
+      "CONTIGUOUS_TIP": "Si vous cochez cette case, vous supprimerez la couleur choisie dans la section où elle se trouve seulement. Vous devrez supprimer manuellement cette couleur des autres zones fermées. Si vous ne cochez pas cette case, la couleur choisie sera supprimée de l’image entière!"
+    },
+    "ColorPicker": {
+      "COLOR_CHOOSE": "OK",
+      "COLOR_DEFAULT_CATEGORY_NAME": "Défaut",
+      "COLOR_RECENT_CATEGORY_NAME": "Récent",
+      "ADD_RECENT_COLOR_TITLE": "Ajouter à la palette"
+    },
+    "ViolationService": {
+      "MORE_THAN_ONE_WARNING": "L'élément a plus d'un avertissement.",
+      "BAD_IMAGE_RESOLUTION": "La résolution de l'image ([DPI_VALUE_PLACEHOLDER] dpi) est trop faible pour le format d'impression!",
+      "WARNING_IMAGE_RESOLUTION": "La résolution de l'image([DPI_VALUE_PLACEHOLDER] dpi) peut entraîner une qualité d'impression inférieure.",
+      "SAFETY_LINE_VIOLATION_WARNING": "Attention! Les objets hors des lignes frontalières sont a riske de ne pas imprimez",
+      "REGION_VIOLATION_WARNING": "Veuillez redimensionner l'objet afin qu'il ne dépasse pas les limites.",
+      "TEXT_CROP_WARNING": "Le texte est trop long pour cette case. Certaines chaînes de texte sont tronquées. Essayez de le raccourcir ou utilisez une police plus petite."
+    },
+    "OiToggle": {
+      "TEXT": "Couches",
+      "TITLE": "Toggle object inspector"
+    },
+    "DepositPhotos": {
+      "BEST_MATCH": "Les + pertinents",
+      "BEST_SALES": "Meilleures Ventes",
+      "NEWEST": "Récent",
+      "UNDISCOVERED": "À découvrir",
+      "PAID_IMAGE_MESSAGE": "This image is paid, the price will be added to your order automatically.",
+      "DONT_SHOW_MESSAGE": "Don’t show this again",
+      "COLOR_TRANSLATION": "Couleur",
+      "SIZE_TRANSLATION": "Taille",
+      "ID_TRANSLATION": "ID",
+      "COPYRIGHT_TRANSLATION": "Droits d'auteur",
+      "SORT_BY_CAPTION": "Trier par"
+    },
+    "RemoteSource": {
+      "BEST_MATCH": "Les + pertinents",
+      "BEST_SALES": "Meilleures Ventes",
+      "NEWEST": "Récent",
+      "UNDISCOVERED": "À découvrir",
+      "PAID_IMAGE_MESSAGE": "This image is paid, the price will be added to your order automatically.",
+      "DONT_SHOW_MESSAGE": "Don’t show this again",
+      "COLOR_TRANSLATION": "Couleur",
+      "SIZE_TRANSLATION": "Taille",
+      "ID_TRANSLATION": "ID",
+      "COPYRIGHT_TRANSLATION": "Droits d'auteur",
+      "SORT_BY_CAPTION": "Trier par"
+    },
+    "AssetManager": {
+      "SELECT_IMAGE_HEADER": "Sélectionnez une image",
+      "SELECT_CATEGORY_HEADER": "Choisir une catégorie",
+      "CLOSE_BUTTON_CAPTION": "Fermer",
+      "EMPTY_CATEGORY_HEADER": "Cette catégorie est vide.",
+      "EMPTY_CATEGORY_MESSAGE": "Oops! On dirait qu’il n’ya pas de fichiers dans cette catégorie.",
+      "NO_RESULTS_HEADER": "Aucun résultat trouvé.",
+      "NO_RESULTS_MESSAGE": "Veuillez vérifier l'orthographe ou essayer différents mots clés.",
+      "NO_RESULTS_YET_HEADER": "No results yet.",
+      "NO_RESULTS_YET_MESSAGE": "Searching results will be shown here.",
+      "EDIT_BUTTTON_CAPTION": "Modifier",
+      "DELETE_BUTTTON_CAPTION": "Supprimer",
+      "INSERT_BUTTTON_CAPTION": "Insérer",
+      "INSERT_TO_ALL_BUTTON_CAPTION": "Insérer à tous",
+      "CATEGORIES_HEADER": "Categories",
+      "ALL_CATEGORY_NAME": "Tous",
+      "TODAY_CATEGORY_NAME": "Aujourd’hui",
+      "INVALID_EXTENSION": "has an invalid extension. Valid extension(s):",
+      "TOO_MANY_FILES": "Vous avez sélectionné des fichiers {{selectedFilesLength}}. Seuls les premiers fichiers {{maxFiles}} seront programmés pour le téléchargement.",
+      "RemoteSource": {},
+      "PrivateSource": {
+        "PDF_DELETE_MESSAGE": "Deleting this page will delete the following pages"
+      },
+      "INSERT_ACTION": "Insérer",
+      "INSERT_TO_ALL_ACTION": "Insérer à tous",
+      "EDIT_ACTION": "Modifier",
+      "DELETE_ACTION": "Supprimer"
+    }
+  },
+  "ru": {
+    "TextPopup": {
+      "TEXT_PLACEHOLDER": "введите текст",
+      "TEXT_POPUP_HEADER": "Текст"
+    },
+    "BarcodeDialog": {
+      "BARCODE_DIALOG_TITLE": "Штрихкод",
+      "BARCODE_DIALOG_LABEL_TYPE": "Тип штрихкода",
+      "BARCODE_DIALOG_LABEL_DATA": "Данные штрихкода",
+      "BARCODE_DIALOG_OPT_EAN13": "EAN-13",
+      "BARCODE_DIALOG_OPT_EAN8": "EAN-8",
+      "BARCODE_DIALOG_OPT_UPC_A": "UPC-A",
+      "BARCODE_DIALOG_OPT_UPC_E": "UPC-E",
+      "BARCODE_DIALOG_OPT_CODE_128": "Code 128",
+      "BARCODE_DIALOG_OPT_IMB": "Intelligent Mail barcode",
+      "BARCODE_DIALOG_TEXT": "Пожалуйста, введите {{count}} цифр",
+      "BARCODE_DIALOG_TEXT_UPC_E": "Пожалуйста, введите {{count}} цифр. Первая должна быть равна 0 или 1",
+      "BARCODE_DIALOG_TEXT_CODE_128": "Максимальная длина {{count}} символов, поддерживаются только символы ASCII",
+      "BARCODE_DIALOG_TEXT_DATA_MATRIX": "Максимальная длина {{count}} символов, поддерживаются только символы ASCII",
+      "BARCODE_DIALOG_TEXT_IMB": "Пожалуйста, введите 20, 25, 29 или 31 цифру (1ая цифра от 0 до 9 и вторая от 0 до 4) или введите строку из 65 символов, состоящую из символов F, D, A или T."
+    },
+    "ItemMenu": {
+      "SELECT_IMAGE": "Выберите изображение",
+      "REPLACE_GROUP_CONTENT": "Заменить содержимое",
+      "EDIT_QR_CODE": "Заменить QR-код",
+      "EDIT_LINEAR_BARCODE": "Заменить штрихкод",
+      "EDIT_DATA_MATRIX_BARCODE": "Заменить штрихкод",
+      "CHANGE_RICH_TEXT": "Изменить текст",
+      "DELETE_OBJECT": "Удалить объект",
+      "ALIGN": "Выравнивание",
+      "ALIGN_LEFT": "По левому краю",
+      "HORIZONTAL_CENTER": "По центру по горизонтали",
+      "ALIGN_RIGHT": "По правому краю",
+      "ALIGN_TOP": "По правому краю",
+      "VERTICAL_CENTER": "По центру по вертикали",
+      "ALIGN_BOTTOM": "По нижнему краю",
+      "CLONE_OBJECT": "Клонировать объект",
+      "GROUP": "Сгруппировать",
+      "UNGROUP": "Разгруппировать",
+      "GROUP_ALIGN": "Выравнивание группы объектов",
+      "SEND_TO_FRONT": "Поместить на передний план",
+      "LEVEL_UP": "Переместить на уровень выше",
+      "LEVEL_DOWN": "Переместить на уровень ниже",
+      "SEND_TO_BOTTOM": "Поместить на задний план",
+      "EDIT_IMAGE": "Редактировать изображение",
+      "MAKE_VARIABLE": "Сделать выделение",
+      "REMOVE_VARIABLE": "Убрать выделение",
+      "RENAME_ITEM": "Переименовать"
+    },
+    "Toolbox": {
+      "LINE": "Линия",
+      "TEXT": "Текст",
+      "IMAGE": "Картинка",
+      "LAYOUT": "Макет",
+      "SHAPE": "Фигура",
+      "RECTANGLE": "Прямоугольник",
+      "ELLIPSE": "Эллипс",
+      "QR_CODE": "QR-код",
+      "LINEAR_BARCODE": "Штрихкод",
+      "DATA_MATRIX_BARCODE": "Data matrix штрихкод",
+      "RICHTEXT": "Стилизованный текст",
+      "BOUNDEDTEXT": "Текст с границами",
+      "ADVANCED_BUTTON": "Перейти в расширенный режим",
+      "TITLE_ADD_MENU": "Добавить объект на канвас",
+      "TITLE_ADD_TEXT": "Добавить текст на канвас",
+      "TITLE_ADD_IMAGE": "Добавить изображение на канвас",
+      "TITLE_ADD_LAYOUT": "Сменить макет",
+      "TITLE_ADD_LINE": "Добавить линию на канвас",
+      "TITLE_ADD_RECTANGLE": "Добавить прямоугольник на канвас",
+      "TITLE_ADD_ELLIPSE": "Добавить эллипс на канвас",
+      "TITLE_ADD_QR_CODE": "Добавить QR-код на канвас",
+      "TITLE_ADD_LINEAR_BARCODE": "Добавить штрихкод на канвас",
+      "TITLE_ADD_DATAMATRIX_BARCODE": "Добавить data matrix штрихкод на канвас",
+      "TITLE_ADD_RICHTEXT": "Добавить форматированный текст",
+      "TITLE_ADD_SHAPE": "Добавить фигуру",
+      "TITLE_BOUNDEDTEXT": "Добавить текст с границами",
+      "TITLE_ADVANCED": "Перейти в расширенный режим редактирования",
+      "TITLE_ADD_CUSTOM_TEXT": "Добавить персонализированный текст"
+    },
+    "TopToolbar": {
+      "LOAD_INFO_BUTTON": "Загрузить мои данные",
+      "TITLE_LOAD_INFO": "Загрузить мои данные",
+      "BORDER_WIDTH": "Граница",
+      "TITLE_BORDER_WIDTH": "Ширина рамки",
+      "TITLE_BORDER_COLOR": "Цвет рамки",
+      "TITLE_FILL_COLOR": "Цвет заливки",
+      "LINE_WIDTH": "Ширина",
+      "TITLE_LINE_WIDTH": "Ширина линии",
+      "TITLE_LINE_COLOR": "Цвет линии",
+      "TITLE_FONT_FAMILY_LIST": "Выбрать шрифт",
+      "TITLE_FONT_STYLE_LIST": "Выбрать стиль",
+      "TITLE_FONT_SIZE": "Размер шрифта",
+      "TITLE_OPACITY": "Выбрать уровень прозрачности",
+      "OPACITY": "Прозрачность",
+      "TITLE_BOLD": "Жирный",
+      "TITLE_ITALIC": "Курсив",
+      "TITLE_FAUX_BOLD": "Искусственный жирный",
+      "TITLE_FAUX_ITALIC": "Искусственный курсив",
+      "TITLE_UNDERLINE": "Подчеркнутый",
+      "TITLE_FONT_COLOR": "Выбрать цвет текста",
+      "TITLE_TEXT_ALIGN_LEFT": "Выровнять по левому краю",
+      "TITLE_TEXT_ALIGN_CENTER": "Выровнять по центру",
+      "TITLE_TEXT_ALIGN_RIGHT": "Выровнять по правому краю",
+      "TITLE_TEXT_ALIGN_JUSTIFY": "Выровнять по ширине",
+      "TITLE_TEXT_ALIGN_LASTLEFT": "Выровнять последнюю строку по левому краю",
+      "TITLE_TEXT_ALIGN_LASTRIGHT": "Выровнять последнюю строку по центру",
+      "TITLE_TEXT_ALIGN_LASTCENTER": "Выровнять последнюю строку по правому краю",
+      "TITLE_TEXT_INDENT_LEFT": "Отступ от левого края",
+      "TITLE_TEXT_INDENT_RIGHT": "Отступ от правого края",
+      "TITLE_FIRST_LINE_INDENT": "Отступ первой строки",
+      "TITLE_SPACE_BEFORE_PARAGRAPH": "Добавить отступ перед абзацем",
+      "TITLE_SPACE_AFTER_PARAGRAPH": "Добавить отступ после абзаца",
+      "TITLE_TEXT_SHADOW": "Тень",
+      "TITLE_TEXT_STROKE": "Обводка",
+      "LABEL_SHADOW_ANGLE": "Угол",
+      "LABEL_SHADOW_DISTANCE": "Расстояние",
+      "LABEL_SHADOW_SIZE": "Размер",
+      "LABEL_SHADOW_COLOR": "Цвет",
+      "LABEL_SHADOW_ENABLED": "Рисовать тень",
+      "LABEL_STROKE_WIDTH": "Ширина",
+      "LABEL_STROKE_COLOR": "Цвет",
+      "LABEL_STROKE_ENABLED": "Рисовать обводку",
+      "UNITS_PT": "пт",
+      "UNITS_PX": "пкс",
+      "TITLE_UNDO": "Отменить",
+      "TITLE_REDO": "Повторить",
+      "TITLE_REVERT": "Отменить все изменения",
+      "LABEL_DELETE": "Удалить",
+      "TITLE_DELETE": "Удалить выделенные элементы",
+      "LABEL_COLUMNS": "Колонки:",
+      "TITLE_COLUMNS": "Количество колонок",
+      "TITLE_PAGING_RIGHT": "Другие настройки",
+      "TITLE_PAGING_LEFT": "Назад",
+      "TEXT_PAGING_RIGHT": "Дальше",
+      "TITLE_LEADING": "Выбрать интерлиньяж",
+      "TITLE_TRACKING": "Выбрать трекинг",
+      "TITLE_TEXT_VERTICAL_ALIGN_TOP": "Выровнять по верхней границе",
+      "TITLE_TEXT_VERTICAL_ALIGN_CENTER": "Выровнять по центру",
+      "TITLE_TEXT_VERTICAL_ALIGN_BOTTOM": "Выровнять по нижней границе",
+      "ALIGN": "Выравнивание",
+      "TITLE_ALIGN_LEFT": "По левому краю",
+      "TITLE_HORIZONTAL_CENTER": "По центру по горизонтали",
+      "TITLE_ALIGN_RIGHT": "По правому краю",
+      "TITLE_ALIGN_TOP": "По правому краю",
+      "TITLE_VERTICAL_CENTER": "По центру по вертикали",
+      "TITLE_ALIGN_BOTTOM": "По нижнему краю",
+      "TITLE_LEVEL_UP": "Переместить на уровень выше",
+      "TITLE_LEVEL_DOWN": "Переместить на уровень ниже",
+      "TITLE_SEND_TO_FRONT": "Переместить на самый верх",
+      "TITLE_SEND_TO_BOTTOM": "Переместить на самый низ",
+      "TITLE_LEVEL_CHANGE": "Поменять уровень",
+      "LEVEL_UP": "Переместить на уровень выше",
+      "LEVEL_DOWN": "Переместить на уровень ниже",
+      "SEND_TO_FRONT": "Переместить на самый верх",
+      "SEND_TO_BOTTOM": "Переместить на самый низ",
+      "TITLE_CLONE_OBJECT": "Клонировать объект",
+      "CLONE_OBJECT": "Клонировать",
+      "TITLE_GROUP": "Сгруппировать объекты",
+      "GROUP": "Сгруппировать",
+      "TITLE_UNGROUP": "Разгруппировать",
+      "UNGROUP": "Разгруппировать",
+      "PLACEHOLDER_SCALE": "Масштаб",
+      "TITLE_PLACEHOLDER_SCALE": "Выбрать масштаб содержимого",
+      "TITLE_EDIT_IMAGE": "Редактировать изображение",
+      "EDIT_IMAGE": "Редактировать",
+      "TITLE_SELECT_IMAGE": "Выбрать изображение",
+      "SELECT_IMAGE": "Изменить",
+      "TITLE_REPLACE_GROUP_CONTENT": "Заменить содержимое",
+      "REPLACE_GROUP_CONTENT": "Заменить",
+      "TITLE_RESET_PLACEHOLDER_CONTENT": "Сбросить содержимое",
+      "RESET_PLACEHOLDER_CONTENT": "Сбросить",
+      "ROTATE_PLACEHOLDER_CONTENT_LEFT": "Повернуть содержимое влево",
+      "ROTATE_PLACEHOLDER_CONTENT_RIGHT": "Повернуть содержимое вправо",
+      "QR_CODE_TYPE_DROPDOWN_VALUE": "QR Код",
+      "EAN_8_TYPE_DROPDOWN_VALUE": "Европейский номер Товара 8",
+      "EAN_13_TYPE_DROPDOWN_VALUE": "Европейский номер Товара 13",
+      "UPC_A_TYPE_DROPDOWN_VALUE": "Универсальный код Товара A",
+      "UPC_E_TYPE_DROPDOWN_VALUE": "Универсальный код Товара E",
+      "CODE_128_TYPE_DROPDOWN_VALUE": "Код 128",
+      "DATA_MATRIX_DROPDOWN_VALUE": "Data matrix",
+      "IMB_DROPDOWN_VALUE": "Intelligent Mail barcode",
+      "CHANGE_BARCODE_VALUE_TITLE": "Изменить тип баркода",
+      "TITLE_BARCODE_COLOR": "Изменить цвет баркода",
+      "EDIT_BARCODE": "Редактировать баркод",
+      "TITLE_EDIT_BARCODE": "Редактировать баркод"
+    },
+    "ObjectInspector": {
+      "TEXT_PLACEHOLDER": "введите текст",
+      "BACKGROUND": "Фон",
+      "QR_CODE": "QR-код",
+      "BARCODE": "Штрихкод",
+      "COLOR_PICKER": "Цветовая палитра",
+      "IMAGE_PICKER": "Изображение",
+      "TITLE_ITEM_MENU": "",
+      "TITLE_BACKGROUND_MENU": "",
+      "TITLE_BACKGROUND_MENU_COLOR": "Выбрать цвет фона",
+      "TITLE_BACKGROUND_MENU_IMAGE": "Выбрать фоновое изображение",
+      "TITLE_ITEM_MENU_SELECT_IMAGE": "",
+      "TITLE_ITEM_MENU_EDIT_QR_CODE": "",
+      "TITLE_ITEM_MENU_EDIT_BARCODE": "",
+      "MAKE_VARIABLE": "Сделать выделение",
+      "REMOVE_VARIABLE": "Убрать выделение",
+      "EMPTY_OBJECT_INSPECTOR_SIMPLE_MODE": "Этот шаблон не содержит редактируемые объекты. Если вы хотите добавить новые объекты, то переключитесь в расширенный режим редактирования",
+      "EMPTY_OBJECT_INSPECTOR_ADVANCED_MODE": "Этот шаблон не содержит редактируемые объекты. Если вы хотите добавить новые объекты, то используйте панель инструментов.",
+      "EMPTY_OBJECT_INSPECTOR_SIMPLEONLY_MODE": "Этот шаблон не содержит редактируемые объекты.",
+      "MAIN_CONTAINER_NAME": "Основа",
+      "SPOT_COLOR_CONTAINER": "Спот цвет"
+    },
+    "BottomToolbar": {
+      "SWITCH_SIDE": "Сменить сторону",
+      "FRONT_SIDE": "Передняя",
+      "BACK_SIDE": "Задняя",
+      "ROTATE": "Повернуть",
+      "SAFETY_LINES": "Линии безопасности",
+      "GRID": "Сетка",
+      "PREVIEW_MODE": "Режим предварительного просмотра",
+      "SNAP_LINES": "Привязка",
+      "SNAP_LINES_ITEMS": "Привязка к элементам",
+      "SNAP_LINES_SAFETY_LINES": "Привязка к линиям безопасности",
+      "SNAP_LINES_PRINT_AREA": "Привязка к странице",
+      "TITLE_SAFETY_LINES": "Показать/скрыть линии безопасности",
+      "TITLE_GRID": "Показать/скрыть сетку",
+      "TITLE_PREVIEW_MODE": "Показать/скрыть режим предварительного просмотра",
+      "TITLE_SNAP_LINES": "Включить/выключить привязку",
+      "TITLE_SNAP_LINES_ITEMS": "Включить/выключить привязку к элементам",
+      "TITLE_SNAP_LINES_SAFETY_LINES": "Включить/выключить привязку к линиям безопасности",
+      "TITLE_SNAP_LINES_PRINT_AREA": "Включить/выключить привязку к странице",
+      "TITLE_SWITCH_SIDE": "Сменить сторону",
+      "TITLE_FRONT_SIDE": "Показать переднюю сторону",
+      "TITLE_BACK_SIDE": "Показать заднюю сторону",
+      "TITLE_ZOOM_IN": "Увеличить",
+      "TITLE_ZOOM_OUT": "Уменьшить",
+      "TITLE_CURRENT_ZOOM": "Текущий масштаб",
+      "TITLE_ROTATE": "Повернуть",
+      "TITLE_NEXT_SLIDE": "Перейти на следующую страницу",
+      "TITLE_PREVIOUS_SLIDE": "Перейти на предыдущую страницу",
+      "TITLE_FIRST_SLIDE": "Перейти на первую страницу",
+      "TITLE_PREVIOUS_THREE_SLIDES": "Перейти к предыдущим 3 страницам",
+      "TITLE_NEXT_THREE_SLIDES": "Перейти к следующим 3 страницам",
+      "TITLE_LAST_SLIDE": "Перейти на последнюю страницу",
+      "TITLE_MARKING_MENU": "Открыть меню разметки",
+      "MARKING_MENU": "Разметка",
+      "TITLE_ORIGINAL_SIZE": "Вернуться к исходному размеру",
+      "TITLE_FULL_WINDOW": "Перейти в полноэкранный режим",
+      "TITLE_FULL_SCREEN": "Перейти в полноэкранный режим"
+    },
+    "BaseEditor": {
+      "ITEM_DELETE_CONFIRM_MSG": "Объект будет удален, продолжить?",
+      "ITEM_REVERT_CONFIRM_MSG": "Все изменения будут утерены, продолжить?",
+      "DOWNLOAD": "Скачать",
+      "SUBMIT": "Отправить на печать",
+      "RENDERING": "Отображается...",
+      "ERROR": "Ошибка сервера",
+      "PLACEHOLDER_SELECT_BUTTON_TITLE": "Выбрать изображение",
+      "BARCODE_EDIT_BUTTON_TITLE": "Изменить баркод",
+      "GROUP_CONTENT_REPLACE": "Заменить содержимое",
+      "PLACEHOLDER_HANDLE_BUTTON_TITLE": "Переместить",
+      "PLACEHOLDER_DONE_BUTTON_TITLE": "Готово",
+      "ITEM_DELETE_BUTTON_TITLE": "Удалить",
+      "ITEM_EDIT_BUTTON_TITLE": "Редактировать"
+    },
+    "ModalDialog": {
+      "CLOSE": "Закрыть",
+      "INSERT": "Вставить",
+      "UPDATE_ALL": "Применить ко всем",
+      "UPDATE": "Обновить",
+      "PROCESSING": "Загрузка...",
+      "SUBMIT": "OK",
+      "CANCEL": "Отменить",
+      "ADD": "Добавить",
+      "RENAME": "Переименовать",
+      "ADD_OBJECT_TITLE": "Добавить новый элемент",
+      "RENAME_OBJECT_TITLE": "Переименовать элемент",
+      "ATTENTION_TITLE": "Внимание",
+      "EMPTY_OBJECT_ERROR_TEXT": "Значение не может быть пустым"
+    },
+    "QrCodeDialog": {
+      "QR_DIALOG_TITLE": "QR-код",
+      "QR_DIALOG_OPT_TYPE_PHONE": "телефон",
+      "QR_DIALOG_OPT_TYPE_URL": "ссылка",
+      "QR_DIALOG_OPT_TYPE_VCARD": "визитная карточка",
+      "QR_DIALOG_FIRST_NAME": "Имя",
+      "QR_DIALOG_LAST_NAME": "Фамилия",
+      "QR_DIALOG_COMPANY": "Организация",
+      "QR_DIALOG_POSITION": "Должность",
+      "QR_DIALOG_EMAIL": "Email",
+      "QR_DIALOG_URL": "Cайт",
+      "QR_DIALOG_PHONE": "Телефон",
+      "QR_DIALOG_MOBILE_PHONE": "Мобильный телефон"
+    },
+    "RichTextDialog": {
+      "TITLE": "Форматированный текст",
+      "TITLE_RICH_TEXT_DIALOG_ZOOM": "Изменить масштаб окна редактирования",
+      "COLOR_DIALOG_TITLE": "Цвет текста",
+      "EDITOR": {
+        "wordcount": {
+          "WordCount": "Слов:",
+          "CharCount": "Символов:",
+          "CharCountWithHTML": " (включая HTML разметку):",
+          "Paragraphs": "Параграфов:",
+          "pasteWarning": "Контент не может быть вставлен, т.к. привышает допустимый лимит",
+          "Selected": "Выделено: ",
+          "title": "Статистика"
+        },
+        "undo": {
+          "redo": "Повторить",
+          "undo": "Отменить"
+        },
+        "toolbar": {
+          "toolbarGroups": {
+            "clipboard": "Буфер обмена / Отмена действий",
+            "editing": "Корректировка",
+            "basicstyles": "Простые стили",
+            "paragraph": "Абзац",
+            "insert": "Вставка",
+            "styles": "Стили",
+            "colors": "Цвета"
+          },
+          "toolbars": "Панели инструментов редактора"
+        },
+        "specialchar": {
+          "options": "Выбор специального символа",
+          "title": "Выберите специальный символ",
+          "toolbar": "Вставить специальный символ"
+        },
+        "selectall": {
+          "toolbar": "Выделить все"
+        },
+        "removeformat": {
+          "toolbar": "Убрать форматирование"
+        },
+        "pastetext": {
+          "button": "Вставить только текст",
+          "title": "Вставить только текст"
+        },
+        "pastefromword": {
+          "confirmCleanup": "Текст, который вы желаете вставить, по всей видимости, был скопирован из Word. Следует ли очистить его перед вставкой?",
+          "error": "Невозможно очистить вставленные данные из-за внутренней ошибки",
+          "title": "Вставить из Word",
+          "toolbar": "Вставить из Word"
+        },
+        "notification": {
+          "closed": "Уведомление закрыто"
+        },
+        "liststyle": {
+          "bulletedTitle": "Свойства маркированного списка",
+          "circle": "Круг",
+          "decimal": "Десятичные (1, 2, 3, и т.д.)",
+          "disc": "Окружность",
+          "lowerAlpha": "Строчные латинские (a, b, c, d, e, и т.д.)",
+          "lowerGreek": "Строчные греческие (альфа, бета, гамма, и т.д.)",
+          "lowerRoman": "Строчные римские (i, ii, iii, iv, v, и т.д.)",
+          "none": "Нет",
+          "notset": "<не указано>",
+          "numberedTitle": "Свойства нумерованного списка",
+          "square": "Квадрат",
+          "start": "Начиная с",
+          "type": "Тип",
+          "upperAlpha": "Заглавные латинские (A, B, C, D, E, и т.д.)",
+          "upperRoman": "Заглавные римские (I, II, III, IV, V, и т.д.)",
+          "validateStartNumber": "Первый номер списка должен быть задан обычным целым числом."
+        },
+        "list": {
+          "bulletedlist": "Вставить / удалить маркированный список",
+          "numberedlist": "Вставить / удалить нумерованный список"
+        },
+        "justify": {
+          "block": "По ширине",
+          "center": "По центру",
+          "left": "По левому краю",
+          "right": "По правому краю"
+        },
+        "indent": {
+          "indent": "Увеличить отступ",
+          "outdent": "Уменьшить отступ"
+        },
+        "font": {
+          "fontSize": {
+            "label": "Размер",
+            "voiceLabel": "Размер шрифта",
+            "panelTitle": "Размер шрифта"
+          },
+          "label": "Шрифт",
+          "panelTitle": "Шрифт",
+          "voiceLabel": "Шрифт"
+        },
+        "find": {
+          "find": "Найти",
+          "findOptions": "Опции поиска",
+          "findWhat": "Найти:",
+          "matchCase": "Учитывать регистр",
+          "matchCyclic": "По всему тексту",
+          "matchWord": "Только слово целиком",
+          "notFoundMsg": "Искомый текст не найден.",
+          "replace": "Заменить",
+          "replaceAll": "Заменить всё",
+          "replaceSuccessMsg": "Успешно заменено %1 раз(а).",
+          "replaceWith": "Заменить на:",
+          "title": "Поиск и замена"
+        },
+        "clipboard": {
+          "copy": "Копировать",
+          "copyError": "Настройки безопасности вашего браузера не разрешают редактору выполнять операции по копированию текста. Пожалуйста, используйте для этого клавиатуру (Ctrl/Cmd+C).",
+          "cut": "Вырезать",
+          "cutError": "Настройки безопасности вашего браузера не разрешают редактору выполнять операции по вырезке текста. Пожалуйста, используйте для этого клавиатуру (Ctrl/Cmd+X).",
+          "paste": "Вставить",
+          "pasteArea": "Зона для вставки",
+          "pasteMsg": "Пожалуйста, вставьте текст в зону ниже, используя клавиатуру (<strong>Ctrl/Cmd+V</strong>) и нажмите кнопку \"OK\".",
+          "securityMsg": "Настройки безопасности вашего браузера не разрешают редактору напрямую обращаться к буферу обмена. Вы должны вставить текст снова в это окно.",
+          "title": "Вставить"
+        },
+        "cctracking": {
+          "label": "Трекинг",
+          "voiceLabel": "Трекинг",
+          "panelTitle": "Трекинг"
+        },
+        "cctextindent": {
+          "label": "Отступ первой строки",
+          "voiceLabel": "Отступ первой строки",
+          "panelTitle": "Отступ первой строки"
+        },
+        "ccpadding": {
+          "top": {
+            "label": "Перед абзацем",
+            "voiceLabel": "Расстояние перед абзацем",
+            "panelTitle": "Расстояние перед абзацем"
+          },
+          "bottom": {
+            "label": "После абзаца",
+            "voiceLabel": "Расстояние после абзаца",
+            "panelTitle": "Расстояние после абзаца"
+          },
+          "left": {
+            "label": "Левый отступ",
+            "voiceLabel": "Левый отступ",
+            "panelTitle": "Левый отступ"
+          },
+          "right": {
+            "label": "Правый отступ",
+            "voiceLabel": "Правый отступ",
+            "panelTitle": "Правый отступ"
+          }
+        },
+        "ccleading": {
+          "label": "Интерлиньяж",
+          "voiceLabel": "Интерлиньяж",
+          "panelTitle": "Интерлиньяж"
+        },
+        "ccfont": {
+          "fontSize": {
+            "label": "Размер",
+            "voiceLabel": "Размер шрифта",
+            "panelTitle": "Размер шрифта"
+          },
+          "fontStyle": {
+            "label": "Стиль",
+            "voiceLabel": "Стиль шрифта",
+            "panelTitle": "Стиль шрифта"
+          },
+          "label": "Шрифт",
+          "panelTitle": "Шрифт",
+          "voiceLabel": "Шрифт"
+        },
+        "cc_textcolor_button": {
+          "textColorTitle": "Цвет текста"
+        },
+        "button": {
+          "selectedLabel": "%1 (Выбрано)"
+        },
+        "basicstyles": {
+          "bold": "Полужирный",
+          "italic": "Курсив",
+          "strike": "Зачеркнутый",
+          "subscript": "Подстрочный индекс",
+          "superscript": "Надстрочный индекс",
+          "underline": "Подчеркнутый"
+        },
+        "editor": "Визуальный текстовый редактор",
+        "common": {
+          "ok": "ОК",
+          "cancel": "Отмена",
+          "close": "Закрыть",
+          "resize": "Перетащите для изменения размера",
+          "generalTab": "Основное",
+          "align": "Выравнивание",
+          "alignLeft": "По левому краю",
+          "alignRight": "По правому краю",
+          "alignCenter": "По центру",
+          "alignJustify": "По ширине"
+        },
+        "contextmenu": {
+          "options": "Параметры контекстного меню"
+        }
+      }
+    },
+    "FinishButton": {
+      "DOWNLOAD": "Скачать",
+      "SUBMIT": "Отправить на печать",
+      "RENDERING": "Отображается...",
+      "ERROR": "Ошибка сервера"
+    },
+    "ImageEditorDialog": {
+      "TITLE": "Редактор изображений",
+      "FILTER_BRIGHTNESS": "Яркость",
+      "FILTER_CONTRAST": "Контрастность",
+      "FILTER_HUE": "Оттенок",
+      "FILTER_SATURATION": "Насыщенность",
+      "FILTER_EFFECT": "Эффект",
+      "FILTER_GRAYSCALE": "Черно-белый",
+      "FILTER_SEPIA": "Сепия",
+      "FILTER_NONE": "Нет",
+      "BUTTON_OK": "ОК",
+      "BUTTON_APPLY": "Применить",
+      "BUTTON_CANCEL": "Отмена",
+      "BUTTON_ADJUST": "Настройки",
+      "BUTTON_CROP": "Обрезать",
+      "BUTTON_REVERT": "Вернуться",
+      "BUTTON_REVERT_TOOLTIP": "Вернуться к исходному",
+      "BUTTON_SAVE": "Сохранить",
+      "BUTTON_BACKGROUND_ERASE": "Фон",
+      "BUTTON_UNDO": "Отменить",
+      "BUTTON_REDO": "Повторить",
+      "BUTTON_GOT_IT": "Понятно",
+      "FILTER_ERASE_TOLERANCE": "Отклонение",
+      "FILTER_ERASE_CONTIGUOUS": "Смежные",
+      "BACKGROUND_ERASE_TIP": "Кликайте в область изображения, которую вы хотите сделать прозрачной. Поправьте отклонение, если эффект недостаточно сильный.",
+      "CHOOSE_BACKGROUND": "Выберите фон:",
+      "PREVIEW_BACKGROUND_CHECKERBOARD": "Шахматная доска",
+      "PREVIEW_BACKGROUND_WHITE": "Белый",
+      "PREVIEW_BACKGROUND_BLACK": "Черный",
+      "PREVIEW_BACKGROUND_MAGENTA": "Пурпурный",
+      "PREVIEW_BACKGROUND_LIME": "Зеленый",
+      "PREVIEW_BACKGROUND_CONTRAST": "Контрастный",
+      "CHOOSE_BACKGROUND_TIP": "Выберите цвет подложки, на которой вы хотите видеть ваше изображение",
+      "TOLERANCE_TIP": "Насколько сильно цвета могут отличаться от выбранного цвета",
+      "CONTIGUOUS_TIP": "Отметьте, для того чтобы сделать прозрачной ограниченную область изображения. Снимите отметку, чтобы убрать цвет со всего изображения"
+    },
+    "ColorPicker": {
+      "COLOR_CHOOSE": "OK",
+      "COLOR_DEFAULT_CATEGORY_NAME": "По умолчанию",
+      "COLOR_RECENT_CATEGORY_NAME": "Недавно использованные",
+      "COLOR_THEME_CATEGORY_NAME": "Тема",
+      "ADD_RECENT_COLOR_TITLE": "Добавить в палитру",
+      "NO_COLOR_TITLE": "Без цвета",
+      "OK": "OK",
+      "CANCEL": "Отмена"
+    },
+    "ViolationService": {
+      "MORE_THAN_ONE_WARNING": "Больше чем одно предупреждение для этого элемента.",
+      "BAD_IMAGE_RESOLUTION": "Слишком низкое разрешение. Это приведет к низкому качеству печати.",
+      "WARNING_IMAGE_RESOLUTION": "Разрешение ниже рекомендуемого. Качество будет приемлемым, но не очень высоким.",
+      "SAFETY_LINE_VIOLATION_WARNING": "Объект находится слишком близко к краю.",
+      "BLEED_VIOLATION_WARNING": "Край объекта находится внутри вылета печати. Он может быть некорректно обрезан. Пожалуйста передвиньте его в безопасную зону или за пределы линии отреза.",
+      "REGION_VIOLATION_WARNING": "Объект находится за пределами региона.",
+      "TEXT_CROP_WARNING": "Текст находится за пределами объекта.",
+      "SHAPE_CONTENT_WARNING": "Изображение содержит больше чем один цвет или содержит невекторные элементы, поэтому может выглядеть не так, как вы ожидаете. Пожалуйста загрузите изображение, которое содержит одну фигуру."
+    },
+    "OiToggle": {
+      "TEXT": "Слои",
+      "TITLE": "Переключить видимость инспектора объектов"
+    },
+    "DepositPhotos": {
+      "BEST_MATCH": "Лучший выбор",
+      "BEST_SALES": "Лучшие продажи",
+      "NEWEST": "Новые",
+      "UNDISCOVERED": "Неизведанное",
+      "PAID_IMAGE_MESSAGE": "Изображение платное, цена будет добавлена в заказ автоматически.",
+      "DONT_SHOW_MESSAGE": "Не показывать",
+      "COLOR_TRANSLATION": "Цвет",
+      "SIZE_TRANSLATION": "Размер",
+      "ID_TRANSLATION": "ID",
+      "COPYRIGHT_TRANSLATION": "Копирайт",
+      "SORT_BY_CAPTION": "Сортировка"
+    },
+    "RemoteSource": {
+      "BEST_MATCH": "Лучший выбор",
+      "BEST_SALES": "Лучшие продажи",
+      "NEWEST": "Новые",
+      "UNDISCOVERED": "Неизведанное",
+      "PAID_IMAGE_MESSAGE": "Изображение платное, цена будет добавлена в заказ автоматически.",
+      "DONT_SHOW_MESSAGE": "Не показывать",
+      "COLOR_TRANSLATION": "Цвет",
+      "SIZE_TRANSLATION": "Размер",
+      "ID_TRANSLATION": "ID",
+      "COPYRIGHT_TRANSLATION": "Копирайт",
+      "SORT_BY_CAPTION": "Сортировка"
+    },
+    "AssetManager": {
+      "SELECT_IMAGE_HEADER": "Выбор изображения",
+      "SELECT_CATEGORY_HEADER": "Выбор категории",
+      "CLOSE_BUTTON_CAPTION": "Закрыть",
+      "EMPTY_CATEGORY_HEADER": "Категория пуста.",
+      "EMPTY_CATEGORY_MESSAGE": "Похоже, в этой категории нет ни одного файла.",
+      "NO_RESULTS_HEADER": "Нет результатов.",
+      "NO_RESULTS_MESSAGE": "Пожалуйста, проверьте написание или попробуйте другие ключевые слова.",
+      "NO_RESULTS_YET_HEADER": "Введите запрос в строку поиска.",
+      "NO_RESULTS_YET_MESSAGE": "Результат запроса будет показан здесь.",
+      "EDIT_BUTTTON_CAPTION": "Редактировать",
+      "DELETE_BUTTTON_CAPTION": "Удалить",
+      "INSERT_BUTTTON_CAPTION": "Вставить",
+      "INSERT_TO_ALL_BUTTON_CAPTION": "Применить ко всем",
+      "INSERT_ALL_BUTTON_CAPTION": "Вставить всё",
+      "SELECT_ALL_BUTTON_CAPTION": "Выбрать всё",
+      "CATEGORIES_HEADER": "Категории",
+      "ALL_CATEGORY_NAME": "Все",
+      "TODAY_CATEGORY_NAME": "Сегодня",
+      "TOO_MANY_FILES": "Вы выбрали {selectedFilesLength} корректных файл(ов). Из них только {maxFiles} файлов будет поставлено в очередь на загрузку.",
+      "INVALID_EXTENSION_SINGLE": "имеет недопустимое расширение. Допустимые расширения:",
+      "MAX_FILE_SIZE_EXCEEDED_SINGLE": "превышает допустимый предел размера загружаемого файла {maxUploadFileSize} Мбайт.",
+      "INVALID_EXTENSION_MULTIPLE": "файла(ов) имеют недопустимые расширения. Допустимые расширения:",
+      "MAX_FILE_SIZE_EXCEEDED_MULTIPLE": "файла(ов) превышают допустимый предел размера загружаемого файла {maxUploadFileSize} Мбайт.",
+      "ERROR_MESSAGE": "Извините, произошла ошибка",
+      "SEARCH_PLACEHOLDER": "Найти..",
+      "SORT_SIZE": "Размер",
+      "SORT_DATE": "Дата",
+      "SORT_NAME": "Имя",
+      "SORT_EXTENSION": "Расширение",
+      "LOGIN_HEADER": "Необходимо авторизоваться",
+      "LOGIN_MESSAGE": "Для использования изображений социальной сети, авторизуйтесь.",
+      "LOGOUT": "Выйти",
+      "SOMETHING_WRONG": "Что то пошло не так",
+      "UPLOAD_HEADER": "Перетащите файлы сюда",
+      "UPLOAD_MESSAGE": "или",
+      "UPLOAD_BUTTON_CAPTION": "Загрузить",
+      "RemoteSource": {
+        "EMPTY_CATEGORY_HEADER": "Директория не содержит файлов, доступных для Вас.",
+        "EMPTY_CATEGORY_MESSAGE": "Похоже, в этой категории нет ни одного общедоступного файла."
+      },
+      "PrivateSource": {
+        "PDF_DELETE_MESSAGE": "При удалении выбранной страницы будут удалены следующие файлы"
+      },
+      "INSERT_ACTION": "Вставить",
+      "INSERT_TO_ALL_ACTION": "Применить ко всем",
+      "EDIT_ACTION": "Редактировать",
+      "INFO_ACTION": "Инфо",
+      "DELETE_ACTION": "Удалить"
+    }
+  },
+   "de": {
+      "TextPopup": {
+        "TEXT_PLACEHOLDER": "Text eingeben",
+        "TEXT_POPUP_HEADER": "Text"
+      },
+      "LinearBarcodeDialog": {
+        "LINEAR_BARCODE_DIALOG_TITLE": "Strichcode",
+        "LINEAR_BARCODE_DIALOG_TEXT": "Eingeben {{count}} Zahlen ",
+        "LINEAR_BARCODE_DIALOG_OPT_EAN13": "Ean 13",
+        "LINEAR_BARCODE_DIALOG_OPT_EAN8": "Ean 8"
+      },
+      "ItemMenu": {
+        "SELECT_IMAGE": "Bild auswählen",
+        "EDIT_IMAGE": "Bild bearbeiten",
+        "EDIT_QR_CODE": "QR-Code bearbeiten",
+        "EDIT_LINEAR_BARCODE": "Strichcode bearbeiten",
+        "CHANGE_RICH_TEXT": "Text ändern",
+        "DELETE_OBJECT": "Objekt entfernen",
+        "CLONE_OBJECT": "Objekt klonen",
+        "ALIGN": "Ausrichtung auf einen sicheren Bereich",
+        "ALIGN_LEFT": "Links ausrichten",
+        "HORIZONTAL_CENTER": "Horizontal ausrichten",
+        "ALIGN_RIGHT": "Rechts ausrichten",
+        "ALIGN_TOP": "Ausrichten nach oben",
+        "VERTICAL_CENTER": "Vertikale Ausrichtung",
+        "ALIGN_BOTTOM": "Ausrichten nach unten",
+        "GROUP_ALIGN": "Gruppe ausrichten",
+        "SEND_TO_FRONT": "Weiterleiten",
+        "LEVEL_UP": "Stufe über",
+        "LEVEL_DOWN": "Stufe darunter",
+        "SEND_TO_BOTTOM": "Runterschicken",
+        "MAKE_VARIABLE": "Eine Variable erstellen",
+        "REMOVE_VARIABLE": "Die Variable entfernen",
+        "RENAME_ITEM": "Name ändern"
+      },
+      "Toolbox": {
+        "ADD_QR_VAR": "Hinzufügen eines Strichcodes (Variable)",
+        "ADD_QR_CODE": "Variabler QR-Code",
+        "ADD_EAN8_CODE": "Variablencode Ean 8",
+        "TITLE_ADD_EAN_CODE": "Variablencode Ean 8",
+        "ADD_EAN13_CODE": "Variablencode Ean 13",
+        "ADD_IMAGE": "Bild hinzufügen",
+        "ADD_TEXT": "Text hinzufügen",
+        "CHANGE_BACKGROUND": "Hintergrund",
+        "TITLE_CHANGE_BACKGROUND": "Hintergrund ändern",
+        "LINE": "Zeile",
+        "TEXT": "Text",
+        "IMAGE": "Bild",
+        "LAYOUT": "Lage",
+        "SHAPE": "Gestalt",
+        "RECTANGLE": "Rechteck",
+        "ELLIPSE": "Oval",
+        "QR_CODE": "QR_CODE",
+        "LINEAR_BARCODE": "Strichcode",
+        "RICHTEXT": "Formatierter Text",
+        "BOUNDEDTEXT": "Verwandter Text",
+        "ADVANCED_BUTTON": "Weiter zur erweiterten Bearbeitung",
+        "TITLE_ADD_MENU": "Objekt hinzufügen",
+        "TITLE_ADD_TEXT": "Text hinzufügen",
+        "TITLE_ADD_IMAGE": "Ein Bild hinzufügen",
+        "TITLE_ADD_LAYOUT": "Ändern Sie das Layout",
+        "TITLE_ADD_LINE": "Eine Zeile hinzufügen",
+        "TITLE_ADD_RECTANGLE": "Ein Rechteck hinzufügen",
+        "TITLE_ADD_ELLIPSE": "Fügen Sie ein Oval hinzu",
+        "TITLE_ADD_QR_CODE": "QR-Code hinzufügen",
+        "TITLE_ADD_LINEAR_BARCODE": "Strichcode hinzufügen",
+        "TITLE_ADD_RICHTEXT": "Formatierten Text hinzufügen",
+        "TITLE_ADD_SHAPE": "Eine Zahl hinzufügen",
+        "TITLE_ADD_BOUNDEDTEXT": "Verwandten Text hinzufügen",
+        "TITLE_ADVANCED": "In den erweiterten Bearbeitungsmodus wechseln",
+        "TITLE_ADD_CUSTOM_TEXT": "Text hinzufügen"
+      },
+      "TopToolbar": {
+        "LOAD_INFO_BUTTON": "Meine Informationen laden",
+        "TITLE_LOAD_INFO": "Meine Informationen laden",
+        "BORDER_WIDTH": "Rahmen",
+        "TITLE_BORDER_WIDTH": "Wählen Sie die Breite des Rahmens",
+        "TITLE_BORDER_COLOR": "Wählen Sie die Farbe des Rahmens",
+        "TITLE_FILL_COLOR": "Wählen Sie eine Füllfarbe",
+        "LINE_WIDTH": "Breite",
+        "TITLE_LINE_WIDTH": "Wählen Sie die Breite der Linie",
+        "TITLE_LINE_COLOR": "Wählen Sie die Farbe der Linie",
+        "TITLE_FONT_FAMILY_LIST": "Wählen Sie eine Schriftart",
+        "TITLE_FONT_STYLE_LIST": "Wählen Sie einen Schriftstil",
+        "TITLE_FONT_SIZE": "Wählen Sie eine Schriftgröße",
+        "TITLE_OPACITY": "Wählen Sie die Transparenzstufe",
+        "OPACITY": "Transparenz",
+        "TITLE_BOLD": "Fettdruck",
+        "TITLE_ITALIC": "Mitte horizontal",
+        "TITLE_FAUX_BOLD": "Faux fettgedruckt",
+        "TITLE_FAUX_ITALIC": "Faux italic",
+        "TITLE_UNDERLINE": "Unterstreichen",
+        "TITLE_FONT_COLOR": "Wählen Sie eine Textfarbe",
+        "TEXT_EDIT": "Bearbeiten",
+        "TITLE_TEXT_EDIT": "Text bearbeiten",
+        "TITLE_TEXT_ALIGN_LEFT": "Links ausrichten",
+        "TITLE_TEXT_ALIGN_CENTER": "mittig ausrichten",
+        "TITLE_TEXT_ALIGN_RIGHT": "Rechts ausrichten",
+        "TITLE_TEXT_SHADOW": "Schatten",
+        "TITLE_TEXT_STROKE": "Strich",
+        "LABEL_SHADOW_ANGLE": "Winkel",
+        "LABEL_SHADOW_DISTANCE": "Entfernung",
+        "LABEL_SHADOW_SIZE": "Größe",
+        "LABEL_SHADOW_COLOR": "Farbe",
+        "LABEL_SHADOW_ENABLED": "an",
+        "LABEL_STROKE_WIDTH": "Breite",
+        "LABEL_STROKE_COLOR": "Farbe",
+        "LABEL_STROKE_ENABLED": "an",
+        "UNITS_PT": "pt",
+        "UNITS_PX": "px",
+        "TITLE_UNDO": "zurück",
+        "TITLE_REDO": "wiederholen",
+        "TITLE_REVERT": "umkehren",
+        "LABEL_DELETE": "löschen",
+        "TITLE_DELETE": "Elemente löschen",
+        "LABEL_COLUMNS": "Kolumnen:",
+        "TITLE_COLUMNS": "Kolumnenanzahl",
+        "TITLE_PAGING_RIGHT": "Weitere Steuerungen",
+        "TITLE_PAGING_LEFT": "zurück",
+        "TEXT_PAGING_RIGHT": "mehr...",
+        "TITLE_LEADING": "Wählen Sie die führenden",
+        "TITLE_TRACKING": "Verfolgung auswählen",
+        "TITLE_TEXT_VERTICAL_ALIGN_TOP": "Nach oben ausrichten",
+        "TITLE_TEXT_VERTICAL_ALIGN_CENTER": "Mittig ausrichten",
+        "TITLE_TEXT_VERTICAL_ALIGN_BOTTOM": "Nach unten ausrichten",
+        "ALIGN": "Ausrichtung auf einen sicheren Bereich",
+        "ALIGN_DROPDOWN": "Ausrichtung",
+        "TITLE_ALIGN_LEFT": "Links ausrichten",
+        "TITLE_HORIZONTAL_CENTER": "Horizontal ausrichten",
+        "TITLE_ALIGN_RIGHT": "Rechts ausrichten",
+        "TITLE_ALIGN_TOP": "Nach oben ausrichten",
+        "TITLE_VERTICAL_CENTER": "Vertikal ausrichten",
+        "TITLE_ALIGN_BOTTOM": "Nach unten ausrichten",
+        "TITLE_LEVEL_UP": "Stufe höher",
+        "TITLE_LEVEL_DOWN": "Stufe unterhalb",
+        "TITLE_SEND_TO_FRONT": "weiterschicken",
+        "TITLE_SEND_TO_BOTTOM": "Nach unten schicken",
+        "TITLE_LEVEL_CHANGE": "Stufe wechseln",
+        "LEVEL_UP": "Stufe höher",
+        "LEVEL_DOWN": "Stufe unterhalb",
+        "SEND_TO_FRONT": "weiterschicken",
+        "SEND_TO_BOTTOM": "Nach unten schicken",
+        "Z_ORDER": "Lage",
+        "TITLE_Z_ORDER": "Position des Elements ändern",
+        "TITLE_CLONE_OBJECT": "Objekt klonen",
+        "CLONE_OBJECT": "Klonen",
+        "PLACEHOLDER_SCALE": "Maßstab",
+        "TITLE_PLACEHOLDER_SCALE": "Wählen Sie eine Skala von Ersatzinhalten",
+        "TITLE_EDIT_IMAGE": "Bild bearbeiten",
+        "EDIT_IMAGE": "Bearbeiten",
+        "TITLE_SELECT_IMAGE": "Bild auswählen",
+        "SELECT_IMAGE": "Select",
+        "TITLE_RESET_PLACEHOLDER_CONTENT": "Den Ersatzinhalt zurücksetzen",
+        "RESET_PLACEHOLDER_CONTENT": "Zurücksetzen",
+        "ROTATE_PLACEHOLDER_CONTENT_LEFT": "Den Inhalt nach links drehen",
+        "ROTATE_PLACEHOLDER_CONTENT_RIGHT": "Den Inhalt nach rechts drehen",
+        "QR_CODE_TYPE_DROPDOWN_VALUE": "QR-Code",
+        "EAN_8_TYPE_DROPDOWN_VALUE": "Nummer 8 des europäischen Artikels",
+        "EAN_13_TYPE_DROPDOWN_VALUE": "Nummer 13 des europäischen Artikels",
+        "CHANGE_BARCODE_VALUE_TITLE": "Strichcodetyp ändern",
+        "TITLE_BARCODE_COLOR": "Strichcodefarbe ändern",
+        "EDIT_BARCODE": "Strichcode bearbeiten",
+        "TITLE_EDIT_BARCODE": "Strichcode bearbeiten"
+      },
+      "ObjectInspector": {
+        "TEXT_PLACEHOLDER": "Text eingeben",
+        "BACKGROUND": "Hintergrund",
+        "QR_CODE": "QR-Code",
+        "LINEAR_BARCODE": "Strichcode",
+        "COLOR_PICKER": "Farbe",
+        "IMAGE_PICKER": "Bild",
+        "TITLE_ITEM_MENU": "",
+        "TITLE_BACKGROUND_MENU": "Hintergrund ändern",
+        "TITLE_BACKGROUND_MENU_COLOR": "Hintergrundfarbe auswählen",
+        "TITLE_BACKGROUND_MENU_IMAGE": "Hintergrundbild auswählen",
+        "TITLE_ITEM_MENU_SELECT_IMAGE": "",
+        "TITLE_ITEM_MENU_EDIT_QR_CODE": "",
+        "TITLE_ITEM_MENU_EDIT_LINEAR_BARCODE": "",
+        "MAKE_VARIABLE": "Variable machen",
+        "REMOVE_VARIABLE": "Variable löschen",
+        "EMPTY_OBJECT_INSPECTOR_SIMPLE_MODE": "Diese Vorlage hat keine anpassbaren Objekte. Wenn Sie ein Objekt hinzufügen möchten, wechseln Sie in den erweiterten Bearbeitungsmodus.",
+        "EMPTY_OBJECT_INSPECTOR_ADVANCED_MODE": "Diese Vorlage hat keine anpassbaren Objekte. Wenn Sie ein Objekt hinzufügen möchten, verwenden Sie die Werkzeugtafel.",
+        "EMPTY_OBJECT_INSPECTOR_SIMPLEONLY_MODE": "Diese Vorlage hat keine anpassbaren Objekte.",
+        "MAIN_CONTAINER_NAME": "Grundierung",
+        "SPOT_COLOR_CONTAINER": "Zusätzliche Farben"
+      },
+      "BottomToolbar": {
+        "DEFAULT_ZOOM": "",
+        "SWITCH_SIDE": "Seite wechseln",
+        "FRONT_SIDE": "Vorderseite",
+        "BACK_SIDE": "Rückseite",
+        "ROTATE": "Drehen",
+        "SAFETY_LINES": "Sicherheitslinien",
+        "GRID": "Raster",
+        "SNAP_LINES": "Snap lines",
+        "TITLE_SAFETY_LINES": "Sicherheitslinien ein-/ausschalten",
+        "TITLE_GRID": "Raster ein-/ausschalten",
+        "TITLE_SNAP_LINES": "Enable/disable snap lines",
+        "TITLE_SWITCH_SIDE": "Seite wechseln",
+        "TITLE_FRONT_SIDE": "Vorderseite",
+        "TITLE_BACK_SIDE": "Rückseite",
+        "TITLE_ZOOM_IN": "vergrößern",
+        "TITLE_ZOOM_OUT": "verkleinern",
+        "TITLE_CURRENT_ZOOM": "Tatsächliche Größe",
+        "TITLE_ROTATE": "Drehen",
+        "TITLE_FIRST_SLIDE": "Zurück zur ersten Seite",
+        "TITLE_PREVIOUS_THREE_SLIDES": "Blättern Sie zu den vorherigen 3 Seiten",
+        "TITLE_NEXT_THREE_SLIDES": "Blättern Sie zu den nächsten 3 Seiten",
+        "TITLE_NEXT_SLIDE": "Zur nächsten Seite wechseln",
+        "TITLE_PREVIOUS_SLIDE": "Zur vorherigen Seite wechseln",
+        "TITLE_LAST_SLIDE": "Zur letzten Seite gehen",
+        "TITLE_MARKING_MENU": "Öffnen Sie das Markierungsmenü",
+        "MARKING_MENU": "Markierung",
+        "TITLE_ORIGINAL_SIZE": "Zurück zur Originalgröße",
+        "TITLE_FULL_WINDOW": "In den Vollfenstermodus wechseln",
+        "TITLE_FULL_SCREEN": "In den Vollbildmodus wechseln"
+      },
+      "BaseEditor": {
+        "ITEM_DELETE_CONFIRM_MSG": "Das Objekt wird entfernt. Weitermachen?",
+        "ITEM_REVERT_CONFIRM_MSG": "Das Produkt wird wiederhergestellt. Weitermachen?",
+        "DOWNLOAD": "herunterladen",
+        "SUBMIT": "Zum Drucken senden",
+        "RENDERING": "Bildsznthese im Gange",
+        "ERROR": "Serverfehler",
+        "PLACEHOLDER_SELECT_BUTTON_TITLE": "Bild auswählen",
+        "BARCODE_EDIT_BUTTON_TITLE": "Strichcode bearbeiten",
+        "PLACEHOLDER_HANDLE_BUTTON_TITLE": "Handel",
+        "PLACEHOLDER_DONE_BUTTON_TITLE": "Fertig",
+        "ITEM_DELETE_BUTTON_TITLE": "Element entfernen",
+        "ITEM_EDIT_BUTTON_TITLE": "Element bearbeiten"
+      },
+      "ModalDialog": {
+        "CLOSE": "schließen",
+        "INSERT": "einfügen",
+        "UPDATE_ALL": "Geben Sie es an alle",
+        "UPDATE": "aktualisieren",
+        "PROCESSING": "Verarbeitung ...",
+        "SUBMIT": "OK",
+        "CANCEL": "Abbrechen",
+        "ADD": "hinzufügen",
+        "RENAME": "Name ändern",
+        "ADD_OBJECT_TITLE": "Neues Objekt hinzufügen",
+        "RENAME_OBJECT_TITLE": "Name des Objekts ändern",
+        "EMPTY_OBJECT_ERROR_TEXT": "Der Feldwert darf nicht leer sein"
+      },
+      "QrCodeDialog": {
+        "QR_DIALOG_TITLE": "QR-Code",
+        "QR_DIALOG_OPT_TYPE_PHONE": "Telefonnummer",
+        "QR_DIALOG_OPT_TYPE_URL": "url",
+        "QR_DIALOG_OPT_TYPE_VCARD": "card",
+        "QR_DIALOG_FIRST_NAME": "Vorname",
+        "QR_DIALOG_LAST_NAME": "Nachname",
+        "QR_DIALOG_COMPANY": "Firmenname",
+        "QR_DIALOG_POSITION": "Lage",
+        "QR_DIALOG_EMAIL": "E-mail",
+        "QR_DIALOG_URL": "Url",
+        "QR_DIALOG_PHONE": "Telefonnummer",
+        "QR_DIALOG_MOBILE_PHONE": "Mobiltelefonnummer"
+      },
+      "GalleryDialog": {
+        "TITLE": "Galerie ",
+        "TAB_USER": "Meine Dateien",
+        "TAB_PUBLIC": "Öffentliche Dateien",
+        "TAB_BACKGROUND": "Hintergrund",
+        "UPLOAD_TEXT": "Dateien herunterladen",
+        "CATEGORY_EMPTY_TEXT": "Keine Dateien in dieser Kategorie.",
+        "FACEBOOK_LOG_IN": "Einloggen",
+        "FACEBOOK_LOG_OUT": "Ausloggen",
+        "INSTAGRAM_LOG_IN": "Einloggen",
+        "INSTAGRAM_LOG_OUT": "Ausloggen",
+        "CATEGORY_COLORS": "Farben",
+        "EDIT": "Bearbeiten",
+        "DELETE": "Löschen",
+        "ALL": "alle",
+        "TODAY": "heutige",
+        "DELETE_MESSAGE": "Durch das Löschen dieser Seite werden die folgenden Seiten gelöscht",
+        "MORE_FILES": "Mehr anzeigen"
+      },
+      "RichTextDialog": {
+        "TITLE": "Formatierter Text",
+        "TITLE_RICH_TEXT_DIALOG_ZOOM": "Ändern Sie die Vergrößerung des Bearbeitungsfensters",
+        "COLOR_DIALOG_TITLE": "Textfarbe",
+        "EDITOR": {
+          "wordcount": {
+            "WordCount": "Worte:",
+            "CharCount": "Zeichen:",
+            "CharCountWithHTML": "Zeichen (aus HTML):",
+            "Paragraphs": "Absätze:",
+            "pasteWarning": "Inhalte können nicht eingefügt werden, weil sie die zulässige Grenze überschreiten",
+            "Selected": "Ausgewählte: ",
+            "title": "Statistik"
+          },
+          "undo": {
+            "redo": "Wiederholen",
+            "undo": "Wiederrufen"
+          },
+          "toolbar": {
+            "toolbarGroups": {
+              "clipboard": "Zwischenablage / Wiederrufen",
+              "editing": "Ausgabe",
+              "basicstyles": "Grundlegende Stile",
+              "paragraph": "Absatz",
+              "insert": "Einfügen",
+              "styles": "Stile",
+              "colors": "Farben"
+            },
+            "toolbars": "Symbolleisten-Editor"
+          },
+          "specialchar": {
+            "options": "Optionen für Sonderzeichen",
+            "title": "Wählen Sie ein Sonderzeichen",
+            "toolbar": "Eine spezielle Markierung einfügen"
+          },
+          "selectall": {
+            "toolbar": "Alles markieren"
+          },
+          "removeformat": {
+            "toolbar": "Format löschen "
+          },
+          "pastetext": {
+            "button": "Einfügen als einfacher Text",
+            "title": "Einfügen als einfacher Text"
+          },
+          "pastefromword": {
+            "confirmCleanup": "Der einzufügende Text sieht aus, als ob er aus Word kopiert wurde. Möchten Sie es vor dem Einfügen reinigen?",
+            "error": "Das Löschen von eingefügten Daten war aufgrund eines internen Fehlers nicht möglich",
+            "title": "Aus Word einfügen",
+            "toolbar": "Aus Word einfügen"
+          },
+          "notification": {
+            "closed": "Benachrichtigung geschlossen."
+          },
+          "liststyle": {
+            "bulletedTitle": "Bulleted List Properties",
+            "circle": "Kreis",
+            "decimal": "Decimal (1,2,3,etc.)",
+            "disc": "Platte",
+            "lowerAlpha": "a,b,c,d,e,etc.",
+            "lowerGreek": "alpha,beta,gamma,etc.",
+            "lowerRoman": "i,ii,iii,iv,v,etc.",
+            "none": "Ausschuss",
+            "notset": "<verunsichert>",
+            "numberedTitle": "Nummerierte Listeneigenschaften",
+            "square": "Quadrat",
+            "start": "Start",
+            "type": "Text eingeben",
+            "upperAlpha": "A,B,C,D,E,etc.",
+            "upperRoman": "I,II,III,IV,V,etc.",
+            "validateStartNumber": "Die Startnummer der Liste muss eine ganze Zahl sein."
+          },
+          "list": {
+            "bulletedlist": "Einfügen / Löschen der Bewertungsliste",
+            "numberedlist": "Einfügen / Löschen einer nummerierten Liste"
+          },
+          "justify": {
+            "block": "Justify",
+            "center": "Mitte",
+            "left": "Links ausrichten",
+            "right": "Rechts ausrichten"
+          },
+          "indent": {
+            "indent": "Increase Indent",
+            "outdent": "Decrease Indent"
+          },
+          "font": {
+            "fontSize": {
+              "label": "Größe",
+              "voiceLabel": "Schriftgröße",
+              "panelTitle": "Schriftgröße"
+            },
+            "label": "Schrift",
+            "panelTitle": "Name der Schrift",
+            "voiceLabel": "Schrift"
+          },
+          "find": {
+            "find": "Suchen",
+            "findOptions": "Suchoptionen",
+            "findWhat": "Was Sie suchen sollten:",
+            "matchCase": "Match case",
+            "matchCyclic": "Regelmäßig anpassen",
+            "matchWord": "Das ganze Wort zuordnen",
+            "notFoundMsg": "Der Text wurde nicht gefunden.",
+            "replace": "Ersetzen",
+            "replaceAll": "Ersetzen Sie die gesamte",
+            "replaceSuccessMsg": "Ersetzt durch %1 Fälle",
+            "replaceWith": "Ersetzt:",
+            "title": "Finden und ersetzen"
+          },
+          "clipboard": {
+            "copy": "Kopieren",
+            "copyError": "Die Sicherheitseinstellungen des Browsers erlauben es dem Herausgeber nicht, Kopiervorgänge automatisch durchzuführen. Verwenden Sie dazu die folgenden Schlüssel (Ctrl / Cmd + C).",
+            "cut": "Ausschneiden",
+            "cutError": "Die Sicherheitseinstellungen des Browsers erlauben es dem Editor nicht, den Ausschneidevorgang automatisch durchzuführen. Verwenden Sie dazu die folgenden Schlüssel (Ctrl / Cmd + X).",
+            "paste": "Einfügen",
+            "pasteArea": "Bereich des Einfügens",
+            "pasteMsg": "Fügen Sie im folgenden Feld mit den Tasten (<strong> Ctrl / Cmd + V </strong>) und drücken Sie OK",
+            "securityMsg": "Aufgrund der Sicherheitseinstellungen des Browsers hat der Editor keinen direkten Zugriff auf die Daten der Zwischenablage. Sie müssen sie in diesem Fenster erneut einfügen.",
+            "title": "Einfügen"
+          },
+          "cctracking": {
+            "label": "Nachverfolgung",
+            "voiceLabel": "Nachverfolgung",
+            "panelTitle": "Nachverfolgung"
+          },
+          "cctextindent": {
+            "label": "First line indent",
+            "voiceLabel": "First line indent",
+            "panelTitle": "First line indent"
+          },
+          "ccpadding": {
+            "top": {
+              "label": "Vor dem Absatz",
+              "voiceLabel": "Leerzeichen vor dem Absatz",
+              "panelTitle": "Leerzeichen vor dem Absatz"
+            },
+            "bottom": {
+              "label": "Nach dem Absatz",
+              "voiceLabel": "Leerzeichen nach dem Absatz",
+              "panelTitle": "Leerzeichen nach dem Absatz"
+            },
+            "left": {
+              "label": "Left indent",
+              "voiceLabel": "Left indent",
+              "panelTitle": "Left indent"
+            },
+            "right": {
+              "label": "Right indent",
+              "voiceLabel": "Right indent",
+              "panelTitle": "Right indent"
+            }
+          },
+          "ccleading": {
+            "label": "Leading",
+            "voiceLabel": "Leading",
+            "panelTitle": "Leading"
+          },
+          "ccfont": {
+            "fontSize": {
+              "label": "Größe",
+              "voiceLabel": "Schriftgröße",
+              "panelTitle": "Schriftgröße"
+            },
+            "fontStyle": {
+              "label": "Stile",
+              "voiceLabel": "Schriftart",
+              "panelTitle": "Schriftart"
+            },
+            "label": "Schrift",
+            "panelTitle": "Name der Schrift",
+            "voiceLabel": "Schrift"
+          },
+          "cc_textcolor_button": {
+            "textColorTitle": "Textfarbe"
+          },
+          "button": {
+            "selectedLabel": "%1 (ausgewählt)"
+          },
+          "basicstyles": {
+            "bold": "Fettdruck",
+            "italic": "Italic",
+            "strike": "Durchstreichen",
+            "subscript": "Index",
+            "superscript": "Superscript",
+            "underline": "Unterstreichen"
+          },
+          "editor": "Rich Text Editor",
+          "common": {
+            "ok": "OK",
+            "cancel": "Abbrechen",
+            "close": "Schließen",
+            "resize": "Größe ändern",
+            "generalTab": "General",
+            "align": "Ausrichtung",
+            "alignLeft": "Links ausrichten",
+            "alignRight": "Rechts ausrichten",
+            "alignCenter": "Mitte",
+            "alignJustify": "Justify"
+          },
+          "contextmenu": {
+            "options": "Optionen des Kontextmenüs"
+          }
+        }
+      },
+      "FinishButton": {
+        "DOWNLOAD": "Herunterladen",
+        "SUBMIT": "Zum Drucken senden",
+        "RENDERING": "Bildanalhyse im Gange ...",
+        "ERROR": "Serverfehler"
+      },
+      "ImageEditorDialog": {
+        "TITLE": "Bildeditor",
+        "FILTER_BRIGHTNESS": "Helligkeit",
+        "FILTER_CONTRAST": "Kontrast",
+        "FILTER_HUE": "Farbton",
+        "FILTER_SATURATION": "Sättigung",
+        "FILTER_EFFECT": "Effekt",
+        "FILTER_GRAYSCALE": "Graustufe",
+        "FILTER_SEPIA": "Sepia",
+        "FILTER_NONE": "Ausschuss",
+        "BUTTON_OK": "OK",
+        "BUTTON_APPLY": "anwenden",
+        "BUTTON_CANCEL": "abbrechen",
+        "BUTTON_ADJUST": "anpassen",
+        "BUTTON_CROP": "schneiden",
+        "BUTTON_REVERT": "umdrehen",
+        "BUTTON_REVERT_TOOLTIP": "Das Original wiederherstellen",
+        "BUTTON_SAVE": "speichern",
+        "BUTTON_BACKGROUND_ERASE": "Hintergrund",
+        "BUTTON_UNDO": "widerrufen",
+        "BUTTON_REDO": "wiederholen",
+        "BUTTON_GOT_IT": "verstanden",
+        "FILTER_ERASE_TOLERANCE": "Toleranz",
+        "FILTER_ERASE_CONTIGUOUS": "angrenzend",
+        "BACKGROUND_ERASE_TIP": "Klicken Sie auf die Bildbereiche, die Sie als transparent einstellen möchten. Passen Sie die Toleranz an, wenn die Wirkung nicht stark genug ist.",
+        "CHOOSE_BACKGROUND": "Hintergrund auswählen",
+        "PREVIEW_BACKGROUND_CHECKERBOARD": "Schachbrettmuster",
+        "PREVIEW_BACKGROUND_WHITE": "weiß",
+        "PREVIEW_BACKGROUND_BLACK": "schwarz",
+        "PREVIEW_BACKGROUND_MAGENTA": "Die Farbe Fuchsia",
+        "PREVIEW_BACKGROUND_LIME": "Kalkfarbe",
+        "PREVIEW_BACKGROUND_CONTRAST": "Kontrast",
+        "CHOOSE_BACKGROUND_TIP": "Wählen Sie eine Farbe zur Vorschau des Bildes",
+        "TOLERANCE_TIP": "Stellen Sie ein, wie stark die Farben von der ausgewählten Farbe abweichen dürfen",
+        "CONTIGUOUS_TIP": "Aktivieren Sie das Kontrollkästchen, um den geschlossenen Bereich, auf den Sie klicken, transparent zu machen. Löschen, um die angeklickte Farbe aus dem gesamten Bild zu entfernen"
+      },
+      "ColorPicker": {
+        "COLOR_CHOOSE": "OK",
+        "COLOR_DEFAULT_CATEGORY_NAME": "Standardmäßig",
+        "COLOR_RECENT_CATEGORY_NAME": "Zuletzt",
+        "COLOR_THEME_CATEGORY_NAME": "Motiv",
+        "ADD_RECENT_COLOR_TITLE": "Zur Palette hinzufügen",
+        "NO_COLOR_TITLE": "Keine Farbe"
+      },
+      "ViolationService": {
+        "MORE_THAN_ONE_WARNING": "Das Element hat mehr als eine Warnung.",
+        "BAD_IMAGE_RESOLUTION": "Eine zu niedrige Bildauflösung ([DPI_VALUE_PLACEHOLDER] dpi), die zu einer schlechten Druckqualität führen kann.",
+        "WARNING_IMAGE_RESOLUTION": "Die Bildauflösung ([DPI_VALUE_PLACEHOLDER] dpi) ist nahe an einer schlechten Qualität, aber die Druckqualität ist vielleicht noch akzeptabel, aber bei weitem nicht perfekt.",
+        "SAFETY_LINE_VIOLATION_WARNING": "Das Objekt ist zu nah am Rand.",
+        "REGION_VIOLATION_WARNING": "Das Objekt verlässt die Region.",
+        "TEXT_CROP_WARNING": "Der Text ist zu lang für dieses Feld. Einige Textketten sind abgeschnitten. Versuchen Sie, sie zu kürzen oder eine kleinere Schriftart zu verwenden.",
+        "SHAPE_CONTENT_WARNING": "Dieses Bild enthält mehr als eine Farbe oder Nicht-Vektorelemente und kann anders aussehen, als Sie erwarten. Erwägen Sie, ein weiteres Bild mit einer Form zu senden."
+      },
+      "OiToggle": {
+        "TEXT": "Schichten",
+        "TITLE": "Wechseln Sie den Objektinspektor"
+      },
+      "DepositPhotos": {
+        "BEST_MATCH": "Die beste Passform",
+        "BEST_SALES": "Beste Verkäufe",
+        "NEWEST": "Aktuellste",
+        "UNDISCOVERED": "unentdeckte",
+        "PAID_IMAGE_MESSAGE": "Dieses Bild ist zahlbar, der Preis wird automatisch zu Ihrer Bestellung hinzugefügt.",
+        "DONT_SHOW_MESSAGE": "Don’t show this again",
+        "COLOR_TRANSLATION": "Farbe",
+        "SIZE_TRANSLATION": "Größe",
+        "ID_TRANSLATION": "ID",
+        "COPYRIGHT_TRANSLATION": "Urheberrechte",
+        "SORT_BY_CAPTION": "Sortieren nach"
+      },
+      "AssetManager": {
+        "SELECT_IMAGE_HEADER": "Bild auswählen",
+        "SELECT_CATEGORY_HEADER": "Kategorie auswählen",
+        "CLOSE_BUTTON_CAPTION": "schließen",
+        "EMPTY_CATEGORY_HEADER": "Diese Kategorie ist leer",
+        "EMPTY_CATEGORY_MESSAGE": "Ups! Es sieht so aus, als gäbe es keine Dateien in dieser Kategorie.",
+        "NO_RESULTS_HEADER": "Es wurden keine Ergebnisse gefunden.",
+        "NO_RESULTS_MESSAGE": "Überprüfen Sie die Rechtschreibung oder probieren Sie andere Schlüsselwörter aus.",
+        "NO_RESULTS_YET_HEADER": "Noch keine Ergebnisse",
+        "NO_RESULTS_YET_MESSAGE": "Die Suchergebnisse werden hier angezeigt.",
+        "DELETE_BUTTTON_CAPTION": "Löschen",
+        "INSERT_BUTTTON_CAPTION": "Einfügen",
+        "INSERT_TO_ALL_BUTTON_CAPTION": "Geben Sie es an alle",
+        "CATEGORIES_HEADER": "Kategorien",
+        "ALL_CATEGORY_NAME": "Alle",
+        "TODAY_CATEGORY_NAME": "Heutige",
+        "UPLOAD_BUTTON_TEXT": "Datei weiterschicken",
+        "INVALID_EXTENSION": "es hat eine falsche Erweiterung. Richtige Erweiterungen:",
+        "TOO_MANY_FILES": "Sie haben {selectedFilesLength} Dateien ausgewählt. Es werden nur die ersten {maxFiles} hochgeladen.",
+        "ERROR_MESSAGE": "Ups! Es ist ein Fehler aufgetreten.",
+        "RemoteSource": {
+          "EMPTY_CATEGORY_HEADER": "In diesem Ordner befinden sich keine freigegebenen Dateien.",
+          "EMPTY_CATEGORY_MESSAGE": "Ups! Es sieht so aus, als gäbe es in dieser Kategorie keine gemeinsam genutzten Dateien."
+        }
+      }
+    },
+
+   "pl": {
+
+
+
+    "TextPopup": {
+
+      "TEXT_PLACEHOLDER": "wprowadź tekst",
+
+      "TEXT_POPUP_HEADER": "Tekst"
+
+    },
+
+    "LinearBarcodeDialog": {
+
+      "LINEAR_BARCODE_DIALOG_TITLE": "Kod kreskowy",
+
+      "LINEAR_BARCODE_DIALOG_TEXT": "Wprowadź {{count}} cyfry ",
+
+      "LINEAR_BARCODE_DIALOG_OPT_EAN13": "Ean 13",
+
+      "LINEAR_BARCODE_DIALOG_OPT_EAN8": "Ean 8"
+
+    },
+
+    "ItemMenu": {
+
+      "SELECT_IMAGE": "Wybierz obraz",
+
+      "EDIT_IMAGE": "Edytuj obraz",
+
+      "EDIT_QR_CODE": "Edytuj kod QR",
+
+      "EDIT_LINEAR_BARCODE": "Edytuj kod kreskowy",
+
+      "CHANGE_RICH_TEXT": "Zmień tekst",
+
+      "DELETE_OBJECT": "Usuń obiekt",
+
+      "CLONE_OBJECT": "Klonuj obiekt",
+
+      "ALIGN": "Wyrównanie do bezpiecznego obszaru",
+
+      "ALIGN_LEFT": "Wyrównaj do lewej",
+
+      "HORIZONTAL_CENTER": "Wyrównaj poziomo",
+
+      "ALIGN_RIGHT": "Wyrównaj do prawej",
+
+      "ALIGN_TOP": "Wyrównaj do góry",
+
+      "VERTICAL_CENTER": "Wyrównaj pionowo",
+
+      "ALIGN_BOTTOM": "Wyrównaj do dołu",
+
+      "GROUP_ALIGN": "Wyrównanie grupy",
+
+      "SEND_TO_FRONT": "Wyślij na przód",
+
+      "LEVEL_UP": "Poziom wyżej",
+
+      "LEVEL_DOWN": "Poziom niżej",
+
+      "SEND_TO_BOTTOM": "Wyślij na dół",
+
+      "MAKE_VARIABLE": "Zrób zmienną",
+
+      "REMOVE_VARIABLE": "Usuń zmienną",
+
+      "RENAME_ITEM": "Zmień nazwę"
+
+    },
+
+    "Toolbox": {
+
+      "ADD_QR_VAR": "Dodaj kod kreskowy (zmienny)",
+        "ADD_QR_CODE": "Zmienny kod QR",
+        "ADD_EAN8_CODE": "Zmienny kod Ean 8",
+        "TITLE_ADD_EAN_CODE": "Zmienny kod Ean 8",
+        "ADD_EAN13_CODE": "Zmienny kod Ean 13",
+
+      "ADD_IMAGE": "Dodaj obraz",
+
+      "ADD_TEXT": "Dodaj tekst",
+
+      "CHANGE_BACKGROUND": "Tło",
+
+      "TITLE_CHANGE_BACKGROUND": "Zmień tło",
+
+      "LINE": "Linia",
+
+      "TEXT": "Tekst",
+
+      "IMAGE": "Obraz",
+
+      "LAYOUT": "Układ",
+
+      "SHAPE": "Kształt",
+
+      "RECTANGLE": "Prostokąt",
+
+      "ELLIPSE": "Owal",
+
+      "QR_CODE": "Kod QR",
+
+      "LINEAR_BARCODE": "Kod kreskowy",
+
+      "RICHTEXT": "Tekst sformatowany",
+
+      "BOUNDEDTEXT": "Tekst powiązany",
+
+      "ADVANCED_BUTTON": "Przejdź do edycji zaawansowanej",
+
+      "TITLE_ADD_MENU": "Dodaj obiekt",
+
+      "TITLE_ADD_TEXT": "Dodaj tekst",
+
+      "TITLE_ADD_IMAGE": "Dodaj obraz",
+
+      "TITLE_ADD_LAYOUT": "Zmień układ",
+
+      "TITLE_ADD_LINE": "Dodaj wiersz",
+
+      "TITLE_ADD_RECTANGLE": "Dodaj prostokąt",
+
+      "TITLE_ADD_ELLIPSE": "Dodaj owal",
+
+      "TITLE_ADD_QR_CODE": "Dodaj kod QR",
+
+      "TITLE_ADD_LINEAR_BARCODE": "Dodaj kod kreskowy",
+
+      "TITLE_ADD_RICHTEXT": "Dodaj tekst sformatowany",
+
+      "TITLE_ADD_SHAPE": "Dodaj figurę",
+
+      "TITLE_ADD_BOUNDEDTEXT": "Dodaj tekst powiązany",
+
+      "TITLE_ADVANCED": "Przełącz do zaawansowanego trybu edycji",
+
+      "TITLE_ADD_CUSTOM_TEXT": "Dodaj tekst"
+
+    },
+
+    "TopToolbar": {
+
+      "LOAD_INFO_BUTTON": "Załaduj moje informacje",
+
+      "TITLE_LOAD_INFO": "Załaduj moje informacje",
+
+      "BORDER_WIDTH": "Obramowanie",
+
+      "TITLE_BORDER_WIDTH": "Wybierz szerokość ramki",
+
+      "TITLE_BORDER_COLOR": "Wybierz kolor ramki",
+
+      "TITLE_FILL_COLOR": "Wybierz kolor wypełnienia",
+
+      "LINE_WIDTH": "szerokość",
+
+      "TITLE_LINE_WIDTH": "Wybierz szerokość linii",
+
+      "TITLE_LINE_COLOR": "Wybierz kolor linii",
+
+      "TITLE_FONT_FAMILY_LIST": "Wybierz czcionkę",
+
+      "TITLE_FONT_STYLE_LIST": "Wybierz styl czcionki",
+
+      "TITLE_FONT_SIZE": "Wybierz rozmiar czcionki",
+
+      "TITLE_OPACITY": "Wybierz poziom przezroczystości",
+
+      "OPACITY": "Przezroczystość",
+
+      "TITLE_BOLD": "Pogrubienie",
+
+      "TITLE_ITALIC": "Środek poziomo",
+
+      "TITLE_FAUX_BOLD": "Pogrubienie",
+
+      "TITLE_FAUX_ITALIC": "Kursywa",
+
+      "TITLE_UNDERLINE": "Podkreśl",
+
+      "TITLE_FONT_COLOR": "Wybierz kolor tekstu",
+
+      "TEXT_EDIT": "Edytuj",
+
+      "TITLE_TEXT_EDIT": "Edytuj tekst",
+
+      "TITLE_TEXT_ALIGN_LEFT": "Wyrównaj do lewej",
+
+      "TITLE_TEXT_ALIGN_CENTER": "Wyrównaj do środka",
+
+      "TITLE_TEXT_ALIGN_RIGHT": "Wyrównaj do prawej",
+
+      "TITLE_TEXT_SHADOW": "Cień",
+
+      "TITLE_TEXT_STROKE": "Obrys tekstu",
+
+      "LABEL_SHADOW_ANGLE": "Kąt",
+
+      "LABEL_SHADOW_DISTANCE": "Odległość",
+
+      "LABEL_SHADOW_SIZE": "Rozmiar",
+
+      "LABEL_SHADOW_COLOR": "Kolor",
+
+      "LABEL_SHADOW_ENABLED": "Włączone",
+
+      "LABEL_STROKE_WIDTH": "Szerokość",
+
+      "LABEL_STROKE_COLOR": "Kolor",
+
+      "LABEL_STROKE_ENABLED": "Włączone",
+
+      "UNITS_PT": "pt",
+
+      "UNITS_PX": "px",
+
+      "TITLE_UNDO": "Cofnij",
+
+      "TITLE_REDO": "Ponów",
+
+      "TITLE_REVERT": "Przywróć domyślne",
+
+      "LABEL_DELETE": "Usuń",
+
+      "TITLE_DELETE": "Usuń elementy",
+
+      "LABEL_COLUMNS": "Kolumny:",
+
+      "TITLE_COLUMNS": "Liczba kolumn",
+
+      "TITLE_PAGING_RIGHT": "Wiecej kontrolerów",
+
+      "TITLE_PAGING_LEFT": "Wstecz",
+
+      "TEXT_PAGING_RIGHT": "Więcej...",
+
+      "TITLE_LEADING": "Odstępy akapitu",
+
+      "TITLE_TRACKING": "Odstępy między znakami",
+
+      "TITLE_TEXT_VERTICAL_ALIGN_TOP": "Wyrównaj do góry",
+
+      "TITLE_TEXT_VERTICAL_ALIGN_CENTER": "Wyrównaj do środka",
+
+      "TITLE_TEXT_VERTICAL_ALIGN_BOTTOM": "Wyrównaj do dołu",
+
+      "ALIGN": "Wyrównanie do bezpiecznego obszaru",
+
+      "ALIGN_DROPDOWN": "Wyrównanie",
+
+      "TITLE_ALIGN_LEFT": "Wyrównaj do lewej",
+
+      "TITLE_HORIZONTAL_CENTER": "Wyrównaj poziomo",
+
+      "TITLE_ALIGN_RIGHT": "Wyrównaj do prawej",
+
+      "TITLE_ALIGN_TOP": "Wyrównaj do góry",
+
+      "TITLE_VERTICAL_CENTER": "Wyrównaj pionowo",
+
+      "TITLE_ALIGN_BOTTOM": "Wyrównaj do dołu",
+
+      "TITLE_LEVEL_UP": "Poziom wyżej",
+
+      "TITLE_LEVEL_DOWN": "Poziom niżej",
+
+      "TITLE_SEND_TO_FRONT": "Wyślij na przód",
+
+      "TITLE_SEND_TO_BOTTOM": "Wyślij na dół",
+
+      "TITLE_LEVEL_CHANGE": "Zmiana poziomu",
+
+      "LEVEL_UP": "Poziom wyżej",
+
+      "LEVEL_DOWN": "Poziom niżej",
+
+      "SEND_TO_FRONT": "Wyślij na przód",
+
+      "SEND_TO_BOTTOM": "Wyślij na dół",
+
+      "Z_ORDER": "Położenie",
+
+      "TITLE_Z_ORDER": "Zmień pozycję elementu",
+
+      "TITLE_CLONE_OBJECT": "Klonuj obiekt",
+
+      "CLONE_OBJECT": "Klonuj",
+
+      "PLACEHOLDER_SCALE": "Skala",
+
+      "TITLE_PLACEHOLDER_SCALE": "Wybierz skalę zawartości zastępczych",
+
+      "TITLE_EDIT_IMAGE": "Edytuj obraz",
+
+      "EDIT_IMAGE": "Edytuj",
+
+      "TITLE_SELECT_IMAGE": "Wybierz obraz",
+
+      "SELECT_IMAGE": "Select",
+
+      "TITLE_RESET_PLACEHOLDER_CONTENT": "Zresetuj zawartość zastępczą",
+
+      "RESET_PLACEHOLDER_CONTENT": "Zresetuj",
+
+      "ROTATE_PLACEHOLDER_CONTENT_LEFT": "Obróć zawartość w lewo",
+
+      "ROTATE_PLACEHOLDER_CONTENT_RIGHT": "Obróć zawartość w prawo",
+
+      "QR_CODE_TYPE_DROPDOWN_VALUE": "Kod QR",
+
+      "EAN_8_TYPE_DROPDOWN_VALUE": "Numer 8 artykułu europejskiego",
+
+      "EAN_13_TYPE_DROPDOWN_VALUE": "Numer 13 artykułu europejskiego",
+
+      "CHANGE_BARCODE_VALUE_TITLE": "Zmień typ kodu kreskowego",
+
+      "TITLE_BARCODE_COLOR": "Zmień kolor kodu kreskowego",
+
+      "EDIT_BARCODE": "Edytuj kod kreskowy",
+
+      "TITLE_EDIT_BARCODE": "Edytuj kod kreskowy"
+
+    },
+
+    "ObjectInspector": {
+
+      "TEXT_PLACEHOLDER": "wprowadź tekst",
+
+      "BACKGROUND": "Tło",
+
+      "QR_CODE": "Kod QR",
+
+      "LINEAR_BARCODE": "Kod kreskowy",
+
+      "COLOR_PICKER": "Kolor",
+
+      "IMAGE_PICKER": "Obraz",
+
+      "TITLE_ITEM_MENU": "",
+
+      "TITLE_BACKGROUND_MENU": "Zmień tło",
+
+      "TITLE_BACKGROUND_MENU_COLOR": "Wybierz kolor tła",
+
+      "TITLE_BACKGROUND_MENU_IMAGE": "Wybierz obraz tła",
+
+      "TITLE_ITEM_MENU_SELECT_IMAGE": "",
+
+      "TITLE_ITEM_MENU_EDIT_QR_CODE": "",
+
+      "TITLE_ITEM_MENU_EDIT_LINEAR_BARCODE": "",
+
+      "MAKE_VARIABLE": "Zrób zmienną",
+
+      "REMOVE_VARIABLE": "Usuń zmienną",
+
+      "EMPTY_OBJECT_INSPECTOR_SIMPLE_MODE": "Ten szablon nie ma obiektów, które można dostosowywać. Jeśli chcesz dodać obiekt, przełącz się na zaawansowany tryb edycji.",
+
+      "EMPTY_OBJECT_INSPECTOR_ADVANCED_MODE": "Ten szablon nie ma obiektów, które można dostosowywać. Jeśli chcesz dodać obiekt, użyj panelu narzędzi.",
+
+      "EMPTY_OBJECT_INSPECTOR_SIMPLEONLY_MODE": "Ten szablon nie ma obiektów, które można dostosowywać.",
+
+      "MAIN_CONTAINER_NAME": "Podkład",
+
+      "SPOT_COLOR_CONTAINER": "Kolory dodatkowe"
+
+    },
+
+    "BottomToolbar": {
+
+      "DEFAULT_ZOOM": "",
+
+      "SWITCH_SIDE": "Zmień stronę",
+
+      "FRONT_SIDE": "Przód",
+
+      "BACK_SIDE": "Tył",
+
+      "ROTATE": "Obróć",
+
+      "SAFETY_LINES": "Linie bezpieczeństwa",
+
+      "GRID": "Siatka",
+
+      "SNAP_LINES": "Snap lines",
+
+      "TITLE_SAFETY_LINES": "Włącz / wyłącz linie bezpieczeństwa",
+
+      "TITLE_GRID": "Włącz / wyłącz siatkę",
+
+      "TITLE_SNAP_LINES": "Enable/disable snap lines",
+
+      "TITLE_SWITCH_SIDE": "Zmień stronę",
+
+      "TITLE_FRONT_SIDE": "Przód",
+
+      "TITLE_BACK_SIDE": "Tył",
+
+      "TITLE_ZOOM_IN": "Powiększ",
+
+      "TITLE_ZOOM_OUT": "Zmniejsz",
+
+      "TITLE_CURRENT_ZOOM": "Rozmiar rzeczywisty",
+
+      "TITLE_ROTATE": "Obróć",
+
+      "TITLE_FIRST_SLIDE": "Powrót do strony pierwszej",
+
+      "TITLE_PREVIOUS_THREE_SLIDES": "Przewiń do poprzednich 3 stron",
+
+      "TITLE_NEXT_THREE_SLIDES": "Przewiń do następnych 3 stron",
+
+      "TITLE_NEXT_SLIDE": "Przełącz na następną stronę",
+
+      "TITLE_PREVIOUS_SLIDE": "Przełącz na poprzednią stronę",
+
+      "TITLE_LAST_SLIDE": "Przejdź do ostatniej strony",
+
+      "TITLE_MARKING_MENU": "Otwórz menu znakowania",
+
+      "MARKING_MENU": "Znakowanie",
+
+      "TITLE_ORIGINAL_SIZE": "rzełącz na tryb okienkowy",
+
+      "TITLE_FULL_WINDOW": "Przejdź do trybu pełnego okna",
+
+      "TITLE_FULL_SCREEN": "Przełącz na tryb pełnoekranowy"
+
+    },
+
+    "BaseEditor": {
+
+      "ITEM_DELETE_CONFIRM_MSG": "Obiekt zostanie usunięty. Kontyntynuować?",
+
+      "ITEM_REVERT_CONFIRM_MSG": "Produkt zostanie przywrócony. Kontyntynuować?",
+
+      "DOWNLOAD": "Pobierz",
+
+      "SUBMIT": "Prześlij do drukowania",
+
+      "RENDERING": "Renderowanie w toku ...",
+
+      "ERROR": "Błąd na serwerze",
+
+      "PLACEHOLDER_SELECT_BUTTON_TITLE": "Wybierz obraz",
+
+      "BARCODE_EDIT_BUTTON_TITLE": "Edytuj kod kreskowy",
+
+      "PLACEHOLDER_HANDLE_BUTTON_TITLE": "Handle",
+
+      "PLACEHOLDER_DONE_BUTTON_TITLE": "Gotowe",
+
+      "ITEM_DELETE_BUTTON_TITLE": "Usuń",
+
+      "ITEM_EDIT_BUTTON_TITLE": "Edytuj"
+
+    },
+
+    "ModalDialog": {
+
+      "CLOSE": "Zamknij",
+
+      "INSERT": "Wstaw",
+
+      "UPDATE_ALL": "Wstaw do wszystkich",
+
+      "UPDATE": "Zaktualizuj",
+
+      "PROCESSING": "Przetwarzanie ...",
+
+      "SUBMIT": "OK",
+
+      "CANCEL": "Anuluj",
+
+      "ADD": "Dodaj",
+
+      "RENAME": "Zmień nazwę",
+
+      "ADD_OBJECT_TITLE": "Dodaj nowy obiekt",
+
+      "RENAME_OBJECT_TITLE": "Zmień nazwę obiektu",
+
+      "EMPTY_OBJECT_ERROR_TEXT": "Wartość pola nie może być pusta"
+
+    },
+
+    "QrCodeDialog": {
+
+      "QR_DIALOG_TITLE": "Kod QR",
+
+      "QR_DIALOG_OPT_TYPE_PHONE": "Numer telefonu",
+
+      "QR_DIALOG_OPT_TYPE_URL": "url",
+
+      "QR_DIALOG_OPT_TYPE_VCARD": "card",
+
+      "QR_DIALOG_FIRST_NAME": "Imię",
+
+      "QR_DIALOG_LAST_NAME": "Nazwisko",
+
+      "QR_DIALOG_COMPANY": "Nazwa firmy",
+
+      "QR_DIALOG_POSITION": "Położenie",
+
+      "QR_DIALOG_EMAIL": "Email",
+
+      "QR_DIALOG_URL": "Url",
+
+      "QR_DIALOG_PHONE": "Numer telefonu",
+
+      "QR_DIALOG_MOBILE_PHONE": "Numer tel mob."
+
+    },
+
+    "GalleryDialog": {
+
+      "TITLE": "Galeria ",
+
+      "TAB_USER": "Moje pliki",
+
+      "TAB_PUBLIC": "Pliki publiczne",
+
+      "TAB_BACKGROUND": "Tło",
+
+      "UPLOAD_TEXT": "Wgraj pliki",
+
+      "CATEGORY_EMPTY_TEXT": "Brak plików w tej kategorii.",
+
+      "FACEBOOK_LOG_IN": "Zaloguj sie",
+
+      "FACEBOOK_LOG_OUT": "Wyloguj",
+
+      "INSTAGRAM_LOG_IN": "Zaloguj sie",
+
+      "INSTAGRAM_LOG_OUT": "Wyloguj",
+
+      "CATEGORY_COLORS": "Kolory",
+
+      "EDIT": "Edytuj",
+
+      "DELETE": "Usuń",
+
+      "ALL": "Wszystkie",
+
+      "TODAY": "Dzisiejsze",
+
+      "DELETE_MESSAGE": "Usunięcie tej strony spowoduje usunięcie następujących stron",
+
+      "MORE_FILES": "Pokaż więcej"
+
+    },
+
+    "RichTextDialog": {
+
+      "TITLE": "Tekst sformatowany",
+
+      "TITLE_RICH_TEXT_DIALOG_ZOOM": "Zmień powiększenie okna edycji",
+
+      "COLOR_DIALOG_TITLE": "Kolor tekstu",
+
+      "EDITOR": {
+
+        "wordcount": {
+
+          "WordCount": "Wyrazy:",
+
+          "CharCount": "Znaki:",
+
+          "CharCountWithHTML": "Znaki (z HTML):",
+
+          "Paragraphs": "Akapity:",
+
+          "pasteWarning": "Treści nie można wkleić, ponieważ przekracza dozwolony limit",
+
+          "Selected": "Wybrane: ",
+
+          "title": "Statystyki"
+
+        },
+
+        "undo": {
+
+          "redo": "Ponów",
+
+          "undo": "Cofnij"
+
+        },
+
+        "toolbar": {
+
+          "toolbarGroups": {
+
+            "clipboard": "Schowek / Cofnij",
+
+            "editing": "Edycja",
+
+            "basicstyles": "Podstawowe style",
+
+            "paragraph": "Akapit",
+
+            "insert": "Wstaw",
+
+            "styles": "Style",
+
+            "colors": "Kolory"
+
+          },
+
+          "toolbars": "Edytor pasku narzędzi"
+
+        },
+
+        "specialchar": {
+
+          "options": "Opcje znakw specjalnych",
+
+          "title": "Wybierz znak specjalny",
+
+          "toolbar": "Wstaw znak specjalny"
+
+        },
+
+        "selectall": {
+
+          "toolbar": "Zaznacz wszystko"
+
+        },
+
+        "removeformat": {
+
+          "toolbar": "Usuń format "
+
+        },
+
+        "pastetext": {
+
+          "button": "Wklej jako zwykły tekst",
+
+          "title": "Wklej jako zwykły tekst"
+
+        },
+
+        "pastefromword": {
+
+          "confirmCleanup": "Tekst, który chcesz wkleić, wygląda na skopiowany z Worda. Czy chcesz go wyczyścić przed wklejeniem?",
+
+          "error": "Usunięcie wklejonych danych nie było możliwe z powodu błędu wewnętrznego",
+
+          "title": "Wklej z Worda",
+
+          "toolbar": "Wklej z Worda"
+
+        },
+
+        "notification": {
+
+          "closed": "Powiadomienie zamknięte."
+
+        },
+
+        "liststyle": {
+
+          "bulletedTitle": "Bulleted List Properties",
+
+          "circle": "Okrąg",
+
+          "decimal": "Decimal (1,2,3,etc.)",
+
+          "disc": "Dysk",
+
+          "lowerAlpha": "a,b,c,d,e,etc.",
+
+          "lowerGreek": "alpha,beta,gamma,etc.",
+
+          "lowerRoman": "i,ii,iii,iv,v,etc.",
+
+          "none": "Brak",
+
+          "notset": "<nieustawione>",
+
+          "numberedTitle": "Właściwości listy numerowanej",
+
+          "square": "Kwadrat",
+
+          "start": "Start",
+
+          "type": "Wpisz tekst",
+
+          "upperAlpha": "A,B,C,D,E,etc.",
+
+          "upperRoman": "I,II,III,IV,V,etc.",
+
+          "validateStartNumber": "Numer początkowy listy musi być liczbą całkowitą."
+
+        },
+
+        "list": {
+
+          "bulletedlist": "Wstaw / usuń listę punktowaną",
+
+          "numberedlist": "Wstaw / Usuń listę numerowaną"
+
+        },
+
+        "justify": {
+
+          "block": "Justify",
+
+          "center": "Środek",
+
+          "left": "Wyrównaj do lewej",
+
+          "right": "Wyrównaj do prawej"
+
+        },
+
+        "indent": {
+
+          "indent": "Increase Indent",
+
+          "outdent": "Decrease Indent"
+
+        },
+
+        "font": {
+
+          "fontSize": {
+
+            "label": "Rozmiar",
+
+            "voiceLabel": "Rozmiar czcionki",
+
+            "panelTitle": "Rozmiar czcionki"
+
+          },
+
+          "label": "Czcionka",
+
+          "panelTitle": "Nazwa czcionki",
+
+          "voiceLabel": "Czcionka"
+
+        },
+
+        "find": {
+
+          "find": "Szukaj",
+
+          "findOptions": "Opcje szukania",
+
+          "findWhat": "Czego szukać:",
+
+          "matchCase": "Match case",
+
+          "matchCyclic": "Dopasuj cyklicznie",
+
+          "matchWord": "Dopasuj całe słowo",
+
+          "notFoundMsg": "Podany tekst nie został znaleziony.",
+
+          "replace": "Zastąp",
+
+          "replaceAll": "Zastąp całość",
+
+          "replaceSuccessMsg": "Zastąpiono %1 przypadków",
+
+          "replaceWith": "Zastąpiono:",
+
+          "title": "Znajdź i zamień"
+
+        },
+
+        "clipboard": {
+
+          "copy": "Kopiuj",
+
+          "copyError": "Ustawienia zabezpieczeń przeglądarki nie zezwalają edytorowi na automatyczne wykonywanie operacji kopiowania. Użyj do tego klawiszy (Ctrl / Cmd + C).",
+
+          "cut": "Wytnij",
+
+          "cutError": "Ustawienia zabezpieczeń przeglądarki nie zezwalają edytorowi na automatyczne wykonywanie operacji Wytnij. Użyj do tego klawiszy (Ctrl / Cmd + X).",
+
+          "paste": "Wklej",
+
+          "pasteArea": "Obszar wklejania",
+
+          "pasteMsg": "Wklej w poniższym polu za pomocą klawiszy (<strong> Ctrl / Cmd + V </strong>) i naciśnij OK",
+
+          "securityMsg": "Ze względu na ustawienia zabezpieczeń przeglądarki edytor nie ma bezpośredniego dostępu do danych schowka. Musisz wkleić go ponownie w tym oknie.",
+
+          "title": "Wklej"
+
+        },
+
+        "cctracking": {
+
+          "label": "Śledzenie",
+
+          "voiceLabel": "Śledzenie",
+
+          "panelTitle": "Śledzenie"
+
+        },
+
+        "cctextindent": {
+
+          "label": "First line indent",
+
+          "voiceLabel": "First line indent",
+
+          "panelTitle": "First line indent"
+
+        },
+
+        "ccpadding": {
+
+          "top": {
+
+            "label": "Przed akapitem",
+
+            "voiceLabel": "Spacja przed akapitem",
+
+            "panelTitle": "Spacja przed akapitem"
+
+          },
+
+          "bottom": {
+
+            "label": "Za akapitem",
+
+            "voiceLabel": "Spacja za akapitem",
+
+            "panelTitle": "Spacja za akapitem"
+
+          },
+
+          "left": {
+
+            "label": "Left indent",
+
+            "voiceLabel": "Left indent",
+
+            "panelTitle": "Left indent"
+
+          },
+
+          "right": {
+
+            "label": "Right indent",
+
+            "voiceLabel": "Right indent",
+
+            "panelTitle": "Right indent"
+
+          }
+
+        },
+
+        "ccleading": {
+
+          "label": "Leading",
+
+          "voiceLabel": "Leading",
+
+          "panelTitle": "Leading"
+
+        },
+
+        "ccfont": {
+
+          "fontSize": {
+
+            "label": "Rozmiar",
+
+            "voiceLabel": "Rozmiar czcionki",
+
+            "panelTitle": "Rozmiar czcionki"
+
+          },
+
+          "fontStyle": {
+
+            "label": "Style",
+
+            "voiceLabel": "Styl czcionki",
+
+            "panelTitle": "Styl czcionki"
+
+          },
+
+          "label": "Czcionka",
+
+          "panelTitle": "Nazwa czcionki",
+
+          "voiceLabel": "Czcionka"
+
+        },
+
+        "cc_textcolor_button": {
+
+          "textColorTitle": "Kolor tekstu"
+
+        },
+
+        "button": {
+
+          "selectedLabel": "%1 (Wybranych)"
+
+        },
+
+        "basicstyles": {
+
+          "bold": "Pogrubienie",
+
+          "italic": "Italic",
+
+          "strike": "Przekreślenie",
+
+          "subscript": "Indeks",
+
+          "superscript": "Superscript",
+
+          "underline": "Podkreśl"
+
+        },
+
+        "editor": "Rich Text Editor",
+
+        "common": {
+
+          "ok": "OK",
+
+          "cancel": "Anuluj",
+
+          "close": "Zamknij",
+
+          "resize": "Zmień rozmiar",
+
+          "generalTab": "General",
+
+          "align": "Wyrównanie",
+
+          "alignLeft": "Wyrównaj do lewej",
+
+          "alignRight": "Wyrównaj do prawej",
+
+          "alignCenter": "Środek",
+
+          "alignJustify": "Justify"
+
+        },
+
+        "contextmenu": {
+
+          "options": "Opcje menu kontekstowego"
+
+        }
+
+      }
+
+    },
+
+    "FinishButton": {
+
+      "DOWNLOAD": "Pobierz",
+
+      "SUBMIT": "Prześlij do drukowania",
+
+      "RENDERING": "Renderowanie w toku ...",
+
+      "ERROR": "Błąd na serwerze"
+
+    },
+
+    "ImageEditorDialog": {
+
+      "TITLE": "Edytor obrazów",
+
+      "FILTER_BRIGHTNESS": "Jasność",
+
+      "FILTER_CONTRAST": "Kontrast",
+
+      "FILTER_HUE": "Odcień",
+
+      "FILTER_SATURATION": "Nasycenie",
+
+      "FILTER_EFFECT": "Efekt",
+
+      "FILTER_GRAYSCALE": "Skala szarości",
+
+      "FILTER_SEPIA": "Sepia",
+
+      "FILTER_NONE": "Brak",
+
+      "BUTTON_OK": "OK",
+
+      "BUTTON_APPLY": "Zastosuj",
+
+      "BUTTON_CANCEL": "Anuluj",
+
+      "BUTTON_ADJUST": "Dostosuj",
+
+      "BUTTON_CROP": "Przytnij",
+
+      "BUTTON_REVERT": "Przywróć domyślne",
+
+      "BUTTON_REVERT_TOOLTIP": "Przywróć oryginał",
+
+      "BUTTON_SAVE": "Zapisz",
+
+      "BUTTON_BACKGROUND_ERASE": "Tło",
+
+      "BUTTON_UNDO": "Cofnij",
+
+      "BUTTON_REDO": "Ponów",
+
+      "BUTTON_GOT_IT": "Rozumiem",
+
+      "FILTER_ERASE_TOLERANCE": "Tolerancja",
+
+      "FILTER_ERASE_CONTIGUOUS": "Przyległy",
+
+      "BACKGROUND_ERASE_TIP": "Kliknij obszary obrazu, które chcesz ustawić jako przezroczyste. Dostosuj tolerancję, jeśli efekt nie jest wystarczająco silny.",
+
+      "CHOOSE_BACKGROUND": "Wybierz tło",
+
+      "PREVIEW_BACKGROUND_CHECKERBOARD": "Wzór szachownicy",
+
+      "PREVIEW_BACKGROUND_WHITE": "Biały",
+
+      "PREVIEW_BACKGROUND_BLACK": "Czarny",
+
+      "PREVIEW_BACKGROUND_MAGENTA": "Kolor fuksji",
+
+      "PREVIEW_BACKGROUND_LIME": "Kolor limonki",
+
+      "PREVIEW_BACKGROUND_CONTRAST": "Kontrast",
+
+      "CHOOSE_BACKGROUND_TIP": "Wybierz kolor, aby wyświetlić podgląd obrazu",
+
+      "TOLERANCE_TIP": "Dostosuj, jak mocno kolory mogą różnić się od wybranego koloru",
+
+      "CONTIGUOUS_TIP": "Zaznacz, aby zamknięty obszar, w którym klikasz, był przezroczysty. Wyczyść, aby usunąć kliknięty kolor z całego obrazu"
+
+    },
+
+    "ColorPicker": {
+
+      "COLOR_CHOOSE": "OK",
+
+      "COLOR_DEFAULT_CATEGORY_NAME": "Domyślne",
+
+      "COLOR_RECENT_CATEGORY_NAME": "Ostatnio",
+
+      "COLOR_THEME_CATEGORY_NAME": "Motyw",
+
+      "ADD_RECENT_COLOR_TITLE": "Dodaj do palety",
+
+      "NO_COLOR_TITLE": "Brak koloru"
+
+    },
+
+    "ViolationService": {
+
+      "MORE_THAN_ONE_WARNING": "Element ma więcej niż jedno ostrzeżenie.",
+
+      "BAD_IMAGE_RESOLUTION": "Zbyt niska rozdzielczość obrazu ([DPI_VALUE_PLACEHOLDER] dpi), co może powodować niską jakość wydruku.",
+
+      "WARNING_IMAGE_RESOLUTION": "Rozdzielczość obrazu ([DPI_VALUE_PLACEHOLDER] dpi) jest bliska słabej jakości, jednak jakość wydruku może być nadal akceptowalna, ale daleka od ideału.",
+
+      "SAFETY_LINE_VIOLATION_WARNING": "Obiekt jest zbyt blisko krawędzi.",
+
+      "REGION_VIOLATION_WARNING": "Obiekt wychodzi z regionu.",
+
+      "TEXT_CROP_WARNING": "Tekst jest za długi dla tego pola. Niektóre ciągi tekstowe są obcinane. Spróbuj go skrócić lub użyj mniejszej czcionki.",
+
+      "SHAPE_CONTENT_WARNING": "Ten obraz zawiera więcej niż jeden kolor lub elementy inne niż wektorowe i może wyglądać inaczej niż się spodziewasz. Rozważ przesłanie innego obrazu z jednym kształtem."
+
+    },
+
+    "OiToggle": {
+
+      "TEXT": "Warstwy",
+
+      "TITLE": "Przełącz inspektora obiektów"
+
+    },
+
+    "DepositPhotos": {
+
+      "BEST_MATCH": "Najlepsze dopasowanie",
+
+      "BEST_SALES": "Najlepsza sprzedaż",
+
+      "NEWEST": "Najnowsze",
+
+      "UNDISCOVERED": "Nieodkryte",
+
+      "PAID_IMAGE_MESSAGE": "Ten obraz jest płatny, cena zostanie automatycznie dodana do zamówienia.",
+
+      "DONT_SHOW_MESSAGE": "Don’t show this again",
+
+      "COLOR_TRANSLATION": "Kolor",
+
+      "SIZE_TRANSLATION": "Rozmiar",
+
+      "ID_TRANSLATION": "ID",
+
+      "COPYRIGHT_TRANSLATION": "Prawa autorskie",
+
+      "SORT_BY_CAPTION": "Sortuj według"
+
+    },
+
+    "AssetManager": {
+
+      "EDIT_BUTTTON_CAPTION": "Edytuj",
+
+      "SEARCH_PLACEHOLDER": "Szukaj...",
+
+      "SORT_DATE": "Data",
+
+      "SELECT_IMAGE_HEADER": "Wybierz obraz",
+
+      "SELECT_CATEGORY_HEADER": "Wybierz kategorię",
+
+      "CLOSE_BUTTON_CAPTION": "Zamknij",
+
+      "EMPTY_CATEGORY_HEADER": "Ta kategoria jest pusta.",
+
+      "EMPTY_CATEGORY_MESSAGE": "Ups! Wygląda na to, że nie ma plików w tej kategorii.",
+
+      "NO_RESULTS_HEADER": "Nie znaleziono wyników.",
+
+      "NO_RESULTS_MESSAGE": "Sprawdź pisownię lub wypróbuj inne słowa kluczowe.",
+
+      "NO_RESULTS_YET_HEADER": "Jeszcze bez wyników",
+
+      "NO_RESULTS_YET_MESSAGE": "Wyniki wyszukiwania zostaną wyświetlone tutaj.",
+
+      "DELETE_BUTTTON_CAPTION": "Usuń",
+
+      "INSERT_BUTTTON_CAPTION": "Wstaw",
+
+      "INSERT_TO_ALL_BUTTON_CAPTION": "Wstaw do wszystkich",
+
+      "CATEGORIES_HEADER": "Kategorie",
+
+      "ALL_CATEGORY_NAME": "Wszystkie",
+
+      "TODAY_CATEGORY_NAME": "Dzisiejsze",
+
+      "UPLOAD_BUTTON_TEXT": "Prześlij pliki",
+
+      "INVALID_EXTENSION": "ma nieprawidłowe rozszerzenie. Prawidłowe rozszerzenia:",
+
+      "TOO_MANY_FILES": "Wybrałeś {selectedFilesLength} plików. Tylko pierwsze pliki {maxFiles} zostaną zaplanowane do przesłania.",
+
+      "ERROR_MESSAGE": "Ups! Wystąpił błąd",
+
+      "RemoteSource": {
+
+        "EMPTY_CATEGORY_HEADER": "W tym folderze nie ma udostępnionych plików.",
+
+        "EMPTY_CATEGORY_MESSAGE": "Ups! Wygląda na to, że w tej kategorii nie ma udostępnionych plików."
+
+      },
+       "UPLOAD_HEADER": "Przeciągnij pliki tutaj",
+      "UPLOAD_MESSAGE": "lub",
+      "UPLOAD_BUTTON_CAPTION": "Wybierz z dysku"
+    }
+  }
+}
