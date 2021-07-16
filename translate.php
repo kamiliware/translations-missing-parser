@@ -14,7 +14,7 @@ function parseItem(&$data, $item)
 
 
         if (empty($data[$translationKey])) {
-            $data[$translationKey] = "MISSING_TRANSLATION($translationValue)";
+            $data[$translationKey] = "$translationValue MISSING_TRANSLATION";
         }
     }
 }
